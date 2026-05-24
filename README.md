@@ -1,5 +1,7 @@
 # zocomputer-docs
 
+![Nightly docs sync](https://github.com/EthanThatOneKid/zocomputer-docs/actions/workflows/nightly-sync.yml/badge.svg)
+
 Nightly mirror of [https://docs.zocomputer.com/llms-full.txt](https://docs.zocomputer.com/llms-full.txt).
 
 This repo reconstructs the docs into one markdown file per page under `docs/`.
