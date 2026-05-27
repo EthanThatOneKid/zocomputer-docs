@@ -199,13 +199,19 @@
       "title": "Tools",
       "source": "https://docs.zocomputer.com/tools",
       "path": "tools.md",
-      "sha256": "f086c1d4a4dbbe2aef3069ae1367291c4c54f4a858de402304c8cc782628bbdc"
+      "sha256": "18f63f15420959803804f1f1e86ffefec55379bdf77033d94156eb80e58ba608"
     },
     {
       "title": "Tools",
       "source": "https://docs.zocomputer.com/tools-overview",
       "path": "tools-overview.md",
       "sha256": "3e8c0006baa36b8d1def7000b70b887b19fd9d4cf628f67a155b5176b3524f17"
+    },
+    {
+      "title": "Run command",
+      "source": "https://docs.zocomputer.com/tools/bash",
+      "path": "tools/bash.md",
+      "sha256": "35e98bfc0b37e7641f8b27ba1177b0fc67826327c78dbfa392caf55d9186f7d5"
     },
     {
       "title": "Connect integration",
@@ -554,12 +560,6 @@
       "source": "https://docs.zocomputer.com/tools/restart-space-server",
       "path": "tools/restart-space-server.md",
       "sha256": "57c6eaf5bacac0a22d1fac5437fdf243370cead478e1d77b7c83eedf52162798"
-    },
-    {
-      "title": "Run command",
-      "source": "https://docs.zocomputer.com/tools/run-bash-command",
-      "path": "tools/run-bash-command.md",
-      "sha256": "7feba4f9a96744e9b5581a5f83cc820bc6c4f61d0b6854422a66719cbb4e82d0"
     },
     {
       "title": "Run parallel commands",

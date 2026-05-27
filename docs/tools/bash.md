@@ -16,3 +16,11 @@ Zo can execute shell commands in a bash session, allowing for system operations,
 <ParamField type="string">
   Optional fleet device name or id. When set, the command runs inside that running device's container instead of the host (e.g. `psql -c 'SELECT 1'` against a Postgres device). The device must be started first. Requires the 'devices:manage' scope.
 </ParamField>
+
+<ParamField type="number">
+  Optional time limit in seconds. When set, the command is terminated if it runs longer than this. Defaults to unbounded.
+</ParamField>
+
+<ParamField type="string">
+  Optional short human-readable label for the command (shown in the UI). Does not affect execution.
+</ParamField>
