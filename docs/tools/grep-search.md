@@ -11,8 +11,8 @@ Search files by content or filename using ripgrep.
   USER | CONVERSATION | ALL\_CONVERSATIONS (default USER).
 </ParamField>
 
-<ParamField type="string">
-  True=case-sensitive, False=case-insensitive, None=smart-case.
+<ParamField type="boolean">
+  If true (default), search is case-sensitive; if false, case-insensitive.
 </ParamField>
 
 <ParamField type="string">

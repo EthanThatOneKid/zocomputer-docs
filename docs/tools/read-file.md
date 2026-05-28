@@ -10,15 +10,15 @@ Zo Computer supports a wide range of file formats including text, word processin
 </ParamField>
 
 <ParamField type="number">
-  The 1-indexed line number of the text file to start reading from.
+  The 1-indexed line number to start reading from (text files).
 </ParamField>
 
 <ParamField type="number">
-  The 1-indexed line number of the text file to end reading at (inclusive).
+  The 1-indexed line number to end reading at, inclusive (text files).
 </ParamField>
 
-<ParamField type="string">
-  If true, attempt to read the entire text file.
+<ParamField type="boolean">
+  If true, read the entire text file.
 </ParamField>
 
 <ParamField type="number">
@@ -29,7 +29,7 @@ Zo Computer supports a wide range of file formats including text, word processin
   The 1-indexed end page (inclusive) for the PDF/EPUB read.
 </ParamField>
 
-<ParamField type="string">
+<ParamField type="boolean">
   If true, include rendered page images. This is slower and should be used sparingly.
 </ParamField>
 

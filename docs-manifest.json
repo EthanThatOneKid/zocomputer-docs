@@ -199,7 +199,7 @@
       "title": "Tools",
       "source": "https://docs.zocomputer.com/tools",
       "path": "tools.md",
-      "sha256": "18f63f15420959803804f1f1e86ffefec55379bdf77033d94156eb80e58ba608"
+      "sha256": "13365edbe3ecda2012431cc8a0e1a782fbadc30f2803468a45fedd05fd019b3d"
     },
     {
       "title": "Tools",
@@ -230,12 +230,6 @@
       "source": "https://docs.zocomputer.com/tools/create-automation",
       "path": "tools/create-automation.md",
       "sha256": "1afd359eb4343c07ed8db05fe8eb544148dea47f7bca35f8c5a592cc27bf82de"
-    },
-    {
-      "title": "Create file",
-      "source": "https://docs.zocomputer.com/tools/create-or-rewrite-file",
-      "path": "tools/create-or-rewrite-file.md",
-      "sha256": "b530db9a7132ae108669ade65c12cf34b2a31ea051732976c28f5e31f3e1d326"
     },
     {
       "title": "Create persona",
@@ -433,7 +427,7 @@
       "title": "Search files",
       "source": "https://docs.zocomputer.com/tools/grep-search",
       "path": "tools/grep-search.md",
-      "sha256": "489887c1948772d02f128e66ea7a517e6619777da860e8215359d1666cb8119a"
+      "sha256": "87016c916b032228a3935862229bccd426941db6b100477db6f068f63f6ef982"
     },
     {
       "title": "Search images",
@@ -461,8 +455,8 @@
     },
     {
       "title": "List files",
-      "source": "https://docs.zocomputer.com/tools/list-files",
-      "path": "tools/list-files.md",
+      "source": "https://docs.zocomputer.com/tools/list-directory",
+      "path": "tools/list-directory.md",
       "sha256": "17a3f425ca18f9e7c12facfc5519ab088121d7089f2135c236a195820bab2ab2"
     },
     {
@@ -535,7 +529,7 @@
       "title": "Read file",
       "source": "https://docs.zocomputer.com/tools/read-file",
       "path": "tools/read-file.md",
-      "sha256": "4a6bbf4ea4fa2e137c2dbde594c48f39d130192bbafcc3a2e9a82297a2a8a914"
+      "sha256": "5fbf10f27e4d56a0844c90bfbd46b571702fa5f84d1d49146d1678c965d59557"
     },
     {
       "title": "Read webpage",
@@ -818,6 +812,12 @@
       "source": "https://docs.zocomputer.com/tools/web-search",
       "path": "tools/web-search.md",
       "sha256": "64e0e5d9dbb463c696cbc20f4078dda67010070548ac558464ab5015eac18235"
+    },
+    {
+      "title": "Create file",
+      "source": "https://docs.zocomputer.com/tools/write-file",
+      "path": "tools/write-file.md",
+      "sha256": "b530db9a7132ae108669ade65c12cf34b2a31ea051732976c28f5e31f3e1d326"
     },
     {
       "title": "Write space route",

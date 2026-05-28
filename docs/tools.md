@@ -7,11 +7,11 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 
 ## <Icon icon="folder-tree" /> Files
 
-* [`Create file`](/tools/create-or-rewrite-file) – Create a new file or rewrite an existing one with the provided content.
+* [`Create file`](/tools/write-file) – Create a new file or rewrite an existing one with the provided content.
 * [`Edit file`](/tools/edit-file) – Edit a text file using a sequence of precise edit operations.
 * [`Edit file fast`](/tools/edit-file-llm) – Edit a text file using a fast apply LLM.
 * [`Read file`](/tools/read-file) – Read a file from the computer.
-* [`List files`](/tools/list-files) – Directory listing tool that shows files and subdirectories in a tree structure, helping you explore and understand the project organization.
+* [`List files`](/tools/list-directory) – Directory listing tool that shows files and subdirectories in a tree structure, helping you explore and understand the project organization.
 * [`Search files`](/tools/grep-search) – Search files by content or filename using ripgrep.
 * [`Transcribe audio`](/tools/transcribe-audio) – Transcribe an audio file and save the transcript next to the original file.
 * [`Transcribe video`](/tools/transcribe-video) – Transcribe audio from a video file and save the transcript next to the original file.
