@@ -6,7 +6,7 @@ For support or general inquiries, email [help@zocomputer.com](mailto:help@zocomp
 ### Mailing address
 
 ```
-Substrate Labs, Inc.
-199 Cook St Ste 102
+Zo Computer Company
+13 Grattan St Unit 102
 Brooklyn, NY 11206
 ```

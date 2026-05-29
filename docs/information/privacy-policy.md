@@ -23,7 +23,7 @@ This document explains how Zo collects, uses, and protects your personal data fo
 
 ### Contact information
 
-* Address: 199 Cook St Ste 102, Brooklyn, NY 11206, USA
+* Address: 13 Grattan St Unit 102, Brooklyn, NY 11206, USA
 * Email: [help@zocomputer.com](mailto:help@zocomputer.com)
 
 ### Types of data collected

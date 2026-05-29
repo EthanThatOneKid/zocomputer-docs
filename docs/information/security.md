@@ -24,18 +24,19 @@ Zo Computer has been designed from first principles to (1) give users full custo
 Zo Computer currently uses the following infrastructure and service providers:
 
 * `Infrastructure`
-  * [Modal](https://modal.com/docs/guide/security) `Data storage` Modal hosts internal services and the user's personal server.
+  * [Modal](https://modal.com/docs/guide/security) `Data storage` Modal provides cloud compute.
+  * [Daytona](https://www.daytona.io/docs/en/security-exhibit) `Data storage` Daytona provides cloud compute.
   * [Neon](https://neon.tech) `Data storage` Neon hosts PostgreSQL databases used internally by the Zo application.
   * [Upstash](https://upstash.com) `Data storage` Upstash hosts Redis databases used internally by the Zo application.
   * [Cloudflare](https://cloudflare.com) `No data access` Cloudflare authenticates and routes traffic to internal services and the user's personal server. No data is retained.
-  * [Vercel](https://vercel.com) `No data access` Vercel hosts the non-application website (`www.zo.computer`).
+  * [Vercel](https://vercel.com) `No data access` Vercel is used as a gateway for accessing open-source and proprietary LLM inference. Vercel hosts the non-application website (`www.zo.computer`).
 * `AI inference`
   * [OpenAI](https://openai.com) `Partial data access` OpenAI's proprietary models are used for LLM inference.
   * [Anthropic](https://anthropic.com) `Partial data access` Anthropic's proprietary models are used for LLM inference.
   * [Google Cloud Vertex AI](https://cloud.google.com/vertex-ai) `Partial data access` Google's proprietary models are used for LLM inference.
   * [Fireworks](https://fireworks.ai) `Partial data access` Open source models such as DeepSeek R1, an open-source model trained in China, are hosted on Fireworks's US-based servers and may be used for LLM inference if selected by the user.
-  * [Deepgram](https://deepgram.com) `No data access` Deepgram's proprietary models are used for transcribing audio files.
-  * [FAL](https://fal.ai) `No data access` Open source models hosted on FAL are used for generative AI media inference.
+  * [Deepgram](https://deepgram.com) `No data access` Deepgram's proprietary models are used for transcribing audio.
+  * [FAL](https://fal.ai) `No data access` Open-source and proprietary models served on FAL are used for generative AI media inference.
 * `Agent tools`
   * [Tavily](https://tavily.com) `No data access` When Zo searches the web, Tavily may be used to provide search results.
   * [Steel](https://steel.dev) `No data access` When Zo operates a web browser, Steel provides the underlying browser infrastructure.
@@ -80,12 +81,12 @@ Zo Computer welcomes feedback from security researchers to help improve our secu
 
 This policy outlines steps for reporting vulnerabilities to us, what we expect, and what you can expect from us.
 
-This policy applies to Zo Computer and related digital assets owned, operated, or maintained by Substrate Labs Inc.
+This policy applies to Zo Computer and related digital assets owned, operated, or maintained by Zo Computer Company
 
 ### Out of scope
 
 * We’re interested in prompt injection and LLM security research, please report findings to us. However, due to the inherent nature of LLMs, these vulnerabilities aren’t typically eligible for bug bounty rewards.
-* Assets not related to Zo Computer, or not owned by Substrate Labs Inc., are out of scope.
+* Assets not related to Zo Computer, or not owned by Zo Computer Company, are out of scope.
   Vulnerabilities discovered or suspected in out-of-scope systems should be reported to the appropriate vendor or authority.
 
 ### Our Commitments
