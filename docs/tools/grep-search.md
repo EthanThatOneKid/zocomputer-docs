@@ -30,3 +30,7 @@ Search files by content or filename using ripgrep.
 <ParamField type="string">
   Optional fleet device name or id. When set, searches that running device's filesystem instead of the host (only location='USER' is supported for devices). The device must be started first. Requires the 'devices:manage' scope.
 </ParamField>
+
+<ParamField type="string">
+  Optional Zo App slug or id. When set, searches that Zo App's sandbox filesystem instead of the host (only location='USER' is supported). Mutually exclusive with 'device'. Requires the 'apps:shell' scope.
+</ParamField>

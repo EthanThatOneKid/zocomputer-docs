@@ -36,3 +36,7 @@ Zo Computer supports a wide range of file formats including text, word processin
 <ParamField type="string">
   Optional fleet device name or id. When set, reads the file from that running device's container instead of the host. The device must be started first. Requires the 'devices:manage' scope.
 </ParamField>
+
+<ParamField type="string">
+  Optional Zo App slug or id. When set, reads the file from that Zo App's sandbox instead of the host. Mutually exclusive with 'device'. Requires the 'apps:shell' scope.
+</ParamField>

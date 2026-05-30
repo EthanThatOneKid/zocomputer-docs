@@ -18,3 +18,7 @@ Edit a text file using a fast apply LLM.
 <ParamField type="string">
   Optional fleet device name or id. When set, edits the file inside that running device's container instead of the host. The device must be started first. Requires the 'devices:manage' scope.
 </ParamField>
+
+<ParamField type="string">
+  Optional Zo App slug or id. When set, edits the file inside that Zo App's sandbox instead of the host (the app server is /zo-app/server.ts). Mutually exclusive with 'device'. Requires the 'apps:shell' scope.
+</ParamField>

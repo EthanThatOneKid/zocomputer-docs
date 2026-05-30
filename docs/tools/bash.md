@@ -17,6 +17,10 @@ Zo can execute shell commands in a bash session, allowing for system operations,
   Optional fleet device name or id. When set, the command runs inside that running device's container instead of the host (e.g. `psql -c 'SELECT 1'` against a Postgres device). The device must be started first. Requires the 'devices:manage' scope.
 </ParamField>
 
+<ParamField type="string">
+  Optional Zo App slug or id. When set, the command runs inside that Zo App's sandbox instead of the host — the app is a separate computer you have a shell on. Mutually exclusive with 'device'. The app server lives at /zo-app/server.ts (Bun). Requires the 'apps:shell' scope.
+</ParamField>
+
 <ParamField type="number">
   Optional time limit in seconds. When set, the command is terminated if it runs longer than this. Defaults to unbounded.
 </ParamField>

@@ -40,6 +40,7 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 * [`Run parallel commands`](/tools/run-parallel-cmds) – Run multiple shell commands in parallel on the computer.
 * [`Run commands sequentially`](/tools/run-sequential-cmds) – Run multiple shell commands sequentially on the computer.
 * [`Create site`](/tools/create-website) – Create a site (also known as an app, or a website).
+* [`Create Zo App`](/tools/create-zo-app) – Create a Zo App: a standalone app served on its own subdomain.
 * [`Publish site`](/tools/publish-site) – Publish or republish a Zo Site so it gets a dedicated URL and runs a production build.
 * [`Unpublish site`](/tools/unpublish-site) – Unpublish a Zo Site, removing its dedicated URL.
 * [`Create service`](/tools/register-user-service) – Register a managed User Service on your Zo server.
