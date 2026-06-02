@@ -1,7 +1,7 @@
 {
   "source_url": "https://docs.zocomputer.com/llms-full.txt",
   "output_dir": "docs",
-  "count": 140,
+  "count": 139,
   "items": [
     {
       "title": "API",
@@ -199,7 +199,7 @@
       "title": "Tools",
       "source": "https://docs.zocomputer.com/tools",
       "path": "tools.md",
-      "sha256": "f64adb027b561ed6ec6f9bf79e1422426008ef0cdca7c617be3223397ff76c79"
+      "sha256": "13365edbe3ecda2012431cc8a0e1a782fbadc30f2803468a45fedd05fd019b3d"
     },
     {
       "title": "Tools",
@@ -266,12 +266,6 @@
       "source": "https://docs.zocomputer.com/tools/create-website",
       "path": "tools/create-website.md",
       "sha256": "529ad171ee53955758c739e4c9b338426dbdea0b2367b39fb651bc5c53ac2249"
-    },
-    {
-      "title": "Create Zo App",
-      "source": "https://docs.zocomputer.com/tools/create-zo-app",
-      "path": "tools/create-zo-app.md",
-      "sha256": "23e81d28f65779e113671d9cf70fa03fb6be5a6418c349ce4c114c698f17f8df"
     },
     {
       "title": "Delete automation",
