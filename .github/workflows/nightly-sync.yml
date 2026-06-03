@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 5 * * *"
   workflow_dispatch:
+    inputs:
+      commit_sha:
+        description: "Optional commit SHA to post an LLM changelog comment for. If set, the sync/commit/push steps are skipped."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -27,4 +32,8 @@ jobs:
           python-version: "3.12"
 
       - name: Rebuild docs and push if changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          LLM_COMMENT_COMMIT_SHA: ${{ inputs.commit_sha }}
         run: bash scripts/dispatch-update.sh
