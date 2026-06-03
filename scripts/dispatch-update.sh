@@ -1,19 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-python3 scripts/sync_llms_full.py
-
-if [[ -z "$(git status --porcelain)" ]]; then
-  echo "No changes detected."
-  exit 0
-fi
-
-git add -A
-git config user.name "github-actions[bot]"
-git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-git commit -m "chore: sync docs from llms-full.txt"
-commit_sha=$(git rev-parse HEAD)
-
 post_llm_commit_comment() {
   local commit_sha="$1"
   local api_key="${OPENROUTER_API_KEY:-}"
@@ -67,6 +54,31 @@ post_llm_commit_comment() {
     echo "Posted LLM commit comment to $commit_sha" || \
     echo "Failed to post LLM commit comment."
 }
+
+override_sha="${LLM_COMMENT_COMMIT_SHA:-}"
+if [[ -n "$override_sha" ]]; then
+  echo "LLM_COMMENT_COMMIT_SHA set; skipping sync flow and commenting on $override_sha"
+  if ! command -v gh >/dev/null 2>&1; then
+    echo "gh CLI not available, aborting."
+    exit 1
+  fi
+  git fetch --no-tags --prune --depth=2 origin "$override_sha" 2>/dev/null || true
+  post_llm_commit_comment "$override_sha"
+  exit 0
+fi
+
+python3 scripts/sync_llms_full.py
+
+if [[ -z "$(git status --porcelain)" ]]; then
+  echo "No changes detected."
+  exit 0
+fi
+
+git add -A
+git config user.name "github-actions[bot]"
+git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+git commit -m "chore: sync docs from llms-full.txt"
+commit_sha=$(git rev-parse HEAD)
 
 git push origin HEAD:main
 post_llm_commit_comment "$commit_sha"
