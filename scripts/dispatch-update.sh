@@ -27,7 +27,7 @@ post_llm_commit_comment() {
 
   local model="openai/gpt-4o-mini"
   local body_json
-  body_json=$(DIFF_STAT="$diff_stat" DIFF_PATCH="$diff_patch" MODEL="$model" python3 -c "import json, os; prompt = ('You are reviewing an automated docs sync commit. Write a concise GitHub commit comment in Markdown for maintainers. Summarize what changed, call out notable removals or large movements, and keep it under 1000 characters. Reply with ONLY the comment body.\n\nDiff stat:\n' + os.environ['DIFF_STAT'] + '\n\nPatch excerpt:\n' + os.environ['DIFF_PATCH'] + '\n'); payload = {'model': os.environ['MODEL'], 'messages': [{'role': 'user', 'content': prompt}], 'max_tokens': 300, 'temperature': 0.3}; print(json.dumps(payload))") || { echo "Failed to build JSON payload"; return 0; }
+  body_json=$(DIFF_STAT="$diff_stat" DIFF_PATCH="$diff_patch" MODEL="$model" python3 -c "import json, os; patch = '\n'.join(line for line in os.environ['DIFF_PATCH'].splitlines() if (chr(34) + 'sha256' + chr(34) + ':') not in line); prompt = ('You are reviewing an automated docs sync commit. Write a concise GitHub commit comment in Markdown for maintainers. Summarize what changed, call out notable removals or large movements, and keep it under 1000 characters. Reply with ONLY the comment body.\n\nDiff stat:\n' + os.environ['DIFF_STAT'] + '\n\nPatch excerpt:\n' + patch + '\n'); payload = {'model': os.environ['MODEL'], 'messages': [{'role': 'user', 'content': prompt}], 'max_tokens': 300, 'temperature': 0.3}; print(json.dumps(payload))") || { echo "Failed to build JSON payload"; return 0; }
 
   local response
   response=$(curl -sS --retry 3 --retry-delay 2 \
