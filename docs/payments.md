@@ -10,7 +10,7 @@ Connect your Stripe account to start accepting payments with Zo. You can sell pr
   apply.
 </Tip>
 
-Go to Settings > Integrations to get started with Payments in Zo. You'll need to:
+Go to Settings > Tools to get started with Payments in Zo. You'll need to:
 
 1. **Create a Stripe Connect account** – Select your country and create your account. This cannot be changed after creation.
 2. **Complete onboarding** – Stripe will guide you through the setup process, including business verification and bank account details.

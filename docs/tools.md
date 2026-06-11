@@ -13,6 +13,7 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 * [`Read file`](/tools/read-file) – Read a file from the computer.
 * [`List files`](/tools/list-directory) – Directory listing tool that shows files and subdirectories in a tree structure, helping you explore and understand the project organization.
 * [`Search files`](/tools/grep-search) – Search files by content or filename using ripgrep.
+* [`Copy file`](/tools/copy-file) – Copy a file or directory between the host, a Zo App, and a fleet device.
 * [`Transcribe audio`](/tools/transcribe-audio) – Transcribe an audio file and save the transcript next to the original file.
 * [`Transcribe video`](/tools/transcribe-video) – Transcribe audio from a video file and save the transcript next to the original file.
 * [`Generate image`](/tools/generate-image) – Generate an image following the provided prompt using an AI image generation model.

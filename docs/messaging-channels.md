@@ -71,4 +71,4 @@ Text your Zo number directly.
 
 Email **<Handle />@zo.computer** to start a conversation. No setup required — your Zo address works out of the box.
 
-This is a conversational interface, not an inbox. Emails to your Zo address start conversations; they aren't stored as mail. For reading your inbox or sending as you, connect Gmail or Outlook in **Settings > Integrations** on zo.computer.
+This is a conversational interface, not an inbox. Emails to your Zo address start conversations; they aren't stored as mail. For reading your inbox or sending as you, connect Gmail or Outlook in **Plugins > Integrations** on zo.computer.

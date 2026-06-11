@@ -20,5 +20,5 @@ Edit a text file using a fast apply LLM.
 </ParamField>
 
 <ParamField type="string">
-  Optional Zo App slug or id. When set, edits the file inside that Zo App's sandbox instead of the host (the app server is /zo-app/server.ts). Mutually exclusive with 'device'. Requires the 'apps:shell' scope.
+  Optional Zo App slug or id. When set, edits the file inside that Zo App's sandbox instead of the host (the app server is /zo-app/server.ts; private/user data goes under /user-data, which is excluded from forks). Mutually exclusive with 'device'. Requires the 'apps:shell' scope.
 </ParamField>

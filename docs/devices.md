@@ -7,7 +7,7 @@ The Zo desktop app connects your physical computer to Zo, letting the AI run com
 
 1. Install the [Zo desktop app](/desktop)
 2. Log in (your device registers automatically)
-3. Go to **Settings > Integrations > Devices**
+3. Go to **Settings > Tools > Devices**
 4. Add capabilities (Browser, Shell, etc.)
 
 <Tip>

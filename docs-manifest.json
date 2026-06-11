@@ -1,7 +1,7 @@
 {
   "source_url": "https://docs.zocomputer.com/llms-full.txt",
   "output_dir": "docs",
-  "count": 139,
+  "count": 140,
   "items": [
     {
       "title": "API",
@@ -43,7 +43,7 @@
       "title": "Browser use",
       "source": "https://docs.zocomputer.com/browser",
       "path": "browser.md",
-      "sha256": "502b60c80a93a26068dfb4a9670bcfae66cd8e7a420e16fbecf6bd3a972a6d96"
+      "sha256": "4cad095369cbf199f60e8badfc158df7672821c1b14cfe77501b46b9f90b46bf"
     },
     {
       "title": "Bring your own LLM API",
@@ -79,7 +79,7 @@
       "title": "Devices",
       "source": "https://docs.zocomputer.com/devices",
       "path": "devices.md",
-      "sha256": "8ad2833be1866afef91670abe8d7ce8b3e08da528fe41e095b3fa3fd879cebe6"
+      "sha256": "4ba8c91086ff72ac36cb9ff2bcbb652ee4818dbb78f7a04834b36a7bfb0f7e67"
     },
     {
       "title": "Gemini CLI",
@@ -139,13 +139,13 @@
       "title": "Messaging Channels",
       "source": "https://docs.zocomputer.com/messaging-channels",
       "path": "messaging-channels.md",
-      "sha256": "33db4559a5ac74413500364978a557e5a0ae55578145aac3d9e276fb7b60edc8"
+      "sha256": "7e5ea78d6319bc8949b2773f620b5b52d2e4a82c6dcc14eb979f774b1d9dcf33"
     },
     {
       "title": "Payments",
       "source": "https://docs.zocomputer.com/payments",
       "path": "payments.md",
-      "sha256": "45cd106677185d7c97cd67854082305e2488123f4fd1697f3e66ea694618193d"
+      "sha256": "0581987e001a046610dd362fc5446db47e7f0dabe2b61f8cd3dbeb861849dd5e"
     },
     {
       "title": "Personas",
@@ -199,7 +199,7 @@
       "title": "Tools",
       "source": "https://docs.zocomputer.com/tools",
       "path": "tools.md",
-      "sha256": "13365edbe3ecda2012431cc8a0e1a782fbadc30f2803468a45fedd05fd019b3d"
+      "sha256": "5cebe3b8c7a84155607a872b2bf727ce521def031da00946efeea2fd645478a5"
     },
     {
       "title": "Tools",
@@ -211,7 +211,7 @@
       "title": "Run command",
       "source": "https://docs.zocomputer.com/tools/bash",
       "path": "tools/bash.md",
-      "sha256": "9f5fce5413845701f6fc4c2aa38bf4d05398762af5cf1685d13a9f83573d3651"
+      "sha256": "601830a54b0ec383b04c7193f2df09b64a0b09cb5c2ee82148d4cd6769958685"
     },
     {
       "title": "Connect integration",
@@ -224,6 +224,12 @@
       "source": "https://docs.zocomputer.com/tools/connect-telegram",
       "path": "tools/connect-telegram.md",
       "sha256": "64441346d43ca80032e179b342f7c3f111d734e91d739fcb56a13b1c768e9a17"
+    },
+    {
+      "title": "Copy file",
+      "source": "https://docs.zocomputer.com/tools/copy-file",
+      "path": "tools/copy-file.md",
+      "sha256": "afef28864b2d779ed457f1778a92c2be5b8d849b783b5f643f792e6f4134b549"
     },
     {
       "title": "Create automation",
@@ -313,13 +319,13 @@
       "title": "Edit file",
       "source": "https://docs.zocomputer.com/tools/edit-file",
       "path": "tools/edit-file.md",
-      "sha256": "24da31ce21f4e43624a2bd4108d7fae811db93a95f1bf1310c6bbca7050163ae"
+      "sha256": "43037985f0d60cff8fe02955902b9886980ff11dab656ce7dba420b5fced0eec"
     },
     {
       "title": "Edit file fast",
       "source": "https://docs.zocomputer.com/tools/edit-file-llm",
       "path": "tools/edit-file-llm.md",
-      "sha256": "6bbdfd402f7bbcf405504f57d5f3951cdd389f56a147efbae7b1ee918c4e80c2"
+      "sha256": "828d661f1a041c6d406992bdb96fb9129bdd5bc44e9ce990fe134fb567c78ac6"
     },
     {
       "title": "Edit image",
@@ -817,7 +823,7 @@
       "title": "Create file",
       "source": "https://docs.zocomputer.com/tools/write-file",
       "path": "tools/write-file.md",
-      "sha256": "23936d4501056af949ce9c7f18ccb4e1adc6a98c5437419b637e1e814539563a"
+      "sha256": "74e9f6ef30049ebd3079e94a990f3f9d34989c0095198be22f844a22ec4a5a98"
     },
     {
       "title": "Write space route",

@@ -3,7 +3,7 @@ The only way for Zo to act on sites that need you signed in
 
 Zo has a real Chromium browser running on your computer. You sign into sites in that browser once, and from then on Zo can act on those sites as you: read your feed, click through your dashboard, post a draft, pull a number out of an admin panel, anything you'd otherwise do yourself.
 
-To open it, go to **Settings → Integrations** and click **Open Zo's browser**. The browser pops up in its own tab. Navigate, sign in, and close it. The session sticks.
+To open it, go to **Settings → Tools** and click **Open Zo's browser**. The browser pops up in its own tab. Navigate, sign in, and close it. The session sticks.
 
 ## Why you'd use it
 
@@ -35,7 +35,7 @@ A good rule of thumb: if you could share the URL with someone who isn't signed i
 
 ## Authenticated sites
 
-Once you've signed into a site, it shows up in **Settings → Integrations** as an authenticated site. That list also tells Zo which sites it has access to as you, so when you ask it to "check my Substack stats" it knows it can.
+Once you've signed into a site, it shows up in **Settings → Tools** as an authenticated site. That list also tells Zo which sites it has access to as you, so when you ask it to "check my Substack stats" it knows it can.
 
 You don't have to mention "browser" in your prompts. Zo picks the browser tool on its own when a request points at a site it's signed into. If you want to be explicit, say "in the browser..." or "open Substack and..."
 
