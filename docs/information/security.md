@@ -31,11 +31,11 @@ Zo Computer currently uses the following infrastructure and service providers:
   * [Cloudflare](https://cloudflare.com) `No data access` Cloudflare authenticates and routes traffic to internal services and the user's personal server. No data is retained.
   * [Vercel](https://vercel.com) `No data access` Vercel is used as a gateway for accessing open-source and proprietary LLM inference. Vercel hosts the non-application website (`www.zo.computer`).
 * `AI inference`
-  * [OpenAI](https://openai.com) `Partial data access` OpenAI's proprietary models are used for LLM inference.
+  * [OpenAI](https://openai.com) `Partial data access` OpenAI's proprietary models are used for LLM inference and audio transcription.
   * [Anthropic](https://anthropic.com) `Partial data access` Anthropic's proprietary models are used for LLM inference.
   * [Google Cloud Vertex AI](https://cloud.google.com/vertex-ai) `Partial data access` Google's proprietary models are used for LLM inference.
-  * [Fireworks](https://fireworks.ai) `Partial data access` Open source models such as DeepSeek R1, an open-source model trained in China, are hosted on Fireworks's US-based servers and may be used for LLM inference if selected by the user.
-  * [Deepgram](https://deepgram.com) `No data access` Deepgram's proprietary models are used for transcribing audio.
+  * [Fireworks](https://fireworks.ai) `Partial data access` Open-source models such as DeepSeek, Kimi, and GLM, which are trained in China, may be served from Fireworks's US-based servers (via the Vercel AI gateway) when selected by the user for LLM inference.
+  * [AssemblyAI](https://assemblyai.com) `No data access` AssemblyAI's proprietary models are used for transcribing audio.
   * [FAL](https://fal.ai) `No data access` Open-source and proprietary models served on FAL are used for generative AI media inference.
 * `Agent tools`
   * [Tavily](https://tavily.com) `No data access` When Zo searches the web, Tavily may be used to provide search results.
