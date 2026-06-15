@@ -1,7 +1,7 @@
 {
   "source_url": "https://docs.zocomputer.com/llms-full.txt",
   "output_dir": "docs",
-  "count": 140,
+  "count": 141,
   "items": [
     {
       "title": "API",
@@ -14,6 +14,12 @@
       "source": "https://docs.zocomputer.com/api-reference/ai/ask-zo",
       "path": "api-reference/ai/ask-zo.md",
       "sha256": "227a248d4099d3670d43c360974cec8b3e337a0a192294470af772394bc8b489"
+    },
+    {
+      "title": "Get the full model catalog",
+      "source": "https://docs.zocomputer.com/api-reference/ai/get-the-full-model-catalog",
+      "path": "api-reference/ai/get-the-full-model-catalog.md",
+      "sha256": "ce85413dfa5e040179de724b4943b669d0ec2db271fb1540c0a8e53f74ec4756"
     },
     {
       "title": "List available models",
