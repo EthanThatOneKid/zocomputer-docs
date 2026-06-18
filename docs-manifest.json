@@ -217,7 +217,7 @@
       "title": "Run command",
       "source": "https://docs.zocomputer.com/tools/bash",
       "path": "tools/bash.md",
-      "sha256": "601830a54b0ec383b04c7193f2df09b64a0b09cb5c2ee82148d4cd6769958685"
+      "sha256": "017c7c94fc4629c2fcaf92c71c7b5b76ade3ec4755d02a4c9a15781c902defe1"
     },
     {
       "title": "Connect integration",
@@ -325,13 +325,13 @@
       "title": "Edit file",
       "source": "https://docs.zocomputer.com/tools/edit-file",
       "path": "tools/edit-file.md",
-      "sha256": "43037985f0d60cff8fe02955902b9886980ff11dab656ce7dba420b5fced0eec"
+      "sha256": "bd398cf6792fea382dfa0700b161a30dbebb5ec02013ead6daf555c8ca14c7b9"
     },
     {
       "title": "Edit file fast",
       "source": "https://docs.zocomputer.com/tools/edit-file-llm",
       "path": "tools/edit-file-llm.md",
-      "sha256": "828d661f1a041c6d406992bdb96fb9129bdd5bc44e9ce990fe134fb567c78ac6"
+      "sha256": "5d58e3ec2982e5f3efd76b975fef79715feb7ea4455a10954875a61613547e92"
     },
     {
       "title": "Edit image",
@@ -829,7 +829,7 @@
       "title": "Create file",
       "source": "https://docs.zocomputer.com/tools/write-file",
       "path": "tools/write-file.md",
-      "sha256": "74e9f6ef30049ebd3079e94a990f3f9d34989c0095198be22f844a22ec4a5a98"
+      "sha256": "68072f443d5a352c672c125ccf5c056de34ff0a229b00a7ac9b90565f28e749f"
     },
     {
       "title": "Write space route",

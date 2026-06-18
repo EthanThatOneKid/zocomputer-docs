@@ -18,7 +18,7 @@ Zo can execute shell commands in a bash session, allowing for system operations,
 </ParamField>
 
 <ParamField type="string">
-  Optional Zo App slug or id. When set, the command runs inside that Zo App's sandbox instead of the host — the app is a separate computer you have a shell on. Mutually exclusive with 'device'. The app server lives at /zo-app/server.ts (Bun); write private/user-specific data under /user-data (ZO\_APP\_DATA\_DIR), which is excluded from forks. Requires the 'apps:shell' scope.
+  Optional Zo App slug or id. When set, the command runs inside that Zo App's sandbox instead of the host — the app is a separate computer you have a shell on. Mutually exclusive with 'device'. The app server lives at /zo-app/server.ts (Bun); write private/user-specific data under /user-data (ZO\_APP\_DATA\_DIR) so the app stays cleanly shareable. Requires the 'apps:shell' scope.
 </ParamField>
 
 <ParamField type="number">
