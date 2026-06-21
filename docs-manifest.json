@@ -1,7 +1,7 @@
 {
   "source_url": "https://docs.zocomputer.com/llms-full.txt",
   "output_dir": "docs",
-  "count": 141,
+  "count": 140,
   "items": [
     {
       "title": "API",
@@ -86,12 +86,6 @@
       "source": "https://docs.zocomputer.com/devices",
       "path": "devices.md",
       "sha256": "4ba8c91086ff72ac36cb9ff2bcbb652ee4818dbb78f7a04834b36a7bfb0f7e67"
-    },
-    {
-      "title": "Gemini CLI",
-      "source": "https://docs.zocomputer.com/gemini-cli",
-      "path": "gemini-cli.md",
-      "sha256": "89d0278b1fd3c8c901b2ba6374e1028903d5b794e42770a29378ad6d8a734d14"
     },
     {
       "title": "Connect GitHub",
