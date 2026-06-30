@@ -8,11 +8,11 @@ Edit a text file using a fast apply LLM.
 </ParamField>
 
 <ParamField type="string">
-  A single sentence written in the first person describing what you're changing. Used to help disambiguate uncertainty in the edit.
+  Specify ONLY the precise lines of code that you wish to edit. Use // ... existing code ... for unchanged sections.
 </ParamField>
 
 <ParamField type="string">
-  Specify ONLY the precise lines of code that you wish to edit. Use // ... existing code ... for unchanged sections.
+  Optional. A single sentence in the first person describing what you're changing (e.g. 'I am adding error handling to the fetch call'). Helps disambiguate the edit; omit it for unambiguous edits.
 </ParamField>
 
 <ParamField type="string">

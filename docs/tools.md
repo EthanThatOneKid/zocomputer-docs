@@ -38,8 +38,6 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 ## <Icon icon="computer" /> Computer
 
 * [`Run command`](/tools/bash) – Run a single shell command on the computer.
-* [`Run parallel commands`](/tools/run-parallel-cmds) – Run multiple shell commands in parallel on the computer.
-* [`Run commands sequentially`](/tools/run-sequential-cmds) – Run multiple shell commands sequentially on the computer.
 * [`Create site`](/tools/create-website) – Create a site (also known as an app, or a website).
 * [`Publish site`](/tools/publish-site) – Publish or republish a Zo Site so it gets a dedicated URL and runs a production build.
 * [`Unpublish site`](/tools/unpublish-site) – Unpublish a Zo Site, removing its dedicated URL.

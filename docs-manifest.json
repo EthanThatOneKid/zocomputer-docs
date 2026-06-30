@@ -1,7 +1,7 @@
 {
   "source_url": "https://docs.zocomputer.com/llms-full.txt",
   "output_dir": "docs",
-  "count": 140,
+  "count": 138,
   "items": [
     {
       "title": "API",
@@ -199,7 +199,7 @@
       "title": "Tools",
       "source": "https://docs.zocomputer.com/tools",
       "path": "tools.md",
-      "sha256": "5cebe3b8c7a84155607a872b2bf727ce521def031da00946efeea2fd645478a5"
+      "sha256": "d6a7cff583172bd4ce7ee9f40428d86e78d3039fc962d2d764d016da9f4d2290"
     },
     {
       "title": "Tools",
@@ -325,7 +325,7 @@
       "title": "Edit file fast",
       "source": "https://docs.zocomputer.com/tools/edit-file-llm",
       "path": "tools/edit-file-llm.md",
-      "sha256": "5d58e3ec2982e5f3efd76b975fef79715feb7ea4455a10954875a61613547e92"
+      "sha256": "c3732806bc2fd10a45c3ef731b46ec94dc98837eca770c04fefe1c8adc33fc80"
     },
     {
       "title": "Edit image",
@@ -560,18 +560,6 @@
       "source": "https://docs.zocomputer.com/tools/restart-space-server",
       "path": "tools/restart-space-server.md",
       "sha256": "57c6eaf5bacac0a22d1fac5437fdf243370cead478e1d77b7c83eedf52162798"
-    },
-    {
-      "title": "Run parallel commands",
-      "source": "https://docs.zocomputer.com/tools/run-parallel-cmds",
-      "path": "tools/run-parallel-cmds.md",
-      "sha256": "2c79eec5feaa9854b83a452d04ddc453105b19f428277984b57a98fae88eb526"
-    },
-    {
-      "title": "Run commands sequentially",
-      "source": "https://docs.zocomputer.com/tools/run-sequential-cmds",
-      "path": "tools/run-sequential-cmds.md",
-      "sha256": "7a0e8262ef0067e7e60a7b3755bd31e826031e98694f6e9857cf473e61890751"
     },
     {
       "title": "Save webpage",
