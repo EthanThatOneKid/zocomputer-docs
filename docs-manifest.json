@@ -541,7 +541,7 @@
       "title": "Read webpage",
       "source": "https://docs.zocomputer.com/tools/read-webpage",
       "path": "tools/read-webpage.md",
-      "sha256": "e0bb761a7e0ed6ce4e63633daff57dbaf8b86709b61b3eb8753015d90bae3186"
+      "sha256": "7b54cbb3ca04c03e86fdc2b43e4d928d820aa9e00c91327136dac9a259c0d762"
     },
     {
       "title": "Redo space change",
@@ -565,7 +565,7 @@
       "title": "Save webpage",
       "source": "https://docs.zocomputer.com/tools/save-webpage",
       "path": "tools/save-webpage.md",
-      "sha256": "531cbf9b6c748814a72024cb37bdc59043efec3c3884912f7e26534e84fbeb37"
+      "sha256": "25d733fe9ce391d22857c74f9fed5021252b33071a9788e4b2e367611cc406af"
     },
     {
       "title": "Search app catalog",
