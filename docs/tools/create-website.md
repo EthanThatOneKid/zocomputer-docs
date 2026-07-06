@@ -8,7 +8,7 @@ Create a site (also known as an app, or a website).
 </ParamField>
 
 <ParamField type="string">
-  template variant to use (blank, blog, event, slides, data, marketing). Default is blank.
+  template variant to use: blank, blog, event, slides, data (dashboard), marketing (landing page), portfolio (personal site + case studies), kb (markdown knowledge base), waitlist (email-capture coming-soon page), storefront (product grid + Stripe checkout). Default is blank.
 </ParamField>
 
 <ParamField type="string[]">
