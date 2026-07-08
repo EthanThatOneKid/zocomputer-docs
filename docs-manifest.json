@@ -43,7 +43,7 @@
       "title": "Subscription",
       "source": "https://docs.zocomputer.com/billing",
       "path": "billing.md",
-      "sha256": "d7389acd9e605e5308aa59bdabeefca26d9b2cf5e3572427d3a4e41b116b31c6"
+      "sha256": "95391137b86fee57f0e00672f35f69c0ecfbd4737f8227b5b172a0cb389e84ee"
     },
     {
       "title": "Browser use",
@@ -679,7 +679,7 @@
       "title": "Update service",
       "source": "https://docs.zocomputer.com/tools/update-user-service",
       "path": "tools/update-user-service.md",
-      "sha256": "44cab63a65527170eb8f2bb6a8e4d2604804d52e16ae8d64b9056446b784e55d"
+      "sha256": "25b5023f1ff37a2f8cdfb4b065d3ed3f427984ddc02fbc7e3b0d76646d29e474"
     },
     {
       "title": "Update user settings",

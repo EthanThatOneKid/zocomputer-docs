@@ -50,3 +50,7 @@ You can change a service's mode in place instead of deleting and recreating it.
 <ParamField type="string">
   Optional. Pass true to make the service public, false to make it private (HTTP only). Omit to leave unchanged. Private services are reachable at \*.zo.computer and require sign-in.
 </ParamField>
+
+<ParamField type="string">
+  Optional. Pass "false" to pause the service (stop it running, keep its config/URL/quota) or "true" to resume it. Omit to leave the paused/running state unchanged.
+</ParamField>
