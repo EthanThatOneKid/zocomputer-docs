@@ -1,7 +1,7 @@
 
 Read a file from the computer.
 
-Zo Computer supports a wide range of file formats including text, word processing, spreadsheets, PDFs, ebooks, images, audio, and video. AI that can work with spreadsheets (.xlsx, .xls). AI that can work with Word documents (.docx, .doc). AI that can work with PDF files (.pdf). AI that can transcribe audio files (.mp3, .wav, .m4a). AI that can transcribe and convert video files (.mp4, .mov, .avi). AI that can work with ebooks (.epub). AI that can see and convert images (.png, .jpg, .gif).
+Zo Computer supports a wide range of file formats including text, word processing, spreadsheets, presentations, PDFs, ebooks, images, audio, and video. AI that can work with spreadsheets (.xlsx, .xls). AI that can work with Word documents (.docx, .doc). AI that can work with PowerPoint presentations (.pptx). AI that can work with PDF files (.pdf). AI that can transcribe audio files (.mp3, .wav, .m4a). AI that can transcribe and convert video files (.mp4, .mov, .avi). AI that can work with ebooks (.epub). AI that can see and convert images (.png, .jpg, .gif).
 
 ## Parameters
 

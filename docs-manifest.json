@@ -535,7 +535,7 @@
       "title": "Read file",
       "source": "https://docs.zocomputer.com/tools/read-file",
       "path": "tools/read-file.md",
-      "sha256": "ef0667de27deb664b6b4bf832ff43e54c46b141aae0c8b143da5328451632369"
+      "sha256": "c5734fa4874c884f702c7fadfc42216a5b92b8f45d8c5200dced092f7b95b75d"
     },
     {
       "title": "Read webpage",
