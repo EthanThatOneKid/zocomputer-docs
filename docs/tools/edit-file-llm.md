@@ -1,5 +1,5 @@
 
-Edit a text file using a fast apply LLM.
+Merge a large or fuzzy rewrite into a text file using a fast apply LLM.
 
 ## Parameters
 

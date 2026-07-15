@@ -199,7 +199,7 @@
       "title": "Tools",
       "source": "https://docs.zocomputer.com/tools",
       "path": "tools.md",
-      "sha256": "d6a7cff583172bd4ce7ee9f40428d86e78d3039fc962d2d764d016da9f4d2290"
+      "sha256": "e640571d50b4a7e4cfd9ee8add3148e8c1a9582ee1cadd20b84f2275bcfa521e"
     },
     {
       "title": "Tools",
@@ -325,7 +325,7 @@
       "title": "Edit file fast",
       "source": "https://docs.zocomputer.com/tools/edit-file-llm",
       "path": "tools/edit-file-llm.md",
-      "sha256": "c3732806bc2fd10a45c3ef731b46ec94dc98837eca770c04fefe1c8adc33fc80"
+      "sha256": "a31992680d380b5322f673a7ba1e13dd334a43140e28cd1c61677fc90166bd06"
     },
     {
       "title": "Edit image",
