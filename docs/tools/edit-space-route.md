@@ -1,7 +1,7 @@
 
 Edit an existing route's code by supplying only the changed sections.
 
-Preferred for edits to existing routes. Use `// ... existing code ...` as a placeholder for unchanged regions; the partial edit is merged against the current route code.
+Preferred for edits to existing routes, including the built-in starter homepage at `/`. Use `// ... existing code ...` as a placeholder for unchanged regions; the partial edit is merged against the current route code.
 
 ## Parameters
 

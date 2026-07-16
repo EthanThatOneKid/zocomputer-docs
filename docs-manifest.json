@@ -301,7 +301,7 @@
       "title": "Delete from space",
       "source": "https://docs.zocomputer.com/tools/delete-space-route",
       "path": "tools/delete-space-route.md",
-      "sha256": "446a56cc255601e32359704516f850943a810eee8085cda263a0b6fcbbde7e02"
+      "sha256": "0ccf6f35970e56d69653cf00bb47f063cf7083506e0c77003f58234a57226903"
     },
     {
       "title": "Delete service",
@@ -349,7 +349,7 @@
       "title": "Edit space route",
       "source": "https://docs.zocomputer.com/tools/edit-space-route",
       "path": "tools/edit-space-route.md",
-      "sha256": "71e44ca633aed9487bad746fc0f340a4a506de8b363091136b06d7de374c8504"
+      "sha256": "b853d106c9983543ccfde2aa68db27b1fa9ca40977e0be00025dab863abdd9a8"
     },
     {
       "title": "Find similar links",
@@ -415,7 +415,7 @@
       "title": "Read from space",
       "source": "https://docs.zocomputer.com/tools/get-space-route",
       "path": "tools/get-space-route.md",
-      "sha256": "80a84aac412593089dcba390d7fd425b9edabfa5a4e3e2b91d85810b090e3511"
+      "sha256": "98e96452979700b59912c5dfb7ab6490667a32dc3f1e58e239b0885340a606f1"
     },
     {
       "title": "View route history",
@@ -487,7 +487,7 @@
       "title": "View space",
       "source": "https://docs.zocomputer.com/tools/list-space-routes",
       "path": "tools/list-space-routes.md",
-      "sha256": "d01583213accbc46cb1178df0c5ab3d78c64b237db41e20d5c26924302c63e3c"
+      "sha256": "7c1b34e94c8429f81465b42bf6d26533442caed6b06b3a27646d94fa48b60d97"
     },
     {
       "title": "List orders",
