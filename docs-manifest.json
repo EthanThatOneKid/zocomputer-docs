@@ -1,7 +1,7 @@
 {
   "source_url": "https://docs.zocomputer.com/llms-full.txt",
   "output_dir": "docs",
-  "count": 138,
+  "count": 140,
   "items": [
     {
       "title": "API",
@@ -199,7 +199,7 @@
       "title": "Tools",
       "source": "https://docs.zocomputer.com/tools",
       "path": "tools.md",
-      "sha256": "e640571d50b4a7e4cfd9ee8add3148e8c1a9582ee1cadd20b84f2275bcfa521e"
+      "sha256": "afb3ab2f910960a6f5c7b22c9633cb3337e2e4db274d1fdf13c852a8f38597d3"
     },
     {
       "title": "Tools",
@@ -211,7 +211,7 @@
       "title": "Run command",
       "source": "https://docs.zocomputer.com/tools/bash",
       "path": "tools/bash.md",
-      "sha256": "017c7c94fc4629c2fcaf92c71c7b5b76ade3ec4755d02a4c9a15781c902defe1"
+      "sha256": "5dda36955738242e104647140853ce8a969972662d4d17e47ff1f139494ffbc7"
     },
     {
       "title": "Connect integration",
@@ -229,13 +229,13 @@
       "title": "Copy file",
       "source": "https://docs.zocomputer.com/tools/copy-file",
       "path": "tools/copy-file.md",
-      "sha256": "afef28864b2d779ed457f1778a92c2be5b8d849b783b5f643f792e6f4134b549"
+      "sha256": "a0dc77cfaefa93c56c3c56e2d6ee8e36274d91ce96bd44c1e5cad08b5c8a4af8"
     },
     {
       "title": "Create automation",
       "source": "https://docs.zocomputer.com/tools/create-automation",
       "path": "tools/create-automation.md",
-      "sha256": "1afd359eb4343c07ed8db05fe8eb544148dea47f7bca35f8c5a592cc27bf82de"
+      "sha256": "b5ad4c877f4b26f615cb985ebcf7e04b2703eed638d48ef2f78c475fec185600"
     },
     {
       "title": "Create persona",
@@ -313,19 +313,19 @@
       "title": "Edit automation",
       "source": "https://docs.zocomputer.com/tools/edit-automation",
       "path": "tools/edit-automation.md",
-      "sha256": "f03c6b160616831d0395283b8cb4a7af83ba90f49062678723c29edd94b7a497"
+      "sha256": "2343100bf53efaf4949dd657d9f91fd3addf4c5c7846ff6c5a87897be1210417"
     },
     {
       "title": "Edit file",
       "source": "https://docs.zocomputer.com/tools/edit-file",
       "path": "tools/edit-file.md",
-      "sha256": "bd398cf6792fea382dfa0700b161a30dbebb5ec02013ead6daf555c8ca14c7b9"
+      "sha256": "d8046ebb474575006dc31b4c4186c9bffbdab65e94b2c65c011cb849c4edb04c"
     },
     {
       "title": "Edit file fast",
       "source": "https://docs.zocomputer.com/tools/edit-file-llm",
       "path": "tools/edit-file-llm.md",
-      "sha256": "a31992680d380b5322f673a7ba1e13dd334a43140e28cd1c61677fc90166bd06"
+      "sha256": "7b72a60616da4c07804cb6a30ba922a9765d0d4aebd5ed6bc6e5d7698b11db67"
     },
     {
       "title": "Edit image",
@@ -350,6 +350,12 @@
       "source": "https://docs.zocomputer.com/tools/edit-space-route",
       "path": "tools/edit-space-route.md",
       "sha256": "b853d106c9983543ccfde2aa68db27b1fa9ca40977e0be00025dab863abdd9a8"
+    },
+    {
+      "title": "Find file conversations",
+      "source": "https://docs.zocomputer.com/tools/find-file-conversations",
+      "path": "tools/find-file-conversations.md",
+      "sha256": "a7c72f0909a6649369d3b7e19cc0627ac4540ccfc66f2bf06a62bff25ff1137f"
     },
     {
       "title": "Find similar links",
@@ -433,7 +439,7 @@
       "title": "Search files",
       "source": "https://docs.zocomputer.com/tools/grep-search",
       "path": "tools/grep-search.md",
-      "sha256": "a9304f06040cdee4861e11ba7c9bbd871deaa8e04277142ffd4dd009fa5cd485"
+      "sha256": "d58a7159f4b59cf25d05d8d6361a8cc2a409419234173c83fe9d26532fddf17a"
     },
     {
       "title": "Search images",
@@ -463,7 +469,7 @@
       "title": "List files",
       "source": "https://docs.zocomputer.com/tools/list-directory",
       "path": "tools/list-directory.md",
-      "sha256": "27b5cf32566c708f74b419459aa94cc14c402e9040fbfe69991d0a50a50b7d82"
+      "sha256": "9d3664b9a30b77b7850965c7d0eba4d1e3113625f06025cc8d0b99b85c82f0bf"
     },
     {
       "title": "List personas",
@@ -535,7 +541,13 @@
       "title": "Read file",
       "source": "https://docs.zocomputer.com/tools/read-file",
       "path": "tools/read-file.md",
-      "sha256": "c5734fa4874c884f702c7fadfc42216a5b92b8f45d8c5200dced092f7b95b75d"
+      "sha256": "8737625f7aa803d8e3541b2874bb68ecae2bf943b5fc39beb78ea224a991500f"
+    },
+    {
+      "title": "Read file conversation",
+      "source": "https://docs.zocomputer.com/tools/read-file-conversation-context",
+      "path": "tools/read-file-conversation-context.md",
+      "sha256": "e4ba8e9a0f73a5dadee1712b9423caa73517be9337566c8968dc70a39a820ba8"
     },
     {
       "title": "Read webpage",
@@ -811,7 +823,7 @@
       "title": "Create file",
       "source": "https://docs.zocomputer.com/tools/write-file",
       "path": "tools/write-file.md",
-      "sha256": "68072f443d5a352c672c125ccf5c056de34ff0a229b00a7ac9b90565f28e749f"
+      "sha256": "4f25f127934a8968e37623450f1da7481c942e913b3fb32dc90f39b8d5976fde"
     },
     {
       "title": "Write space route",
