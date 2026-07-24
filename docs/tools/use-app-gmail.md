@@ -4,7 +4,7 @@ Work with the user's connected Gmail account.
 ## Parameters
 
 <ParamField type="string">
-  Exact tool name returned by `list_app_tools`.
+  Exact tool name returned by `list_app_tools`, including the Hostagent-native `gmail-get-message` action.
 </ParamField>
 
 <ParamField type="object">
@@ -12,7 +12,7 @@ Work with the user's connected Gmail account.
 </ParamField>
 
 <ParamField type="string">
-  Optional absolute path to save downloaded file. Falls back to configured\_props\["filename"].
+  Optional absolute path for the original message. `gmail-get-message` defaults to `/home/workspace/gmail-&lt;messageId&gt;.eml`; readable artifacts use the same basename.
 </ParamField>
 
 <ParamField type="string">
