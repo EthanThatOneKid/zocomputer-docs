@@ -21,6 +21,7 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 * [`Generate image`](/tools/generate-image) – Generate an image following the provided prompt using an AI image generation model.
 * [`Edit image`](/tools/edit-image) – Remix an existing image (or images) using an AI image model.
 * [`Generate video from image`](/tools/generate-video) – Generate a short, 5 second video from an input image using an AI video generation model.
+* [`Generate speech`](/tools/generate-speech) – Generate speech with a preset voice and save it in the workspace.
 * [`Generate diagram`](/tools/generate-d2-diagram) – Generate a block diagram, using D2.
 
 ## <Icon icon="globe" /> Web

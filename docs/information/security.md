@@ -29,14 +29,18 @@ Zo Computer currently uses the following infrastructure and service providers:
   * [Neon](https://neon.tech) `Data storage` Neon hosts PostgreSQL databases used internally by the Zo application.
   * [Upstash](https://upstash.com) `Data storage` Upstash hosts Redis databases used internally by the Zo application.
   * [Cloudflare](https://cloudflare.com) `No data access` Cloudflare authenticates and routes traffic to internal services and the user's personal server. No data is retained.
-  * [Vercel](https://vercel.com) `No data access` Vercel is used as a gateway for accessing open-source and proprietary LLM inference. Vercel hosts the non-application website (`www.zo.computer`).
+  * [Vercel](https://vercel.com/docs/ai-gateway) `Partial data access` Vercel routes requests to open-source and proprietary chat and media models through AI Gateway. The selected prompt and media inputs pass through the gateway. Vercel also hosts the non-application website (`www.zo.computer`).
 * `AI inference`
-  * [OpenAI](https://openai.com) `Partial data access` OpenAI's proprietary models are used for LLM inference and audio transcription.
+  * [OpenAI](https://openai.com) `Partial data access` OpenAI's proprietary models are used for LLM inference, image generation, and audio transcription.
   * [Anthropic](https://anthropic.com) `Partial data access` Anthropic's proprietary models are used for LLM inference.
-  * [Google Cloud Vertex AI](https://cloud.google.com/vertex-ai) `Partial data access` Google's proprietary models are used for LLM inference.
+  * [Google](https://ai.google.dev/) and [Google Cloud Vertex AI](https://cloud.google.com/vertex-ai) `Partial data access` Google's proprietary models are used for LLM, image, and video inference.
   * [Fireworks](https://fireworks.ai) `Partial data access` Open-source models such as DeepSeek, Kimi, and GLM, which are trained in China, may be served from Fireworks's US-based servers (via the Vercel AI gateway) when selected by the user for LLM inference.
-  * [AssemblyAI](https://assemblyai.com) `No data access` AssemblyAI's proprietary models are used for transcribing audio.
-  * [FAL](https://fal.ai) `No data access` Open-source and proprietary models served on FAL are used for generative AI media inference.
+  * [ByteDance](https://www.bytedance.com/en/) `Partial data access` ByteDance's proprietary models are used for image and video inference through Vercel AI Gateway.
+  * [Recraft](https://www.recraft.ai/) `Partial data access` Recraft's proprietary models are used for image inference through Vercel AI Gateway.
+  * [xAI](https://x.ai/) `Partial data access` xAI's proprietary models are used for video and speech inference through Vercel AI Gateway.
+  * [Alibaba Cloud](https://www.alibabacloud.com/) `Partial data access` Alibaba Cloud's proprietary models are used for video inference through Vercel AI Gateway.
+  * [AssemblyAI](https://assemblyai.com) `Partial data access` AssemblyAI's proprietary models are used for transcribing audio selected by the user.
+  * [FAL](https://fal.ai) `Partial data access` Open-source and proprietary models served on FAL are used for generative AI media inference and receive the prompt and media inputs selected for the request.
 * `Agent tools`
   * [Tavily](https://tavily.com) `No data access` When Zo searches the web, Tavily may be used to provide search results.
   * [Steel](https://steel.dev) `No data access` When Zo operates a web browser, Steel provides the underlying browser infrastructure.
@@ -53,7 +57,9 @@ Zo Computer currently uses the following infrastructure and service providers:
 
 “Partial data” means snippets of files or entire files may be selected as context for AI inference requests. "Data storage" refers to the storage of user data files and data related to the user's account. "No data access" means the service provider never has access to user data files.
 
-We have no infrastructure, service providers, or investors based in China.
+For media tools, Zo sends only the prompt, settings, and attachments needed for the selected operation to the inference gateway and model provider. Generated images, video, audio, and transcripts are stored in the host workspace and follow its access controls, regardless of which member started the request.
+
+Vercel AI Gateway may route a selected model to the provider shown on its model page. [Vercel's AI Product Terms](https://vercel.com/legal/ai-product-terms) incorporate provider-specific terms. Zo does not promise end-to-end zero retention or provider no-prompt-training for media inference: [support for those Gateway controls](https://vercel.com/docs/ai-gateway/security-and-compliance/zdr) varies by provider and model. Do not send sensitive personal information through media tools. Review the selected provider's terms before sending other confidential media.
 
 ## Our AI system components.
 
@@ -75,6 +81,8 @@ After processing, the LLM’s response is returned through the Zo agent back to 
 
 Zo Computer does not train models on user data or activity. Our long-term vision is to allow users to use and train their own open-weight models running on their own personal server.
 
+This describes Zo's own practice, not a separate guarantee about third-party inference providers. Their processing follows the terms described above.
+
 ## Vulnerability disclosures.
 
 Zo Computer welcomes feedback from security researchers to help improve our security. If you believe you have discovered a vulnerability, privacy issue, exposed data, or other security issues we want to hear from you.
@@ -89,7 +97,7 @@ This policy applies to Zo Computer and related digital assets owned, operated, o
 * Assets not related to Zo Computer, or not owned by Zo Computer Company, are out of scope.
   Vulnerabilities discovered or suspected in out-of-scope systems should be reported to the appropriate vendor or authority.
 
-### Our Commitments
+### Our commitments
 
 When working with us, according to this policy, you can expect us to:
 
@@ -98,7 +106,7 @@ When working with us, according to this policy, you can expect us to:
 * Work to remediate discovered vulnerabilities in a timely manner, within our operational constraints.
 * Extend Safe Harbor for your vulnerability research that is related to this policy.
 
-### Our Expectations
+### Our expectations
 
 In participating in our vulnerability disclosure program in good faith, we ask that you:
 
@@ -112,11 +120,11 @@ In participating in our vulnerability disclosure program in good faith, we ask t
 * You should only interact with test accounts you own or with explicit permission from the account holder.
 * Do not engage in extortion.
 
-### Official Channels
+### Official channels
 
 * Please report security issues via [security@zocomputer.com](mailto:security@zocomputer.com), providing all relevant information. The more details you provide, the easier it will be for us to triage and fix the issue.
 
-### Safe Harbor
+### Safe harbor
 
 When conducting vulnerability research, according to this policy, we consider this research conducted under this policy to be:
 

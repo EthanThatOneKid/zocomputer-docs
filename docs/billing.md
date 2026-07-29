@@ -11,12 +11,12 @@ Zo's [pricing](https://zo.computer/pricing) covers two things: your cloud comput
 
 ## Plans at a glance
 
-| Plan      | Price    | AI credits                                                   | Improved memory | Hosted services | Compute                      |
-| --------- | -------- | ------------------------------------------------------------ | --------------- | --------------- | ---------------------------- |
-| **Free**  | \$0      | Daily free-model usage; premium models with a payment method | Not included    | 1               | Limited, sleeps when idle    |
-| **Basic** | \$18/mo  | \$10/mo included                                             | Included        | 5               | Always-on, 4 CPU / 32 GB RAM |
-| **Pro**   | \$64/mo  | \$40/mo included                                             | Included        | 10              | 16 CPU / 128 GB RAM          |
-| **Ultra** | \$200/mo | \$100/mo included                                            | Included        | 50              | 64 CPU / 512 GB RAM          |
+| Plan      | Price    | AI credits                                          | Improved memory | Hosted services | Compute                      |
+| --------- | -------- | --------------------------------------------------- | --------------- | --------------- | ---------------------------- |
+| **Free**  | \$0      | Daily free-model usage; premium models with Credits | Not included    | 1               | Limited, sleeps when idle    |
+| **Basic** | \$18/mo  | \$10/mo included                                    | Included        | 5               | Always-on, 4 CPU / 32 GB RAM |
+| **Pro**   | \$64/mo  | \$40/mo included                                    | Included        | 10              | 16 CPU / 128 GB RAM          |
+| **Ultra** | \$200/mo | \$100/mo included                                   | Included        | 50              | 64 CPU / 512 GB RAM          |
 
 All plans include 100 GB of cloud storage, access to the [Zo MCP Server](/mcp-server), and [bringing your own API keys](/byok). Monthly paid plans add always-on compute, higher limits, included monthly AI credits, and connections for [coding agents](/claude-code) like Claude Code, Codex, and Gemini.
 
@@ -33,12 +33,16 @@ Paid plans keep your computer always-on, so [services](/services), [sites](/site
 
 ## Your AI
 
-Every plan includes Zo's built-in AI models. Free has two states:
+Every plan includes Zo's built-in AI models. Free has two media-billing states:
 
-* Without a payment method, Free includes free models with the current daily usage allowance.
-* With a working payment method, Free stays \$0/month and can use premium built-in models on pay as you go. Free resource limits still apply, and the computer can still sleep.
+* Without a positive Credits balance, Free includes daily allowances for basic chat and eligible image, video, and transcription requests.
+* With a positive Credits balance, Free stays \$0/month and uses metered billing for built-in media models. A payment method lets you buy Credits or enable auto top-up; it does not replace Credits. Free resource limits still apply, and the computer can still sleep.
 
-Premium built-in AI usage is charged at-cost, using the same rates we pay our underlying AI model providers. Zo uses any applicable free allowance first, then applies AI credits before charging your payment method. Monthly plans include credits up front and higher computer limits, but they are not the only way to use premium models.
+Chat usage follows the listed token rates. Media generation and transcription use fixed prices, and a model can have a different price for each supported request shape. On Free accounts, a positive Credits balance takes precedence and uses metered billing. Without positive Credits, only eligible media shapes consume the matching daily allowance: 3 image requests, 1 video request, and 1 transcription per workspace. Speech generation is paid-only when available.
+
+Zo records a paid media charge only after it validates and stores the result in your workspace. Failed or cancelled work that never produces a stored result isn't charged. A free allowance is consumed when Zo admits the request and is not restored automatically if generation later fails. Monthly plans include credits up front and higher computer limits, but they are not the only way to use premium models.
+
+Paid media currently requires exactly one active workspace subscription on the billing account to carry Zo's media rate. If more than one does, Zo blocks paid media rather than risk duplicate charges. Eligible daily free requests remain available without a positive Credits balance.
 
 <Tip>
   If you already pay for Claude, ChatGPT, or Gemini, you can [bring your own API

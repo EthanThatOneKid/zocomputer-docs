@@ -1,7 +1,7 @@
 {
   "source_url": "https://docs.zocomputer.com/llms-full.txt",
   "output_dir": "docs",
-  "count": 140,
+  "count": 141,
   "items": [
     {
       "title": "API",
@@ -19,7 +19,7 @@
       "title": "Get the full model catalog",
       "source": "https://docs.zocomputer.com/api-reference/ai/get-the-full-model-catalog",
       "path": "api-reference/ai/get-the-full-model-catalog.md",
-      "sha256": "ce85413dfa5e040179de724b4943b669d0ec2db271fb1540c0a8e53f74ec4756"
+      "sha256": "ea64e06a32bd86459480abfc71d15e814195a860d32f00d58cc4ea9ed074f78f"
     },
     {
       "title": "List available models",
@@ -43,7 +43,7 @@
       "title": "Subscription",
       "source": "https://docs.zocomputer.com/billing",
       "path": "billing.md",
-      "sha256": "95391137b86fee57f0e00672f35f69c0ecfbd4737f8227b5b172a0cb389e84ee"
+      "sha256": "48f443f2b98c47851e3a1a1a08b4daf347645e0877f40ddd77dae142906cdd9b"
     },
     {
       "title": "Browser use",
@@ -115,7 +115,7 @@
       "title": "Security",
       "source": "https://docs.zocomputer.com/information/security",
       "path": "information/security.md",
-      "sha256": "2856aa744a43003c14e9d3b42cf7c5ad2a82085481dd51515648ab29d22ab8e6"
+      "sha256": "dc3cd2da70473c7941532b37edf3eea5fc71e642f67b3564de477bbdd9421c54"
     },
     {
       "title": "Terms of Service",
@@ -199,7 +199,7 @@
       "title": "Tools",
       "source": "https://docs.zocomputer.com/tools",
       "path": "tools.md",
-      "sha256": "afb3ab2f910960a6f5c7b22c9633cb3337e2e4db274d1fdf13c852a8f38597d3"
+      "sha256": "d9ce85a307d33953c39ac9cf9f22328ce27804e2289a957952d1687fa97d3c98"
     },
     {
       "title": "Tools",
@@ -374,6 +374,12 @@
       "source": "https://docs.zocomputer.com/tools/generate-image",
       "path": "tools/generate-image.md",
       "sha256": "2f830a2bf17ed850fec43742463444d8a6828686be04109b31b55385b452280e"
+    },
+    {
+      "title": "Generate speech",
+      "source": "https://docs.zocomputer.com/tools/generate-speech",
+      "path": "tools/generate-speech.md",
+      "sha256": "665a37f21c37530ae1ec25c937c9c37455cfe6e0819792464bc8683617a3375f"
     },
     {
       "title": "Generate video from image",
