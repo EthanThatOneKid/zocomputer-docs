@@ -571,7 +571,7 @@
       "title": "Create service",
       "source": "https://docs.zocomputer.com/tools/register-user-service",
       "path": "tools/register-user-service.md",
-      "sha256": "31d3f165fe49c6d1575b366d86dd369b7d5751f3f285bc53f3ba23af904af7c7"
+      "sha256": "e84bbfeb76899f445cf6f1fcbae32dc91efbaa6c33dbce195abe3c41e0a8733f"
     },
     {
       "title": "Restart space",
@@ -697,7 +697,7 @@
       "title": "Update service",
       "source": "https://docs.zocomputer.com/tools/update-user-service",
       "path": "tools/update-user-service.md",
-      "sha256": "25b5023f1ff37a2f8cdfb4b065d3ed3f427984ddc02fbc7e3b0d76646d29e474"
+      "sha256": "18b5ae7ae7b791b1e1bb59d0a776b04b12d5ded50f63ed4e287c466b3fa4fbb5"
     },
     {
       "title": "Update user settings",

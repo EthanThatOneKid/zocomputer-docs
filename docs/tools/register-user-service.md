@@ -14,7 +14,7 @@ Use "process" for anything that doesn't need to be reached from outside the host
 Visibility (HTTP only):
 
 * public (default): reachable at \*.zocomputer.io without auth
-* private: reachable at \*.zo.computer, requires the owner to sign in. Private services are gated by a feature flag and not available on all accounts.
+* private: reachable at \*.zo.computer, requires the owner to sign in.
 * TCP services are always public. Process services have no endpoint.
 
 ## Parameters

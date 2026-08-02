@@ -12,7 +12,7 @@ Service modes:
 Visibility (HTTP only):
 
 * public: reachable at \*.zocomputer.io without auth
-* private: reachable at \*.zo.computer, requires the owner to sign in. Private services are gated by a feature flag.
+* private: reachable at \*.zo.computer, requires the owner to sign in.
 * TCP services are always public. Process services have no endpoint.
 
 You can change a service's mode in place instead of deleting and recreating it.
