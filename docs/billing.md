@@ -22,7 +22,7 @@ All plans include 100 GB of cloud storage, access to the [Zo MCP Server](/mcp-se
 
 ## Your computer
 
-During the Free plan's 14-day computer trial:
+During the Free Trial plan's 14-day computer trial:
 
 * Your computer goes to sleep when idle. When you start Zo, you may see the boot screen.
 * You'll get plenty of free storage, but limited CPU, memory, and [hosted services](/services).
@@ -37,7 +37,7 @@ Paid plans keep your computer always-on, so [services](/services), [sites](/site
 
 Every plan includes Zo's built-in AI models.
 
-On the Free plan, Zo-funded chat includes 14 days of limited AI usage from the time your workspace is created.
+On the Free Trial plan, Zo-funded chat includes 14 days of limited AI usage from the time your workspace is created.
 
 When you reach a limit, the app shows whether more trial usage will become available and links to your plan options. After 14 days, Zo-funded chat ends. Sites and Services stop when the computer stops, but your files remain retrievable through recovery sessions or a support-prepared ZIP archive. Credits or [your own API keys](/byok) can fund AI while a full computer is running, but only a paid plan restores ordinary computer access after it stops. A positive Credits balance uses metered billing before the trial allowance.
 

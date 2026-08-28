@@ -43,7 +43,7 @@
       "title": "Subscription",
       "source": "https://docs.zocomputer.com/billing",
       "path": "billing.md",
-      "sha256": "ac8353ecdbc8a2b8020e77061369bbc87b2f6c7b773c5f14842e08214ca2917e"
+      "sha256": "7ceaf6dadb44167f80167c8f4ff0ea32840fc085d3bbf491b6f61f7b8e9d05eb"
     },
     {
       "title": "Browser use",
@@ -559,7 +559,7 @@
       "title": "Read webpage",
       "source": "https://docs.zocomputer.com/tools/read-webpage",
       "path": "tools/read-webpage.md",
-      "sha256": "7b54cbb3ca04c03e86fdc2b43e4d928d820aa9e00c91327136dac9a259c0d762"
+      "sha256": "461e9ae7751aa91b99a8037bf21577ef6a7d6c819d786b7ef72c012b7b0ecb07"
     },
     {
       "title": "Redo space change",
@@ -583,7 +583,7 @@
       "title": "Save webpage",
       "source": "https://docs.zocomputer.com/tools/save-webpage",
       "path": "tools/save-webpage.md",
-      "sha256": "25d733fe9ce391d22857c74f9fed5021252b33071a9788e4b2e367611cc406af"
+      "sha256": "21efa7590ed0f25e7fc9721d102c1d4e9666c1db135a277a569622b530a4f8cc"
     },
     {
       "title": "Search app catalog",
