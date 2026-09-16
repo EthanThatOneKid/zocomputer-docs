@@ -1,7 +1,7 @@
 
 Remix an existing image (or images) using an AI image model.
 
-AI image editing on Zo Computer is powered by Google [Nano Banana](https://deepmind.google/models/gemini-image/flash/), which excels at maintaining character consistency for rich storytelling, or OpenAI [GPT Image 2](https://openai.com/index/introducing-chatgpt-images-2-0/) for higher-quality edits at \~3× the cost. The default is set per-user in AI settings.
+Image editing requires a compatible workspace image model, such as Google [Nano Banana](https://deepmind.google/models/gemini-image/flash/). OpenAI image editing is currently unavailable.
 
 ## Parameters
 
@@ -18,5 +18,5 @@ AI image editing on Zo Computer is powered by Google [Nano Banana](https://deepm
 </ParamField>
 
 <ParamField type="string">
-  Which model to use. Defaults to "" (empty), which routes through the user's configured default image provider in AI settings. Pass "google" (Nano Banana — fast and cheap) or "openai" (GPT Image 2 — \~3× more expensive but better edit fidelity and legible rendered text) to override on this call only; use the override when the user explicitly asks for a specific provider or a level of quality only one of them satisfies.
+  Deprecated provider alias. Leave empty to use a compatible workspace default, or pass "google". OpenAI image editing is currently unavailable.
 </ParamField>

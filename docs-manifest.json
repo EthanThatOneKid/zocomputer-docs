@@ -331,7 +331,7 @@
       "title": "Edit image",
       "source": "https://docs.zocomputer.com/tools/edit-image",
       "path": "tools/edit-image.md",
-      "sha256": "30119002a2cda048622144f251268edceca9b6c18d05023a821c35c5f4688670"
+      "sha256": "37401fa3d929757991a0c7e01f19a9fc1425a8f45900336e58d461782f902a72"
     },
     {
       "title": "Edit persona",
@@ -373,7 +373,7 @@
       "title": "Generate image",
       "source": "https://docs.zocomputer.com/tools/generate-image",
       "path": "tools/generate-image.md",
-      "sha256": "2f830a2bf17ed850fec43742463444d8a6828686be04109b31b55385b452280e"
+      "sha256": "e610949630dbae569608a3a9a1564665fdfc05e47cd1d87f0b014d9d765d4d65"
     },
     {
       "title": "Generate speech",

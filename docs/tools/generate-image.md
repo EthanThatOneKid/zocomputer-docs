@@ -1,7 +1,7 @@
 
 Generate an image following the provided prompt using an AI image generation model.
 
-AI image generation on Zo Computer is powered by Google [Nano Banana](https://deepmind.google/models/gemini-image/flash/) or OpenAI [GPT Image 2](https://openai.com/index/introducing-chatgpt-images-2-0/). The default is set per-user in AI settings.
+AI image generation uses the workspace default from AI settings. The OpenAI provider alias selects [GPT Image 2.5 Flare](https://openai.com/index/introducing-chatgpt-images-2-5/), which requires Gateway media access.
 
 ## Parameters
 
@@ -26,5 +26,5 @@ AI image generation on Zo Computer is powered by Google [Nano Banana](https://de
 </ParamField>
 
 <ParamField type="string">
-  Which model to use. Defaults to "" (empty), which routes through the user's configured default image provider in AI settings. Pass "google" (Nano Banana — fast and cheap) or "openai" (GPT Image 2 — \~3× more expensive but better prompt adherence and legible rendered text) to override on this call only; use the override when the user explicitly asks for a specific provider or a level of quality only one of them satisfies.
+  Deprecated provider alias. Leave empty for the workspace default, or pass "google" or "openai". The OpenAI alias selects GPT Image 2.5 Flare and requires Gateway media access.
 </ParamField>
