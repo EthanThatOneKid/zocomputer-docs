@@ -66,6 +66,8 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 * [`Connect Telegram`](/tools/connect-telegram) – Generate a pairing code to connect the user's Telegram account to Zo.
 * [`List app tools`](/tools/list-app-tools) – List all available tools and configured props for an app connected by the user.
 * [`Connect integration`](/tools/connect-integration) – Surface an inline Connect button so the user can authorize an OAuth integration.
+* [`Open MCP App`](/tools/open-mcp-app) – Open an interactive MCP App inside web chat.
+* [`Use MCP App`](/tools/call-mcp-tool) – Call a server tool through an open MCP App.
 * [`Search app catalog`](/tools/search-app-catalog) – Search Pipedream's full catalog of 1000+ app integrations by keyword.
 * [`Use integration`](/tools/use-integration) – Run an action on a connected long-tail Pipedream catalog app.
 * [`Use Gmail`](/tools/use-app-gmail) – Work with the user's connected Gmail account.

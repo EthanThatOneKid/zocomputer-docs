@@ -1,7 +1,7 @@
 {
   "source_url": "https://docs.zocomputer.com/llms-full.txt",
   "output_dir": "docs",
-  "count": 141,
+  "count": 143,
   "items": [
     {
       "title": "API",
@@ -199,7 +199,7 @@
       "title": "Tools",
       "source": "https://docs.zocomputer.com/tools",
       "path": "tools.md",
-      "sha256": "d9ce85a307d33953c39ac9cf9f22328ce27804e2289a957952d1687fa97d3c98"
+      "sha256": "ed2240c73bf39b4e12cb6415b2592b5bd1244ff70a95902410e1e4a828fdc746"
     },
     {
       "title": "Tools",
@@ -212,6 +212,12 @@
       "source": "https://docs.zocomputer.com/tools/bash",
       "path": "tools/bash.md",
       "sha256": "5dda36955738242e104647140853ce8a969972662d4d17e47ff1f139494ffbc7"
+    },
+    {
+      "title": "Use MCP App",
+      "source": "https://docs.zocomputer.com/tools/call-mcp-tool",
+      "path": "tools/call-mcp-tool.md",
+      "sha256": "2ec42d92158dfe55d7fa0bc94759f946fa716b08dc9fb9334332fc83c1415cde"
     },
     {
       "title": "Connect integration",
@@ -524,6 +530,12 @@
       "source": "https://docs.zocomputer.com/tools/maps-search",
       "path": "tools/maps-search.md",
       "sha256": "4b3952130265328c6a8ebdb0021f95b5763da91ea4bbc3b1ca688468cb8165d9"
+    },
+    {
+      "title": "Open MCP App",
+      "source": "https://docs.zocomputer.com/tools/open-mcp-app",
+      "path": "tools/open-mcp-app.md",
+      "sha256": "b2a52fe1b8799d36792aeab3b9eff0fcc03b898b1f03187f1986e61d8c47c9bb"
     },
     {
       "title": "Open webpage",
