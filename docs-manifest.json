@@ -1,7 +1,7 @@
 {
   "source_url": "https://docs.zocomputer.com/llms-full.txt",
   "output_dir": "docs",
-  "count": 143,
+  "count": 146,
   "items": [
     {
       "title": "API",
@@ -199,7 +199,7 @@
       "title": "Tools",
       "source": "https://docs.zocomputer.com/tools",
       "path": "tools.md",
-      "sha256": "ed2240c73bf39b4e12cb6415b2592b5bd1244ff70a95902410e1e4a828fdc746"
+      "sha256": "a0b579671e19defb75e68719e88401e7a4e238ab02b829d6d572ea6b4c600118"
     },
     {
       "title": "Tools",
@@ -526,6 +526,12 @@
       "sha256": "08b5befc72e8030d09f876eb1ce97c35d9e57d7d8f9523144cebf59a442e2fe7"
     },
     {
+      "title": "Load skill",
+      "source": "https://docs.zocomputer.com/tools/load-skill",
+      "path": "tools/load-skill.md",
+      "sha256": "b9fbd222fceead6fdfbc419e3db6651d27e33cddd7b7494224375a2453048853"
+    },
+    {
       "title": "Search Google Maps",
       "source": "https://docs.zocomputer.com/tools/maps-search",
       "path": "tools/maps-search.md",
@@ -568,6 +574,12 @@
       "sha256": "e4ba8e9a0f73a5dadee1712b9423caa73517be9337566c8968dc70a39a820ba8"
     },
     {
+      "title": "Read skill reference",
+      "source": "https://docs.zocomputer.com/tools/read-skill-reference",
+      "path": "tools/read-skill-reference.md",
+      "sha256": "f8cca177ded1acb9bc1cc1a7c9da58e2e4263e660fa8793ac9fc5a081df45234"
+    },
+    {
       "title": "Read webpage",
       "source": "https://docs.zocomputer.com/tools/read-webpage",
       "path": "tools/read-webpage.md",
@@ -602,6 +614,12 @@
       "source": "https://docs.zocomputer.com/tools/search-app-catalog",
       "path": "tools/search-app-catalog.md",
       "sha256": "19ebbe35f4520f11cc54510ea0709bc922bc02f73ba051292814b948e294574b"
+    },
+    {
+      "title": "Find skills",
+      "source": "https://docs.zocomputer.com/tools/search-skills",
+      "path": "tools/search-skills.md",
+      "sha256": "a9aa82ab0648c24adabbb38611bd5bb397b6804e0de89a364d236d2e25d5e576"
     },
     {
       "title": "Send Discord message",

@@ -104,6 +104,12 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 * [`Edit automation`](/tools/edit-automation) – Edit an existing automation's title, instruction, schedule, preferred communication channel, or model.
 * [`Delete automation`](/tools/delete-automation) – Delete an existing automation.
 
+## <Icon icon="book-open" /> Skills
+
+* [`Load skill`](/tools/load-skill) – Load canonical platform instructions for this task.
+* [`Read skill reference`](/tools/read-skill-reference) – Read a listed reference from a loaded platform skill.
+* [`Find skills`](/tools/search-skills) – Discover authorized workspace skills by name, intent or paginated listing.
+
 ## <Icon icon="user" /> Personalization
 
 * [`Create persona`](/tools/create-persona) – Create a new persona for Zo.
