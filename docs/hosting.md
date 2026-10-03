@@ -5,12 +5,12 @@ Your Zo is a personal server, so there's more than one way to put things online 
 
 ## At a glance
 
-| You want to...                                                 | Use                   | URL pattern                                             |
-| -------------------------------------------------------------- | --------------------- | ------------------------------------------------------- |
-| Add a page, API, or widget at a single stable domain           | [Space](/spaces)      | `yourhandle.zo.space`                                   |
-| Build a full website project that lives in a folder on your Zo | [Sites](/sites)       | `sitename-yourhandle.zocomputer.io`                     |
-| Run a long-running program (server, database, bot, worker)     | [Services](/services) | `*.zocomputer.io` (public) or `*.zo.computer` (private) |
-| Share a folder of files with a link                            | [zo.pub](/zo-pub)     | `zo.pub/<your-handle>/...`                              |
+| You want to... | Use | URL pattern |
+| - | - | - |
+| Add a page, API, or widget at a single stable domain | [Space](/spaces) | `yourhandle.zo.space` |
+| Build a full website project that lives in a folder on your Zo | [Sites](/sites) | `sitename-yourhandle.zocomputer.io` |
+| Run a long-running program (server, database, bot, worker) | [Services](/services) | `*.zocomputer.io` (public) or `*.zo.computer` (private) |
+| Share a folder of files with a link | [zo.pub](/zo-pub) | `zo.pub/<your-handle>/...` |
 
 ## <Icon icon="orbit" /> Space
 

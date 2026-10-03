@@ -13,11 +13,11 @@ Bring your own API keys to use custom models in Zo. Connect keys from OpenAI-com
 
 ## Supported formats
 
-| Format    | Description               | Example providers                                                                                              |
-| --------- | ------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| OpenAI    | OpenAI-compatible APIs    | [OpenAI](https://platform.openai.com), [OpenRouter](https://openrouter.ai), [Together AI](https://together.ai) |
-| Anthropic | Anthropic-compatible APIs | [Anthropic](https://console.anthropic.com/docs/en/api/overview)                                                |
-| Groq      | Groq API                  | [Groq](https://groq.com)                                                                                       |
+| Format | Description | Example providers |
+| - | - | - |
+| OpenAI | OpenAI-compatible APIs | [OpenAI](https://platform.openai.com), [OpenRouter](https://openrouter.ai), [Together AI](https://together.ai) |
+| Anthropic | Anthropic-compatible APIs | [Anthropic](https://console.anthropic.com/docs/en/api/overview) |
+| Groq | Groq API | [Groq](https://groq.com) |
 
 <Info>
   Zo uses streaming and tools, so make sure your provider and model have support
@@ -26,12 +26,12 @@ Bring your own API keys to use custom models in Zo. Connect keys from OpenAI-com
 
 ## Configuration
 
-| Field    | Description                                              |
-| -------- | -------------------------------------------------------- |
-| Name     | Display name shown in the model picker                   |
-| Base URL | API endpoint (e.g., `https://api.openai.com/v1`)         |
-| API Key  | Your provider API key                                    |
-| Format   | API format: OpenAI, Anthropic, or Groq                   |
+| Field | Description |
+| - | - |
+| Name | Display name shown in the model picker |
+| Base URL | API endpoint (e.g., `https://api.openai.com/v1`) |
+| API Key | Your provider API key |
+| Format | API format: OpenAI, Anthropic, or Groq |
 | Model ID | The model identifier (e.g., `gpt-4o`, `claude-sonnet-4`) |
 
 ## Examples

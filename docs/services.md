@@ -55,14 +55,14 @@ A managed background process with no public endpoint. Zo starts it, keeps it run
 
 When you set up a service, Zo only needs a handful of settings:
 
-| Setting               | What it is                                                                                                                                                                              |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Label                 | A unique name for the service (lowercase and hyphens), e.g. `my-web-app`.                                                                                                               |
-| Mode                  | `http`, `tcp`, or `process`.                                                                                                                                                            |
-| Local port            | The port your service listens on. Required for `http` and `tcp`. Zo injects this as the `PORT` env var.                                                                                 |
-| Entrypoint            | The command to start your service, e.g. `bun run start` or `python3 app.py`. Optional. If omitted, Zo manages only the tunnel and you're responsible for starting the process yourself. |
-| Working directory     | The folder where the entrypoint runs. Defaults to `/home/workspace`.                                                                                                                    |
-| Environment variables | Any extra config your service needs.                                                                                                                                                    |
+| Setting | What it is |
+| - | - |
+| Label | A unique name for the service (lowercase and hyphens), e.g. `my-web-app`. |
+| Mode | `http`, `tcp`, or `process`. |
+| Local port | The port your service listens on. Required for `http` and `tcp`. Zo injects this as the `PORT` env var. |
+| Entrypoint | The command to start your service, e.g. `bun run start` or `python3 app.py`. Optional. If omitted, Zo manages only the tunnel and you're responsible for starting the process yourself. |
+| Working directory | The folder where the entrypoint runs. Defaults to `/home/workspace`. |
+| Environment variables | Any extra config your service needs. |
 
 A handful of port numbers are reserved for system use; if you pick one, Zo will let you know.
 

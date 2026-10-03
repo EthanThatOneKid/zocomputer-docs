@@ -11,12 +11,12 @@ Zo's [pricing](https://zo.computer/pricing) covers two things: your cloud comput
 
 ## Plans at a glance
 
-| Plan      | Price    | AI credits                                        | Improved memory | Hosted services | Compute                      |
-| --------- | -------- | ------------------------------------------------- | --------------- | --------------- | ---------------------------- |
-| **Free**  | \$0      | 14-day free AI trial; premium models with Credits | Not included    | 1 during trial  | 14-day trial; recovery only  |
-| **Basic** | \$18/mo  | \$10/mo included                                  | Included        | 5               | Always-on, 4 CPU / 32 GB RAM |
-| **Pro**   | \$64/mo  | \$40/mo included                                  | Included        | 10              | 16 CPU / 128 GB RAM          |
-| **Ultra** | \$200/mo | \$100/mo included                                 | Included        | 50              | 64 CPU / 512 GB RAM          |
+| Plan | Price | AI credits | Improved memory | Hosted services | Compute |
+| - | - | - | - | - | - |
+| **Free** | \$0 | 14-day free AI trial; premium models with Credits | Not included | 1 during trial | 14-day trial; recovery only |
+| **Basic** | \$18/mo | \$10/mo included | Included | 5 | Always-on, 4 CPU / 32 GB RAM |
+| **Pro** | \$64/mo | \$40/mo included | Included | 10 | 16 CPU / 128 GB RAM |
+| **Ultra** | \$200/mo | \$100/mo included | Included | 50 | 64 CPU / 512 GB RAM |
 
 All plans include 100 GB of cloud storage, access to the [Zo MCP Server](/mcp-server), and [bringing your own API keys](/byok). Monthly paid plans add always-on compute, higher limits, included monthly AI credits, and connections for [coding agents](/claude-code) like Claude Code, Codex, and Gemini.
 

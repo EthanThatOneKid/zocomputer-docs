@@ -1,7 +1,7 @@
 {
   "source_url": "https://docs.zocomputer.com/llms-full.txt",
   "output_dir": "docs",
-  "count": 146,
+  "count": 145,
   "items": [
     {
       "title": "API",
@@ -37,25 +37,25 @@
       "title": "Automations",
       "source": "https://docs.zocomputer.com/automations",
       "path": "automations.md",
-      "sha256": "5ddb73d46dc7adf4da901dd5a7aa086eac33a9be01586482a8cc614446962299"
+      "sha256": "969b6dfc9b8ebd5a419b399121915706c968d3b2b0c7e865bba471a7cd841ebd"
     },
     {
       "title": "Subscription",
       "source": "https://docs.zocomputer.com/billing",
       "path": "billing.md",
-      "sha256": "7ceaf6dadb44167f80167c8f4ff0ea32840fc085d3bbf491b6f61f7b8e9d05eb"
+      "sha256": "abda8f4949ec1905932298df033f95bbe34a0e50fb3e8a9372d12b624e3ca25f"
     },
     {
       "title": "Browser use",
       "source": "https://docs.zocomputer.com/browser",
       "path": "browser.md",
-      "sha256": "4cad095369cbf199f60e8badfc158df7672821c1b14cfe77501b46b9f90b46bf"
+      "sha256": "84e78c925cac6bf0b5b3e389dbd1852353f4fc31dbc6abb3bd62b24eaba624bf"
     },
     {
       "title": "Bring your own LLM API",
       "source": "https://docs.zocomputer.com/byok",
       "path": "byok.md",
-      "sha256": "29ce66d7427e48f2d93e4bef8c63812088a2eeaf7655ef59d5b4d6db7efdb4f8"
+      "sha256": "ae36f4a38959a6c63c51723820241e645b6ce19cb10a773d9aedb8ae5d1ebe6f"
     },
     {
       "title": "Claude Code",
@@ -73,7 +73,7 @@
       "title": "Custom domains",
       "source": "https://docs.zocomputer.com/custom-domains",
       "path": "custom-domains.md",
-      "sha256": "e80971623bba2bd13d0ef802b90954f395a0c93feaee0526536877f279ae3a1d"
+      "sha256": "9b3ff677d7082800fab4a19654aca37acaed58a6cfb05a10aefa4fa6c4e6ec84"
     },
     {
       "title": "Desktop app",
@@ -97,7 +97,7 @@
       "title": "Hosting on Zo",
       "source": "https://docs.zocomputer.com/hosting",
       "path": "hosting.md",
-      "sha256": "cfa28ce5c4cfa2ee515929ddd379aab41a478eb642b5e626235e023d4e9be965"
+      "sha256": "c56596e142a8978ebba395b62cbe045ef7a8971139311b23b21069efb1935ad1"
     },
     {
       "title": "Contact",
@@ -133,7 +133,7 @@
       "title": "MCP Server",
       "source": "https://docs.zocomputer.com/mcp-server",
       "path": "mcp-server.md",
-      "sha256": "afd25cfd221e31e560892cb535750f10627ea16cc3beee2d97c7161d7b8dc40f"
+      "sha256": "f97fcc3033065525897c352c52114393abd1adce6010d3347ab1155a2a665863"
     },
     {
       "title": "Messaging Channels",
@@ -151,13 +151,13 @@
       "title": "Personas",
       "source": "https://docs.zocomputer.com/personas",
       "path": "personas.md",
-      "sha256": "580c67f8ee31a4943a024173f564680603770ae8b3edb3b26a49adcbadde50d1"
+      "sha256": "8588c419ac4bf1cad36631ece63338817f85d4b7c05b539dbe4cdf5b890f90cf"
     },
     {
       "title": "Services",
       "source": "https://docs.zocomputer.com/services",
       "path": "services.md",
-      "sha256": "eee5e9967bb92b1df9893fa8c5559ee1c4c32b42d84b624a473e716cfb1d7bde"
+      "sha256": "3a45d24aa0f9c819047357602f8c989c17b0af2cee0becbb2ddac13e2c5513a7"
     },
     {
       "title": "Sites",
@@ -187,7 +187,7 @@
       "title": "Connect to your server",
       "source": "https://docs.zocomputer.com/ssh-zo",
       "path": "ssh-zo.md",
-      "sha256": "6f911339dcf7ce0917177bff2e6710c153326d07d19c65b973ad353f4336b1ca"
+      "sha256": "d13f52ed8285a8b13a207452c2f85dc97156db07fa83854208de0b36d7fe0c16"
     },
     {
       "title": "Sync files",
@@ -199,7 +199,7 @@
       "title": "Tools",
       "source": "https://docs.zocomputer.com/tools",
       "path": "tools.md",
-      "sha256": "a0b579671e19defb75e68719e88401e7a4e238ab02b829d6d572ea6b4c600118"
+      "sha256": "af63def79dc88f5031f2ac4a5674a71593a466ce9f816ddc51a6fabbd8bd7704"
     },
     {
       "title": "Tools",
@@ -325,13 +325,7 @@
       "title": "Edit file",
       "source": "https://docs.zocomputer.com/tools/edit-file",
       "path": "tools/edit-file.md",
-      "sha256": "d8046ebb474575006dc31b4c4186c9bffbdab65e94b2c65c011cb849c4edb04c"
-    },
-    {
-      "title": "Edit file fast",
-      "source": "https://docs.zocomputer.com/tools/edit-file-llm",
-      "path": "tools/edit-file-llm.md",
-      "sha256": "7b72a60616da4c07804cb6a30ba922a9765d0d4aebd5ed6bc6e5d7698b11db67"
+      "sha256": "0bdbdb68a59f16f715ac1cb97a0fc033d4e1df62108b5bc7aeea08b85714fd7a"
     },
     {
       "title": "Edit image",
@@ -355,7 +349,7 @@
       "title": "Edit space route",
       "source": "https://docs.zocomputer.com/tools/edit-space-route",
       "path": "tools/edit-space-route.md",
-      "sha256": "b853d106c9983543ccfde2aa68db27b1fa9ca40977e0be00025dab863abdd9a8"
+      "sha256": "15209e627526e84c037d5474ae210bc1f719a0b235fdfbc732b97d0599332500"
     },
     {
       "title": "Find file conversations",
@@ -865,7 +859,7 @@
       "title": "Write space route",
       "source": "https://docs.zocomputer.com/tools/write-space-route",
       "path": "tools/write-space-route.md",
-      "sha256": "8a9a4e1a4991bf9dd794f21bf5077fa6a0379ec406e87f663c554ee33e006e67"
+      "sha256": "60aed96974d2628ea59aa3ed6ef4dec59093560136b6d3d4505c15c32b3e42d0"
     },
     {
       "title": "Search X",
@@ -877,7 +871,7 @@
       "title": "zo.pub",
       "source": "https://docs.zocomputer.com/zo-pub",
       "path": "zo-pub.md",
-      "sha256": "d8b992bd7e8a99f6c25bc151cda8239ac2ca692fda303a2eed16a38112aa7962"
+      "sha256": "85a654e190f0ecd83afdab9a43760f48904958183bfd9d7a138a6952ef2978b3"
     }
   ]
 }

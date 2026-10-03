@@ -9,7 +9,6 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 
 * [`Create file`](/tools/write-file) – Create a new file or rewrite an existing one with the provided content.
 * [`Edit file`](/tools/edit-file) – Edit a text file using a sequence of precise edit operations.
-* [`Edit file fast`](/tools/edit-file-llm) – Merge a large or fuzzy rewrite into a text file using a fast apply LLM.
 * [`Read file`](/tools/read-file) – Read a file from the computer.
 * [`List files`](/tools/list-directory) – Directory listing tool that shows files and subdirectories in a tree structure, helping you explore and understand the project organization.
 * [`Search files`](/tools/grep-search) – Search files by content or filename using ripgrep.
@@ -129,7 +128,7 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 
 * [`Read from space`](/tools/get-space-route) – Get a space route by path, including its source code.
 * [`Write space route`](/tools/write-space-route) – Create a new route or fully rewrite an existing one in the user's zo.space site.
-* [`Edit space route`](/tools/edit-space-route) – Edit an existing route's code by supplying only the changed sections.
+* [`Edit space route`](/tools/edit-space-route) – Edit an existing route's code with exact edit operations, the same ones `edit_file` uses.
 * [`Delete from space`](/tools/delete-space-route) – Delete a route from the user's zo.space site.
 * [`View space`](/tools/list-space-routes) – List all routes in the user's zo.space site.
 * [`Undo space change`](/tools/undo-space-route) – Undo the last change to a space route, restoring the previous version.

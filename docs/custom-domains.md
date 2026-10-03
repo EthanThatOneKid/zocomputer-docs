@@ -31,8 +31,8 @@ The entire process typically completes within 15 minutes after you've configured
   <Step title="Configure DNS">
     Add a CNAME record in your domain's DNS settings:
 
-    | Type  | Name                           | Target                |
-    | ----- | ------------------------------ | --------------------- |
+    | Type | Name | Target |
+    | - | - | - |
     | CNAME | `blog` (or `@` for subdomains) | `cname.zocomputer.io` |
 
     <Tip>
@@ -49,12 +49,12 @@ The entire process typically completes within 15 minutes after you've configured
 
 Your custom domain goes through these states:
 
-| Status        | Description                                       |
-| ------------- | ------------------------------------------------- |
-| Pending CNAME | Waiting for you to add the CNAME record           |
-| Pending SSL   | CNAME verified, TLS certificate being provisioned |
-| Active        | Domain is live and serving traffic                |
-| Error         | Something went wrong (check DNS configuration)    |
+| Status | Description |
+| - | - |
+| Pending CNAME | Waiting for you to add the CNAME record |
+| Pending SSL | CNAME verified, TLS certificate being provisioned |
+| Active | Domain is live and serving traffic |
+| Error | Something went wrong (check DNS configuration) |
 
 You can click **Verify now** to manually trigger a verification check.
 
@@ -64,12 +64,12 @@ You can click **Verify now** to manually trigger a verification check.
 
 * **Plan limits**: The number of custom domains you can add depends on your plan:
 
-  | Plan  | Custom Domains |
-  | ----- | -------------- |
-  | Free  | 0              |
-  | Basic | 3              |
-  | Pro   | 5              |
-  | Ultra | 10             |
+  | Plan | Custom Domains |
+  | - | - |
+  | Free | 0 |
+  | Basic | 3 |
+  | Pro | 5 |
+  | Ultra | 10 |
 
 * **One domain per service**: Each custom domain can only point to one service at a time. You can transfer a domain to a different service without re-verification.
 

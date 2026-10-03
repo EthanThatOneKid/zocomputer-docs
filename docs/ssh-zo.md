@@ -70,14 +70,14 @@ Open the Sites page in your Zo and navigate to the Services tab.
 
 Click **"Add service"** to create a new service and fill in the details below:
 
-|                       |                             |
-| --------------------- | --------------------------- |
-| Label                 | `ssh`                       |
-| Local port            | `2222`                      |
-| Type                  | `tcp`                       |
-| Entrypoint            | `/usr/sbin/sshd -D -p 2222` |
-| Working directory     | Leave empty                 |
-| Environment variables | None                        |
+| | |
+| - | - |
+| Label | `ssh` |
+| Local port | `2222` |
+| Type | `tcp` |
+| Entrypoint | `/usr/sbin/sshd -D -p 2222` |
+| Working directory | Leave empty |
+| Environment variables | None |
 
 When your SSH service is up and running, take note of the **Host** and **Port**.
 

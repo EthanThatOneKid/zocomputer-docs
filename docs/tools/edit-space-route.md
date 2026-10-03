@@ -1,7 +1,7 @@
 
-Edit an existing route's code by supplying only the changed sections.
+Edit an existing route's code with exact edit operations, the same ones `edit_file` uses.
 
-Preferred for edits to existing routes, including the built-in starter homepage at `/`. Use `// ... existing code ...` as a placeholder for unchanged regions; the partial edit is merged against the current route code.
+Preferred for edits to existing routes, including the built-in starter homepage at `/`. Match blocks are copied exactly from the current route code (see `get_space_route`).
 
 ## Parameters
 
@@ -9,12 +9,8 @@ Preferred for edits to existing routes, including the built-in starter homepage 
   Route path of the existing route to edit, e.g. '/about' or '/api/hello'.
 </ParamField>
 
-<ParamField type="string">
-  Partial edit — only the changed sections. Use '// ... existing code ...' for unchanged parts.
-</ParamField>
-
-<ParamField type="string">
-  A sentence describing what the edit does, to help disambiguate.
+<ParamField type="object[]">
+  Edit operations applied in order: replace\_block, insert\_after, insert\_before, delete\_block, append\_line. Same schema as `edit_file`.
 </ParamField>
 
 <ParamField type="string">

@@ -39,11 +39,11 @@ Visitors don't need a Zo account. They land on a clean listing page with the fil
 
 ## URLs
 
-| URL                                    | What it shows                 |
-| -------------------------------------- | ----------------------------- |
-| `zo.pub/<your-handle>`                 | Every folder you've published |
-| `zo.pub/<your-handle>/<folder>`        | One folder's files            |
-| `zo.pub/<your-handle>/<folder>/<file>` | A single file                 |
+| URL | What it shows |
+| - | - |
+| `zo.pub/<your-handle>` | Every folder you've published |
+| `zo.pub/<your-handle>/<folder>` | One folder's files |
+| `zo.pub/<your-handle>/<folder>/<file>` | A single file |
 
 ## Updating or removing a folder
 

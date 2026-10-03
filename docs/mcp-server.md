@@ -179,10 +179,10 @@ Zo is a full Linux server in the cloud with 50+ tools built in:
   <Accordion title="Other MCP clients">
     Zo's MCP endpoint uses standard HTTP transport. For any MCP-compatible client, use:
 
-    | Setting     | Value                                       |
-    | ----------- | ------------------------------------------- |
-    | Transport   | HTTP                                        |
-    | URL         | `https://api.zo.computer/mcp`               |
+    | Setting | Value |
+    | - | - |
+    | Transport | HTTP |
+    | URL | `https://api.zo.computer/mcp` |
     | Auth Header | `Authorization: Bearer zo_sk_your_key_here` |
 
     If your client only supports stdio transport (not HTTP), you can use [mcp-remote](https://www.npmjs.com/package/mcp-remote) as a bridge. Configure your client to run this command:

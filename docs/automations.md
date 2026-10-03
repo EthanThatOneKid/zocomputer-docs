@@ -9,14 +9,14 @@ To create one, just ask Zo: "every weekday at 8am, summarize my calendar and ema
 
 The best automations have two things in common: they want fresh context every time they run, and they save you from having to remember to ask. Some patterns that work well:
 
-| Pattern                    | What it does                                                                                                                     |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| **Morning briefings**      | A single message that pulls together your day before you open your laptop: calendar, unread email, overnight Slack, custom news. |
-| **Inbox-to-action triage** | Read incoming messages on a schedule and only ping you for the ones that need attention, with a draft attached.                  |
-| **Page watchers**          | Check a URL on a schedule and only message you when something has changed: a status page, a stock level, a price, a release.     |
-| **Routine reports**        | Query a data file or service, format the result, and post it where it belongs (file, email, Slack channel).                      |
-| **Habit nudges**           | Text yourself a prompt for the habit you're building, conditionally so the nudge doesn't feel robotic.                           |
-| **Follow-up drafts**       | Use your calendar and history to draft messages after meetings or events, before they pile up.                                   |
+| Pattern | What it does |
+| - | - |
+| **Morning briefings** | A single message that pulls together your day before you open your laptop: calendar, unread email, overnight Slack, custom news. |
+| **Inbox-to-action triage** | Read incoming messages on a schedule and only ping you for the ones that need attention, with a draft attached. |
+| **Page watchers** | Check a URL on a schedule and only message you when something has changed: a status page, a stock level, a price, a release. |
+| **Routine reports** | Query a data file or service, format the result, and post it where it belongs (file, email, Slack channel). |
+| **Habit nudges** | Text yourself a prompt for the habit you're building, conditionally so the nudge doesn't feel robotic. |
+| **Follow-up drafts** | Use your calendar and history to draft messages after meetings or events, before they pile up. |
 
 Example prompts you can copy and adapt:
 
@@ -50,10 +50,10 @@ You can edit the schedule later from the automation's row in the <Icon icon="clo
 
 By default, an automation runs quietly and writes its result to chat history. You decide how, and whether, it reaches you:
 
-| Delivery                                                    | When to use it                                                                                                |
-| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| **Email**, **SMS**, **Telegram**, **Discord**, or **Slack** | Active pings you actually want to see.                                                                        |
-| **No notification**                                         | Jobs that maintain state without bothering you: refresh a data export, save a daily snapshot, index a folder. |
+| Delivery | When to use it |
+| - | - |
+| **Email**, **SMS**, **Telegram**, **Discord**, or **Slack** | Active pings you actually want to see. |
+| **No notification** | Jobs that maintain state without bothering you: refresh a data export, save a daily snapshot, index a folder. |
 
 Often the most useful pattern is **conditional notifications**. Ask Zo to ping you only when something is true, and the automation becomes a filter instead of another inbox:
 
@@ -71,7 +71,7 @@ Every automation run is a real Zo conversation, saved to your chat history. Open
 
 ## What to keep in mind
 
-|            |                                                                                                                                                                                                                     |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Cost**   | Automations spend AI credits the same way chat does. A 5-minute schedule adds up. Use long intervals where you can, and reach for conditional notifications to avoid generating expensive output you'll never read. |
-| **Access** | Automations run with the same access as your chats: files, messages, every connected integration. Use a [persona](/personas) with a narrow tool set if you want to scope what an automation can do.                 |
+| | |
+| - | - |
+| **Cost** | Automations spend AI credits the same way chat does. A 5-minute schedule adds up. Use long intervals where you can, and reach for conditional notifications to avoid generating expensive output you'll never read. |
+| **Access** | Automations run with the same access as your chats: files, messages, every connected integration. Use a [persona](/personas) with a narrow tool set if you want to scope what an automation can do. |

@@ -1,7 +1,7 @@
 
 Create a new route or fully rewrite an existing one in the user's zo.space site.
 
-Use for new routes or full rewrites. For edits to an existing route, prefer `edit_space_route` — it sends only the changed sections instead of the entire file.
+Use for new routes or full rewrites. For edits to an existing route, prefer `edit_space_route` — it applies exact edit operations instead of resending the entire file.
 
 ## Parameters
 
