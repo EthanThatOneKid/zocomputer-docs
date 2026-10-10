@@ -553,7 +553,7 @@
       "title": "Publish site",
       "source": "https://docs.zocomputer.com/tools/publish-site",
       "path": "tools/publish-site.md",
-      "sha256": "2063e34d9e62e6ae7c5b3628c6260ff15ce4e4be142c493e757d777850443828"
+      "sha256": "205b2ef10e783559778cb4a69beca681f1441d4294072acc12d9b79d856883e9"
     },
     {
       "title": "Read file",
@@ -571,7 +571,7 @@
       "title": "Read skill reference",
       "source": "https://docs.zocomputer.com/tools/read-skill-reference",
       "path": "tools/read-skill-reference.md",
-      "sha256": "f8cca177ded1acb9bc1cc1a7c9da58e2e4263e660fa8793ac9fc5a081df45234"
+      "sha256": "fa5721a5bb2e6ac78164b07ad6a5fab7431b4963ec1a032a0f641cb069b18bf6"
     },
     {
       "title": "Read webpage",
