@@ -5,22 +5,22 @@ When called from a Discord conversation, the tool description includes the curre
 
 ## Parameters
 
-<ParamField type="string">
-  Discord channel, thread, or DM ID to read from. Omit to use the current conversation's channel/thread.
-</ParamField>
+**channel\_id** `string`
 
-<ParamField type="string">
-  Message ID — fetch messages around this message. Mutually exclusive with before/after.
-</ParamField>
+Discord channel, thread, or DM ID to read from. Omit to use the current conversation's channel/thread.
 
-<ParamField type="string">
-  Message ID — fetch messages older than this. Mutually exclusive with around/after.
-</ParamField>
+**around** `string`
 
-<ParamField type="string">
-  Message ID — fetch messages newer than this. Mutually exclusive with around/before.
-</ParamField>
+Message ID — fetch messages around this message. Mutually exclusive with before/after.
 
-<ParamField type="number">
-  Number of messages to return (1–100, default 50).
-</ParamField>
+**before** `string`
+
+Message ID — fetch messages older than this. Mutually exclusive with around/after.
+
+**after** `string`
+
+Message ID — fetch messages newer than this. Mutually exclusive with around/before.
+
+**limit** `number` (default: 50)
+
+Number of messages to return (1–100, default 50).

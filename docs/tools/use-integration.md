@@ -3,18 +3,18 @@ Run an action on a connected long-tail Pipedream catalog app.
 
 ## Parameters
 
-<ParamField type="string">
-  The catalog app slug (from `search_app_catalog`).
-</ParamField>
+**app\_slug** `string` *required*
 
-<ParamField type="string">
-  Exact action name returned by `list_app_tools`.
-</ParamField>
+The catalog app slug (from `search_app_catalog`).
 
-<ParamField type="object">
-  The configured props for the action (e.g., `{"collectionId": "abc123", "name": "New item"}`).
-</ParamField>
+**tool\_name** `string` *required*
 
-<ParamField type="string">
-  Optional email address to select a specific connected account.
-</ParamField>
+Exact action name returned by `list_app_tools`.
+
+**configured\_props** `object` *required*
+
+The configured props for the action (e.g., `{"collectionId": "abc123", "name": "New item"}`).
+
+**email** `string`
+
+Optional email address to select a specific connected account.

@@ -5,18 +5,18 @@ Automations run on a schedule with an instruction. The automation runs the instr
 
 ## Parameters
 
-<ParamField type="string">
-  RFC 5545 RRULE string (bare RRULE without DTSTART or TZID — system adds these automatically)
-</ParamField>
+**rrule** `string` *required*
 
-<ParamField type="string">
-  Clear, actionable instruction to execute when the automation triggers (include all necessary context)
-</ParamField>
+RFC 5545 RRULE string (bare RRULE without DTSTART or TZID — system adds these automatically)
 
-<ParamField type="string">
-  Optional preferred communication channel for routine messages: one of 'email', 'sms', 'telegram', 'slack', 'discord', or None. Failure alerts are emailed even when this is None
-</ParamField>
+**instruction** `string` *required*
 
-<ParamField type="string">
-  Optional model ID. Call tool\_docs('create\_automation') or tool\_docs('edit\_automation') to see available model IDs. User-specific BYOK model IDs in the format 'byok:your\_config\_id' are also accepted.
-</ParamField>
+Clear, actionable instruction to execute when the automation triggers (include all necessary context)
+
+**delivery\_method** `string`
+
+Optional preferred communication channel for routine messages: one of 'email', 'sms', 'telegram', 'slack', 'discord', or None. Failure alerts are emailed even when this is None
+
+**model** `string`
+
+Optional model ID. Call tool\_docs('create\_automation') or tool\_docs('edit\_automation') to see available model IDs. User-specific BYOK model IDs in the format 'byok:your\_config\_id' are also accepted.

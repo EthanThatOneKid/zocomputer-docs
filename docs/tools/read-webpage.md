@@ -5,10 +5,10 @@ For standard webpages, the content is saved as Markdown to Zo's workspace for th
 
 ## Parameters
 
-<ParamField type="string">
-  The URL of the webpage to visit.
-</ParamField>
+**url** `string` *required*
 
-<ParamField type="string">
-  Whether to use Zo's browser to visit the page (false by default).
-</ParamField>
+The URL of the webpage to visit.
+
+**use\_browser** `string`
+
+Whether to use Zo's browser to visit the page (false by default).

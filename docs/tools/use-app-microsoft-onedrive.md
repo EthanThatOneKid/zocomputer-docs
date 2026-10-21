@@ -3,18 +3,18 @@ Work with the user's connected Microsoft OneDrive account via Pipedream.
 
 ## Parameters
 
-<ParamField type="string">
-  Exact tool name returned by `list_app_tools`.
-</ParamField>
+**tool\_name** `string` *required*
 
-<ParamField type="object">
-  The configured props for the action (e.g., `{"fileId": "abc123"}` or `{"filePath": "/home/workspace/doc.pdf"}`)
-</ParamField>
+Exact tool name returned by `list_app_tools`.
 
-<ParamField type="string">
-  Optional absolute path to save downloaded file. Falls back to configured\_props\["filePath"].
-</ParamField>
+**configured\_props** `object` *required*
 
-<ParamField type="string">
-  Optional email address to select a specific connected account.
-</ParamField>
+The configured props for the action (e.g., `{"fileId": "abc123"}` or `{"filePath": "/home/workspace/doc.pdf"}`)
+
+**download\_path** `string`
+
+Optional absolute path to save downloaded file. Falls back to configured\_props\["filePath"].
+
+**email** `string`
+
+Optional email address to select a specific connected account.

@@ -5,14 +5,14 @@ When called from a Discord conversation, the tool description includes the curre
 
 ## Parameters
 
-<ParamField type="string">
-  What to list: "guilds", "channels", "threads", or "members" (default "channels").
-</ParamField>
+**resource** `string` (default: channels)
 
-<ParamField type="string">
-  Discord server ID. Required for channels/threads/members unless the current conversation is in a server (then it defaults to that server).
-</ParamField>
+What to list: "guilds", "channels", "threads", or "members" (default "channels").
 
-<ParamField type="number">
-  Max members to return when resource='members' (default 1000, max 5000). Ignored for other resources.
-</ParamField>
+**guild\_id** `string`
+
+Discord server ID. Required for channels/threads/members unless the current conversation is in a server (then it defaults to that server).
+
+**limit** `number` (default: 1000)
+
+Max members to return when resource='members' (default 1000, max 5000). Ignored for other resources.

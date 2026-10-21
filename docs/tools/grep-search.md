@@ -3,26 +3,26 @@ Search files by content or filename using ripgrep.
 
 ## Parameters
 
-<ParamField type="string">
-  Pattern or fragment to search.
-</ParamField>
+**query** `string` *required*
 
-<ParamField type="string">
-  USER | CONVERSATION | ALL\_CONVERSATIONS (default USER).
-</ParamField>
+Pattern or fragment to search.
 
-<ParamField type="boolean">
-  If true (default), search is case-sensitive; if false, case-insensitive.
-</ParamField>
+**location** `string` (default: USER)
 
-<ParamField type="string">
-  Glob pattern to exclude (e.g. 'node\_modules/\*\*').
-</ParamField>
+USER | CONVERSATION | ALL\_CONVERSATIONS (default USER).
 
-<ParamField type="string">
-  Glob pattern to include (e.g. '\*\*/\*.py').
-</ParamField>
+**case\_sensitive** `boolean` (default: true)
 
-<ParamField type="string">
-  'content' or 'filename'.
-</ParamField>
+If true (default), search is case-sensitive; if false, case-insensitive.
+
+**exclude\_pattern** `string`
+
+Glob pattern to exclude (e.g. 'node\_modules/\*\*').
+
+**include\_pattern** `string`
+
+Glob pattern to include (e.g. '\*\*/\*.py').
+
+**search\_kind** `string` (default: content)
+
+'content' or 'filename'.

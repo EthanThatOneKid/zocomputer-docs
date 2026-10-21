@@ -9,9 +9,7 @@ To authenticate the GitHub CLI, first [Create a new personal access token (class
 
 You must select `repo`, `read:org`, and `gist` (and can select additional permissions if you need these on your Zo).
 
-<Frame>
-  <img alt="GitHub personal access token scopes" />
-</Frame>
+![GitHub personal access token scopes](https://mintcdn.com/zocomputer/ify8fv2Mc_D7H-Vn/screenshots/github-scopes.png?fit=max\&auto=format\&n=ify8fv2Mc_D7H-Vn\&q=85\&s=0d581fbc288ab5242fee02d4505d6c69)
 
 Reference: [`gh auth login`](https://cli.github.com/manual/gh_auth_login).
 

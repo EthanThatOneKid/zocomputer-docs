@@ -5,10 +5,10 @@ Connect Stripe to accept payments and sell products, services, or subscriptions
 
 Connect your Stripe account to start accepting payments with Zo. You can sell products, services, or subscriptions using Stripe Connect and integrate payment links into your Zo [space](/spaces) and [sites](/sites).
 
-<Tip>
-  **Zo takes 0% of your revenue.** Stripe's standard processing fees still
-  apply.
-</Tip>
+> [!TIP]
+>
+> **Zo takes 0% of your revenue.** Stripe's standard processing fees still
+> apply.
 
 Go to Settings > Tools to get started with Payments in Zo. You'll need to:
 
@@ -16,10 +16,10 @@ Go to Settings > Tools to get started with Payments in Zo. You'll need to:
 2. **Complete onboarding** – Stripe will guide you through the setup process, including business verification and bank account details.
 3. **Start selling** – Once onboarding is complete, you can create products and accept payments.
 
-<Note>
-  You can manage your Stripe account, products, and orders either in Zo's Payments
-  tab or directly in your Stripe Dashboard. Both interfaces stay in sync.
-</Note>
+> [!NOTE]
+>
+> You can manage your Stripe account, products, and orders either in Zo's Payments
+> tab or directly in your Stripe Dashboard. Both interfaces stay in sync.
 
 ## Account management
 

@@ -3,18 +3,18 @@ Send a message to the user via Discord.
 
 ## Parameters
 
-<ParamField type="string">
-  The text content. Must be non-empty.
-</ParamField>
+**message** `string` *required*
 
-<ParamField type="string">
-  Optional Discord message ID to reply to. Omit for default reply behavior.
-</ParamField>
+The text content. Must be non-empty.
 
-<ParamField type="string">
-  Optional Discord thread ID to send into. Overrides channel\_id/current context destination.
-</ParamField>
+**reply\_to\_message\_id** `string`
 
-<ParamField type="string">
-  Optional Discord channel ID to send into when not targeting a thread.
-</ParamField>
+Optional Discord message ID to reply to. Omit for default reply behavior.
+
+**thread\_id** `string`
+
+Optional Discord thread ID to send into. Overrides channel\_id/current context destination.
+
+**channel\_id** `string`
+
+Optional Discord channel ID to send into when not targeting a thread.

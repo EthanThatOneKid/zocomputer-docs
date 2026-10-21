@@ -5,6 +5,6 @@ Automations are scheduled AI tasks with a schedule and an instruction. The autom
 
 ## Parameters
 
-<ParamField type="string">
-  The unique identifier of the automation to delete
-</ParamField>
+**automation\_id** `string` *required*
+
+The unique identifier of the automation to delete

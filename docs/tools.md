@@ -5,7 +5,7 @@ Zo has access to a wide range of tools to operate your computer, use your integr
 
 You can type @ in the chat to mention a specific tool. You can also simply refer to these tools loosely by name, e.g. “use your image search tool”. Mentioning specific tools can make your prompts more precise and reliable.
 
-## <Icon icon="folder-tree" /> Files
+## &#x20;Files
 
 * [`Create file`](/tools/write-file) – Create a new file or rewrite an existing one with the provided content.
 * [`Edit file`](/tools/edit-file) – Edit a text file using a sequence of precise edit operations.
@@ -23,7 +23,7 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 * [`Generate speech`](/tools/generate-speech) – Generate speech with a preset voice and save it in the workspace.
 * [`Generate diagram`](/tools/generate-d2-diagram) – Generate a block diagram, using D2.
 
-## <Icon icon="globe" /> Web
+## &#x20;Web
 
 * [`Read webpage`](/tools/read-webpage) – Read the content of a webpage.
 * [`Open webpage`](/tools/open-webpage) – Open a webpage in Zo's browser.
@@ -37,7 +37,7 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 * [`Search X`](/tools/x-search) – Search X (Twitter) for posts and users matching a query.
 * [`Search Google Maps`](/tools/maps-search) – Search Google Maps for locations.
 
-## <Icon icon="computer" /> Computer
+## &#x20;Computer
 
 * [`Run command`](/tools/bash) – Run a single shell command on the computer.
 * [`Create site`](/tools/create-website) – Create a site (also known as an app, or a website).
@@ -51,7 +51,7 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 * [`Proxy local service`](/tools/proxy-local-service) – Proxy a local service to a public endpoint using a TCP tunnel, similar to ngrok.
 * [`Use device`](/tools/use-device) – Run a command on the user's desktop device via the Zo desktop app.
 
-## <Icon icon="plug-zap" /> Integrations
+## &#x20;Integrations
 
 * [`Send Discord message`](/tools/send-discord-message) – Send a message to the user via Discord.
 * [`Send Slack message`](/tools/send-slack-message) – Send a message to the user via Slack.
@@ -84,7 +84,7 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 * [`Use Spotify`](/tools/use-app-spotify) – Use a tool to work with the user's connected Spotify account.
 * [`Use X`](/tools/use-app-x) – Work with the user's connected X (Twitter) account.
 
-## <Icon icon="credit-card" /> Commerce
+## &#x20;Commerce
 
 * [`Create product`](/tools/create-stripe-product) – Create a Stripe product on the user's connected account.
 * [`Create price`](/tools/create-stripe-price) – Create a new price for an existing Stripe product.
@@ -95,7 +95,7 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 * [`List orders`](/tools/list-stripe-orders) – List all orders (checkout sessions) for the user.
 * [`Update orders`](/tools/update-stripe-orders) – Update the fulfillment status of one or more orders.
 
-## <Icon icon="clock" /> Automations
+## &#x20;Automations
 
 * [`Create automation`](/tools/create-automation) – Create an automation to run an AI task on a schedule.
 * [`List automations`](/tools/list-automations) – List all registered automations.
@@ -103,13 +103,13 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 * [`Edit automation`](/tools/edit-automation) – Edit an existing automation's title, instruction, schedule, preferred communication channel, or model.
 * [`Delete automation`](/tools/delete-automation) – Delete an existing automation.
 
-## <Icon icon="book-open" /> Skills
+## &#x20;Skills
 
 * [`Load skill`](/tools/load-skill) – Load canonical platform instructions for this task.
 * [`Read skill reference`](/tools/read-skill-reference) – Read a listed reference from a loaded platform skill.
 * [`Find skills`](/tools/search-skills) – Discover authorized workspace skills by name, intent or paginated listing.
 
-## <Icon icon="user" /> Personalization
+## &#x20;Personalization
 
 * [`Create persona`](/tools/create-persona) – Create a new persona for Zo.
 * [`List personas`](/tools/list-personas) – List all personas for the user.
@@ -124,7 +124,7 @@ You can type @ in the chat to mention a specific tool. You can also simply refer
 * [`Delete rule`](/tools/delete-rule) – Delete a rule by ID.
 * [`Update user settings`](/tools/update-user-settings) – Update a user setting (name or bio) in Zo.
 
-## <Icon icon="orbit" /> Zo Space
+## &#x20;Zo Space
 
 * [`Read from space`](/tools/get-space-route) – Get a space route by path, including its source code.
 * [`Write space route`](/tools/write-space-route) – Create a new route or fully rewrite an existing one in the user's zo.space site.

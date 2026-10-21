@@ -5,14 +5,14 @@ D2 is a domain-specific language for diagramming ([https://d2lang.com](https://d
 
 ## Parameters
 
-<ParamField type="string">
-  Valid D2 source (required, plain text).
-</ParamField>
+**code** `string` *required*
 
-<ParamField type="string">
-  Base filename for both `.d2` and `.png`.
-</ParamField>
+Valid D2 source (required, plain text).
 
-<ParamField type="string">
-  Optional absolute directory for the PNG (defaults to `/home/workspace/Images`).
-</ParamField>
+**file\_stem** `string` *required*
+
+Base filename for both `.d2` and `.png`.
+
+**output\_dir** `string`
+
+Optional absolute directory for the PNG (defaults to `/home/workspace/Images`).

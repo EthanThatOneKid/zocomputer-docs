@@ -27,7 +27,7 @@ Just ask Zo to create something on your space:
 
 Zo handles the rest — writing the code, deploying it, and making it available at your URL.
 
-To view and manage your Space, open the <Icon icon="globe" /> **Sites** page in your Zo and go to the **Space** tab.
+To view and manage your Space, open the  **Sites** page in your Zo and go to the **Space** tab.
 
 ## Pages and APIs
 

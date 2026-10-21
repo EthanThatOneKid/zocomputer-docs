@@ -5,10 +5,10 @@ Returns a message with the destination path and the number of bytes copied.
 
 ## Parameters
 
-<ParamField type="string">
-  Absolute path of the file or directory to copy.
-</ParamField>
+**source\_path** `string` *required*
 
-<ParamField type="string">
-  Absolute destination path on the target.
-</ParamField>
+Absolute path of the file or directory to copy.
+
+**dest\_path** `string` *required*
+
+Absolute destination path on the target.

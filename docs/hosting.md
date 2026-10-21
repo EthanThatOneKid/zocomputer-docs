@@ -12,27 +12,27 @@ Your Zo is a personal server, so there's more than one way to put things online 
 | Run a long-running program (server, database, bot, worker) | [Services](/services) | `*.zocomputer.io` (public) or `*.zo.computer` (private) |
 | Share a folder of files with a link | [zo.pub](/zo-pub) | `zo.pub/<your-handle>/...` |
 
-## <Icon icon="orbit" /> Space
+## &#x20;Space
 
 Every Zo user gets one personal domain at `yourhandle.zo.space`. Space is for quick, focused creations that live at a stable URL: a landing page, a tip calculator, a webhook endpoint, a small React widget. There's no project to set up. Just ask Zo to "make my zo.space home page a personal landing page" or "create an API at /api/data on my zo.space" and it's live.
 
 Pages on your Space are private by default (only you can see them when logged in), but you can make them public. APIs are always public, and uploaded assets are always publicly accessible.
 
-<Tip>
-  Reach for Space when you have one small thing in mind and you don't want to think about folders, frameworks, or deploys.
-</Tip>
+> [!TIP]
+>
+> Reach for Space when you have one small thing in mind and you don't want to think about folders, frameworks, or deploys.
 
-## <Icon icon="zap" /> Sites
+## &#x20;Sites
 
 A Site is a full website project that lives as a folder on your Zo. It's built on [Hono](https://hono.dev) and [Bun](https://bun.sh), and if you ask for a database it'll use [SQLite](https://www.sqlite.org) by default. Because the site lives on your personal server, it can read and write files in your workspace, save form responses to a database next to your other files, and pull in any folder you mention while chatting with Zo.
 
 Sites are private by default. Only you can open the URL while signed in to your Zo. When you click **Publish**, the site becomes a public [service](/services) at `sitename-yourhandle.zocomputer.io`.
 
-<Tip>
-  Reach for Sites when you want a real project you'll keep evolving, or when the site needs to integrate with your files, your AI, or a database.
-</Tip>
+> [!TIP]
+>
+> Reach for Sites when you want a real project you'll keep evolving, or when the site needs to integrate with your files, your AI, or a database.
 
-## <Icon icon="square-terminal" /> Services
+## &#x20;Services
 
 A service is a long-running process on your Zo: any program that listens on a port or runs in the background. Services give you the most flexibility, because you can run anything Sites doesn't cover, in any technology you want. To set one up, you only need a port, an entrypoint, and a working directory. Open the **Sites** page and go to the **Services** tab to see what's running.
 
@@ -44,19 +44,19 @@ Services have three modes:
 
 You can also point a [custom domain](/custom-domains) at any public service or published site.
 
-<Tip>
-  Reach for Services when you need a custom server, a database engine, a long-running worker, or anything where you care about the runtime, not just the code.
-</Tip>
+> [!TIP]
+>
+> Reach for Services when you need a custom server, a database engine, a long-running worker, or anything where you care about the runtime, not just the code.
 
-## <Icon icon="share-2" /> zo.pub
+## &#x20;zo.pub
 
 `zo.pub/<your-handle>` is your public namespace for sharing files. Ask Zo to "publish this folder to zo.pub" and you'll get back a link anyone can open. Visitors don't need a Zo account; they land on a clean listing page and can browse the folder, click any file to view or download it, and grab the whole folder as a zip or tar archive.
 
 zo.pub is for sharing, not for running. There's no private mode and no password protection. Anything you publish is fully public.
 
-<Warning>
-  Good things to publish to zo.pub: photos, data exports, portfolio PDFs, meeting recordings, static reports, anything you'd otherwise email as a download link. If you need code, auth, or per-user logic, use [Sites](/sites) or [Services](/services) instead.
-</Warning>
+> [!WARNING]
+>
+> Good things to publish to zo.pub: photos, data exports, portfolio PDFs, meeting recordings, static reports, anything you'd otherwise email as a download link. If you need code, auth, or per-user logic, use [Sites](/sites) or [Services](/services) instead.
 
 ## Quick decision rule
 

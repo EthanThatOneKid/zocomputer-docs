@@ -3,18 +3,18 @@ Work with the user's connected Dropbox account via Pipedream.
 
 ## Parameters
 
-<ParamField type="string">
-  Exact tool name returned by `list_app_tools`.
-</ParamField>
+**tool\_name** `string` *required*
 
-<ParamField type="object">
-  The configured props for the action (e.g., `{"filePath": "/home/workspace/profile.jpeg", "mimeType": "image/jpeg"}`)
-</ParamField>
+Exact tool name returned by `list_app_tools`.
 
-<ParamField type="string">
-  Optional write location for downloaded files on the host filesystem.
-</ParamField>
+**configured\_props** `object` *required*
 
-<ParamField type="string">
-  Optional email address to select a specific connected account.
-</ParamField>
+The configured props for the action (e.g., `{"filePath": "/home/workspace/profile.jpeg", "mimeType": "image/jpeg"}`)
+
+**download\_path** `string`
+
+Optional write location for downloaded files on the host filesystem.
+
+**email** `string`
+
+Optional email address to select a specific connected account.

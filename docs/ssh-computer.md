@@ -1,14 +1,14 @@
 
 How to operate another computer using Zo
 
-<Warning>
-  Connecting Zo to another computer using SSH is risky. By doing so, you are giving your AI unconstrained access to everything on that computer – a ridiculous thing to do, if it's your personal computer.
-
-  You should only proceed with this guide if you fully understand the risks and are comfortable with the potential
-  consequences of Zo making mistakes, or falling prey to prompt injection.
-
-  This use case can be an impressive "party trick" (and can be genuinely useful depending on the device you are connecting to), but should not be used regularly unless you are completely comfortable with the security of your setup.
-</Warning>
+> [!WARNING]
+>
+> Connecting Zo to another computer using SSH is risky. By doing so, you are giving your AI unconstrained access to everything on that computer – a ridiculous thing to do, if it's your personal computer.
+>
+> You should only proceed with this guide if you fully understand the risks and are comfortable with the potential
+> consequences of Zo making mistakes, or falling prey to prompt injection.
+>
+> This use case can be an impressive "party trick" (and can be genuinely useful depending on the device you are connecting to), but should not be used regularly unless you are completely comfortable with the security of your setup.
 
 # 1. Generate an SSH key on your Zo
 
@@ -52,9 +52,7 @@ Save and exit the editor by pressing `Ctrl + X`, then `Y`, and finally `Enter`.
 
 On macOS, you can enable SSH access by [enabling Remote Login](https://support.apple.com/lt-lt/guide/mac-help/mchlp1066/mac) in your System Settings.
 
-<Frame>
-  <img alt="How to connect to your server using SSH and use it as a remote development environment" />
-</Frame>
+![How to connect to your server using SSH and use it as a remote development environment](https://mintcdn.com/zocomputer/Xbzddj5-EDg_wb3E/screenshots/ssh-mac-remote-login.png?fit=max\&auto=format\&n=Xbzddj5-EDg_wb3E\&q=85\&s=042836e5f2c903f46b6810771eccaae0)
 
 # 4. Set up and run ngrok
 
@@ -121,11 +119,9 @@ Now, you can run `ssh laptop` to connect to your computer from your Zo's termina
 
 To tell Zo how to connect to your computer, you can [create a rule](/rules) instructing Zo to use `ssh laptop` to connect to your computer.
 
-<Frame>
-  <img alt="How to connect to your server using SSH and use it as a remote development environment" />
-</Frame>
+![How to connect to your server using SSH and use it as a remote development environment](https://mintcdn.com/zocomputer/m-H3WsQaomwW8__q/screenshots/ssh-rule.png?fit=max\&auto=format\&n=m-H3WsQaomwW8__q\&q=85\&s=43ea2029859dc46330c3393118dd8ac5)
 
-<Tip>
-  Your computer must remain turned on with ngrok running and connected to the internet in order to connect to it from
-  your Zo.
-</Tip>
+> [!TIP]
+>
+> Your computer must remain turned on with ngrok running and connected to the internet in order to connect to it from
+> your Zo.

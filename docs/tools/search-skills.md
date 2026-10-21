@@ -5,10 +5,10 @@ Available only in the native chat pilot when platform skills are enabled. Return
 
 ## Parameters
 
-<ParamField type="string">
-  Name or lexical search up to 200 characters; empty lists all skills.
-</ParamField>
+**query** `string`
 
-<ParamField type="string">
-  Opaque next\_cursor from the prior page, or omit for the first page.
-</ParamField>
+Name or lexical search up to 200 characters; empty lists all skills.
+
+**cursor** `string`
+
+Opaque next\_cursor from the prior page, or omit for the first page.

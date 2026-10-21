@@ -5,30 +5,30 @@ When called from a Slack conversation, the tool description includes the current
 
 ## Parameters
 
-<ParamField type="string">
-  Slack channel ID to read from. Omit to use the current conversation's channel.
-</ParamField>
+**channel\_id** `string`
 
-<ParamField type="string">
-  Slack workspace team ID. Omit to use the current conversation's workspace.
-</ParamField>
+Slack channel ID to read from. Omit to use the current conversation's channel.
 
-<ParamField type="string">
-  Parent message timestamp to read thread replies. Omit for channel-level messages.
-</ParamField>
+**team\_id** `string`
 
-<ParamField type="string">
-  Slack timestamp — fetch messages before this time.
-</ParamField>
+Slack workspace team ID. Omit to use the current conversation's workspace.
 
-<ParamField type="string">
-  Slack timestamp — fetch messages after this time.
-</ParamField>
+**thread\_ts** `string`
 
-<ParamField type="string">
-  Pagination cursor from a previous response's next\_cursor.
-</ParamField>
+Parent message timestamp to read thread replies. Omit for channel-level messages.
 
-<ParamField type="number">
-  Number of messages to return (1–100, default 50).
-</ParamField>
+**latest** `string`
+
+Slack timestamp — fetch messages before this time.
+
+**oldest** `string`
+
+Slack timestamp — fetch messages after this time.
+
+**cursor** `string`
+
+Pagination cursor from a previous response's next\_cursor.
+
+**limit** `number` (default: 50)
+
+Number of messages to return (1–100, default 50).

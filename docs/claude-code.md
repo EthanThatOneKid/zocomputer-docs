@@ -9,16 +9,14 @@ Use your Claude Code subscription with Zo
 
 2. Follow the prompts to authenticate with your Claude account
 
-<Info>
-  When copying the authentication URL, it may span multiple lines. Combine them into one line before opening in your browser.
-</Info>
+> [!NOTE]
+>
+> When copying the authentication URL, it may span multiple lines. Combine them into one line before opening in your browser.
 
 3. Go to **Settings > AI Providers** and enable **Claude Code**
 
 4. Select your preferred model
 
-<Frame>
-  <img alt="Claude Code settings in Zo" />
-</Frame>
+![Claude Code settings in Zo](https://mintcdn.com/zocomputer/E5_rL3el6xlrluer/screenshots/claude-code-settings.png?fit=max\&auto=format\&n=E5_rL3el6xlrluer\&q=85\&s=1be48fb7bef6c32e876df737aecf34e8)
 
 5. Select "Claude Code" from the model picker in chat and you're set

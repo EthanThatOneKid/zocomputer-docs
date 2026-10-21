@@ -7,6 +7,6 @@ The site itself is not deleted — it continues running on its dev server and re
 
 ## Parameters
 
-<ParamField type="string">
-  Required. Workspace-relative directory that contains the site's zosite.json (e.g. 'my-site' or 'projects/my-site').
-</ParamField>
+**site\_path** `string` *required*
+
+Required. Workspace-relative directory that contains the site's zosite.json (e.g. 'my-site' or 'projects/my-site').

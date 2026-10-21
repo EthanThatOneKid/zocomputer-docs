@@ -19,10 +19,10 @@ Bring your own API keys to use custom models in Zo. Connect keys from OpenAI-com
 | Anthropic | Anthropic-compatible APIs | [Anthropic](https://console.anthropic.com/docs/en/api/overview) |
 | Groq | Groq API | [Groq](https://groq.com) |
 
-<Info>
-  Zo uses streaming and tools, so make sure your provider and model have support
-  for both.
-</Info>
+> [!NOTE]
+>
+> Zo uses streaming and tools, so make sure your provider and model have support
+> for both.
 
 ## Configuration
 

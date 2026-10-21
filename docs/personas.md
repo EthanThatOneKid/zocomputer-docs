@@ -35,32 +35,32 @@ You can also choose **Custom** to pick individual scopes.
 
 When a persona doesn't have access to a tool, that tool is removed from the conversation entirely. Zo won't try to use it or tell you it failed — it simply isn't available.
 
-<Accordion title="Full list of available scopes">
-  When using custom scopes, you can grant access to specific categories:
-
-  | Scope | Description |
-  | - | - |
-  | `files:read` | Read files and search the workspace |
-  | `files:write` | Create and edit files (requires `files:read`) |
-  | `shell:execute` | Run shell commands |
-  | `web:search` | Search web, images, and maps |
-  | `web:browse` | Open and interact with web pages |
-  | `media:generate` | Generate images, video, and diagrams |
-  | `media:transcribe` | Transcribe audio and video |
-  | `comms:email` | Send emails |
-  | `comms:sms` | Send SMS |
-  | `comms:telegram` | Telegram messages |
-  | `comms:discord` | Discord messages and history |
-  | `comms:slack` | Slack messages |
-  | `settings:read` | View personas, agents, and rules |
-  | `settings:manage` | Edit personas, agents, and rules (requires `settings:read`) |
-  | `hosting:read` | View sites and services |
-  | `hosting:manage` | Manage sites and services (requires `hosting:read`) |
-  | `commerce:read` | View payments and orders |
-  | `commerce:manage` | Manage products and payments (requires `commerce:read`) |
-  | `device:use` | Use connected devices |
-
-  Integration scopes (e.g. `integrations:gmail`, `integrations:linear`) are also available for each connected app.
-
-  Some scopes have dependencies — enabling a "write" scope automatically enables its corresponding "read" scope.
-</Accordion>
+> **Full list of available scopes**
+>
+> When using custom scopes, you can grant access to specific categories:
+>
+> | Scope | Description |
+> | - | - |
+> | `files:read` | Read files and search the workspace |
+> | `files:write` | Create and edit files (requires `files:read`) |
+> | `shell:execute` | Run shell commands |
+> | `web:search` | Search web, images, and maps |
+> | `web:browse` | Open and interact with web pages |
+> | `media:generate` | Generate images, video, and diagrams |
+> | `media:transcribe` | Transcribe audio and video |
+> | `comms:email` | Send emails |
+> | `comms:sms` | Send SMS |
+> | `comms:telegram` | Telegram messages |
+> | `comms:discord` | Discord messages and history |
+> | `comms:slack` | Slack messages |
+> | `settings:read` | View personas, agents, and rules |
+> | `settings:manage` | Edit personas, agents, and rules (requires `settings:read`) |
+> | `hosting:read` | View sites and services |
+> | `hosting:manage` | Manage sites and services (requires `hosting:read`) |
+> | `commerce:read` | View payments and orders |
+> | `commerce:manage` | Manage products and payments (requires `commerce:read`) |
+> | `device:use` | Use connected devices |
+>
+> Integration scopes (e.g. `integrations:gmail`, `integrations:linear`) are also available for each connected app.
+>
+> Some scopes have dependencies — enabling a "write" scope automatically enables its corresponding "read" scope.

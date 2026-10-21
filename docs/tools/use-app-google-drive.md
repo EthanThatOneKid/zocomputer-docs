@@ -3,18 +3,18 @@ Work with the user's connected Google Drive account (includes Google Docs, Sheet
 
 ## Parameters
 
-<ParamField type="string">
-  Exact tool name returned by `list_app_tools`.
-</ParamField>
+**tool\_name** `string` *required*
 
-<ParamField type="object">
-  The configured props for the action (e.g., `{"filePath": "/home/workspace/profile.jpeg", "mimeType": "image/jpeg"}`)
-</ParamField>
+Exact tool name returned by `list_app_tools`.
 
-<ParamField type="string">
-  Optional absolute path to save downloaded file. Falls back to configured\_props\["filePath"].
-</ParamField>
+**configured\_props** `object` *required*
 
-<ParamField type="string">
-  Optional email address to select a specific connected account.
-</ParamField>
+The configured props for the action (e.g., `{"filePath": "/home/workspace/profile.jpeg", "mimeType": "image/jpeg"}`)
+
+**download\_path** `string`
+
+Optional absolute path to save downloaded file. Falls back to configured\_props\["filePath"].
+
+**email** `string`
+
+Optional email address to select a specific connected account.

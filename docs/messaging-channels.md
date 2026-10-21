@@ -26,7 +26,7 @@ Each DM, thread, or group has its own conversation history.
 * **Slack**: each DM and each thread is its own conversation.
 * **Telegram**: each DM or group chat is its own conversation.
 * **SMS**: your text thread is a single ongoing conversation. Zo periodically starts a fresh conversation with a summary of the previous one.
-* **Email**: each email to **<Handle />@zo.computer** starts a new conversation (find your Zo email address in **Settings > Channels**).
+* **Email**: each email to **yourhandle\@zo.computer** starts a new conversation (find your Zo email address in **Settings > Channels**).
 
 Use `/new` to start fresh. Use `/conversations` to switch between recent conversations.
 
@@ -69,6 +69,6 @@ Text your Zo number directly.
 
 ## Email
 
-Email **<Handle />@zo.computer** to start a conversation. No setup required — your Zo address works out of the box.
+Email **yourhandle\@zo.computer** to start a conversation. No setup required — your Zo address works out of the box.
 
 This is a conversational interface, not an inbox. Emails to your Zo address start conversations; they aren't stored as mail. For reading your inbox or sending as you, connect Gmail or Outlook in **Plugins > Integrations** on zo.computer.

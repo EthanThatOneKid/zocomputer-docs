@@ -5,10 +5,10 @@ Returns a message indicating success or failure, including the absolute path of 
 
 ## Parameters
 
-<ParamField type="string">
-  The absolute path of the file to create or rewrite.
-</ParamField>
+**target\_file** `string` *required*
 
-<ParamField type="string">
-  The content to write to the file. Defaults to empty.
-</ParamField>
+The absolute path of the file to create or rewrite.
+
+**content** `string`
+
+The content to write to the file. Defaults to empty.

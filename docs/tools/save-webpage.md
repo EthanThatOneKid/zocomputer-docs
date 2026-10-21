@@ -5,6 +5,6 @@ Supports YouTube URLs by saving a transcript-based article (video embed + transc
 
 ## Parameters
 
-<ParamField type="string">
-  URL of the webpage to save.
-</ParamField>
+**url** `string` *required*
+
+URL of the webpage to save.

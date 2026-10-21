@@ -5,6 +5,6 @@ Transcription on Zo Computer is powered by [AssemblyAI](https://www.assemblyai.c
 
 ## Parameters
 
-<ParamField type="string">
-  Absolute path to the audio file to transcribe.
-</ParamField>
+**audio\_file\_path** `string` *required*
+
+Absolute path to the audio file to transcribe.

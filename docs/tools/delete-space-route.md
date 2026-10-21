@@ -5,6 +5,6 @@ Deleting a custom `/` route reveals the built-in starter homepage. The starter h
 
 ## Parameters
 
-<ParamField type="string">
-  Route path to delete, e.g. '/api/hello' or '/about'.
-</ParamField>
+**path** `string` *required*
+
+Route path to delete, e.g. '/api/hello' or '/about'.

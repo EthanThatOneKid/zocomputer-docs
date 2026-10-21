@@ -10,8 +10,6 @@ The Zo desktop app includes built-in file syncing. Any folder you choose on your
 3. Click **Sync > Add Folder** in the menu bar (or press ⇧⌘A on Mac)
 4. Choose a folder on your computer to sync with your Zo workspace
 
-<Frame>
-  <img alt="Sync menu in the Zo desktop app" />
-</Frame>
+![Sync menu in the Zo desktop app](https://mintcdn.com/zocomputer/jEAjbkoot1PoIigN/screenshots/desktop-add-folder.png?fit=max\&auto=format\&n=jEAjbkoot1PoIigN\&q=85\&s=4c3fae154a47091616d827d11b714989)
 
 Changes made on either side will automatically sync to the other.

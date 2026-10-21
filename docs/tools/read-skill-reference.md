@@ -5,10 +5,10 @@ Available only in the native chat pilot when platform skills are enabled. Proced
 
 ## Parameters
 
-<ParamField type="string">
-  Qualified platform skill ID.
-</ParamField>
+**skill** `string` *required*
 
-<ParamField type="string">
-  Exact relative reference path listed by the skill.
-</ParamField>
+Qualified platform skill ID.
+
+**reference** `string` *required*
+
+Exact relative reference path listed by the skill.

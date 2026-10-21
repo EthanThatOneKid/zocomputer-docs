@@ -19,38 +19,38 @@ You can change a service's mode in place instead of deleting and recreating it.
 
 ## Parameters
 
-<ParamField type="string">
-  Identifier of the service to update.
-</ParamField>
+**service\_id** `string` *required*
 
-<ParamField type="string">
-  Optional. Unique label for the service (lowercase and hyphens).
-</ParamField>
+Identifier of the service to update.
 
-<ParamField type="string">
-  Optional new mode: "http", "tcp", or "process".
-</ParamField>
+**label** `string`
 
-<ParamField type="number">
-  Optional. Localhost port for networked services (injected as PORT env var). Required when switching from "process" to "http" or "tcp".
-</ParamField>
+Optional. Unique label for the service (lowercase and hyphens).
 
-<ParamField type="string">
-  Optional. Command to run the service.
-</ParamField>
+**mode** `string`
 
-<ParamField type="string">
-  Optional. Working directory for the entrypoint.
-</ParamField>
+Optional new mode: "http", "tcp", or "process".
 
-<ParamField type="object">
-  Optional. Environment variables. PORT will be overridden for networked services and is not set for process-only services.
-</ParamField>
+**local\_port** `number` (default: -1)
 
-<ParamField type="string">
-  Optional. Pass true to make the service public, false to make it private (HTTP only). Omit to leave unchanged. Private services are reachable at \*.zo.computer and require sign-in.
-</ParamField>
+Optional. Localhost port for networked services (injected as PORT env var). Required when switching from "process" to "http" or "tcp".
 
-<ParamField type="string">
-  Optional. Pass "false" to pause the service (stop it running, keep its config/URL/quota) or "true" to resume it. Omit to leave the paused/running state unchanged.
-</ParamField>
+**entrypoint** `string`
+
+Optional. Command to run the service.
+
+**workdir** `string`
+
+Optional. Working directory for the entrypoint.
+
+**env\_vars** `object`
+
+Optional. Environment variables. PORT will be overridden for networked services and is not set for process-only services.
+
+**public** `string`
+
+Optional. Pass true to make the service public, false to make it private (HTTP only). Omit to leave unchanged. Private services are reachable at \*.zo.computer and require sign-in.
+
+**enabled** `string`
+
+Optional. Pass "false" to pause the service (stop it running, keep its config/URL/quota) or "true" to resume it. Omit to leave the paused/running state unchanged.

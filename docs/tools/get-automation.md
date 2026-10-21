@@ -5,6 +5,6 @@ Use this to read the full, untruncated instruction for an automation. list\_auto
 
 ## Parameters
 
-<ParamField type="string">
-  The unique identifier of the automation to retrieve
-</ParamField>
+**automation\_id** `string` *required*
+
+The unique identifier of the automation to retrieve

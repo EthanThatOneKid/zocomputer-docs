@@ -20,10 +20,10 @@ Do NOT use register\_user\_service or update\_user\_service for sites — use th
 
 ## Parameters
 
-<ParamField type="string">
-  Required. Workspace-relative directory that contains the site's zosite.json (e.g. 'my-site' or 'projects/my-site').
-</ParamField>
+**site\_path** `string` *required*
 
-<ParamField type="string">
-  Optional visibility override. Omit to preserve current visibility when republishing; a newly published site defaults to public. Set explicitly only for visibility requested by the user. 'true': public URL at \*.zocomputer.io. 'false': owner-only URL at \*.zo.computer. Visibility changes preserve attached custom domains and Cloudflare registrations.
-</ParamField>
+Required. Workspace-relative directory that contains the site's zosite.json (e.g. 'my-site' or 'projects/my-site').
+
+**public** `string`
+
+Optional visibility override. Omit to preserve current visibility when republishing; a newly published site defaults to public. Set explicitly only for visibility requested by the user. 'true': public URL at \*.zocomputer.io. 'false': owner-only URL at \*.zo.computer. Visibility changes preserve attached custom domains and Cloudflare registrations.

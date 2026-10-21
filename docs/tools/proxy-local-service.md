@@ -5,6 +5,6 @@ Creates a tunnel from the specified local port to a public endpoint and forwards
 
 ## Parameters
 
-<ParamField type="number">
-  Local port to proxy (must be between 1024-65535).
-</ParamField>
+**local\_port** `number` *required*
+
+Local port to proxy (must be between 1024-65535).

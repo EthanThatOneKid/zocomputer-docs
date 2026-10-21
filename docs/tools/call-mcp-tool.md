@@ -3,14 +3,14 @@ Call a server tool through an open MCP App.
 
 ## Parameters
 
-<ParamField type="string">
-  App instance ID from open\_mcp\_app in this conversation.
-</ParamField>
+**app\_id** `string` *required*
 
-<ParamField type="string">
-  Exact server tool name.
-</ParamField>
+App instance ID from open\_mcp\_app in this conversation.
 
-<ParamField type="object">
-  Tool arguments matching its input schema.
-</ParamField>
+**tool\_name** `string` *required*
+
+Exact server tool name.
+
+**arguments** `object` *required*
+
+Tool arguments matching its input schema.

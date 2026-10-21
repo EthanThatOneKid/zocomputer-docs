@@ -5,18 +5,18 @@ Zo can execute shell commands in a bash session, allowing for system operations,
 
 ## Parameters
 
-<ParamField type="string">
-  The shell command string to execute.
-</ParamField>
+**cmd** `string` *required*
 
-<ParamField type="string">
-  The working directory in which to execute the command. Defaults to the user's workspace root.
-</ParamField>
+The shell command string to execute.
 
-<ParamField type="number">
-  Optional time limit in seconds. When set, the command is terminated if it runs longer than this. Defaults to unbounded.
-</ParamField>
+**cwd** `string` (default: /home/workspace)
 
-<ParamField type="string">
-  Optional short human-readable label for the command (shown in the UI). Does not affect execution.
-</ParamField>
+The working directory in which to execute the command. Defaults to the user's workspace root.
+
+**timeout** `number` (default: 0)
+
+Optional time limit in seconds. When set, the command is terminated if it runs longer than this. Defaults to unbounded.
+
+**description** `string`
+
+Optional short human-readable label for the command (shown in the UI). Does not affect execution.

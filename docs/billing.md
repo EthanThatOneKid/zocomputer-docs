@@ -3,20 +3,22 @@ Plans, AI credits, and how billing works
 
 Zo's [pricing](https://zo.computer/pricing) covers two things: your cloud computer (CPU, memory, storage, services) and the AI you use to drive it. The plan you pick mostly changes how much computer you get and how much built-in AI usage comes with it.
 
-<Tip>
-  Not sure which plan fits? The [Zo plan
-  guide](https://www.zo.computer/blog/which-zo-plan-is-right-for-you) walks
-  through who each tier is built for.
-</Tip>
+> [!TIP]
+>
+> Not sure which plan fits? The [Zo plan
+> guide](https://www.zo.computer/blog/which-zo-plan-is-right-for-you) walks
+> through who each tier is built for.
 
 ## Plans at a glance
 
 | Plan | Price | AI credits | Improved memory | Hosted services | Compute |
 | - | - | - | - | - | - |
 | **Free** | \$0 | 14-day free AI trial; premium models with Credits | Not included | 1 during trial | 14-day trial; recovery only |
-| **Basic** | \$18/mo | \$10/mo included | Included | 5 | Always-on, 4 CPU / 32 GB RAM |
-| **Pro** | \$64/mo | \$40/mo included | Included | 10 | 16 CPU / 128 GB RAM |
-| **Ultra** | \$200/mo | \$100/mo included | Included | 50 | 64 CPU / 512 GB RAM |
+| **Basic** | \$18/mo | \$10/mo included | Included | 5 | Always-on, 2 vCPUs / 8 GB RAM |
+| **Pro** | \$64/mo | \$40/mo included | Included | 10 | 4 vCPUs / 16 GB RAM |
+| **Ultra** | \$200/mo | \$100/mo included | Included | 50 | 8 vCPUs / 32 GB RAM |
+
+A computer that joined its plan before these limits keeps its earlier CPU and memory until it changes plans. Your billing page shows the CPU and memory your computer has now.
 
 All plans include 100 GB of cloud storage, access to the [Zo MCP Server](/mcp-server), and [bringing your own API keys](/byok). Monthly paid plans add always-on compute, higher limits, included monthly AI credits, and connections for [coding agents](/claude-code) like Claude Code, Codex, and Gemini.
 
@@ -52,10 +54,10 @@ Zo records a paid media charge only after it validates and stores the result in 
 
 Paid media currently requires exactly one active workspace subscription on the billing account to carry Zo's media rate. If more than one does, Zo blocks paid media rather than risk duplicate charges. Eligible daily free requests remain available without a positive Credits balance.
 
-<Tip>
-  If you already pay for Claude, ChatGPT, or Gemini, you can [bring your own API
-  keys](/byok) on any plan and skip Zo-billed model usage for those providers.
-</Tip>
+> [!TIP]
+>
+> If you already pay for Claude, ChatGPT, or Gemini, you can [bring your own API
+> keys](/byok) on any plan and skip Zo-billed model usage for those providers.
 
 ## Changing plans
 

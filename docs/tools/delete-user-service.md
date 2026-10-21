@@ -5,6 +5,6 @@ A User Service is an automatically managed process on Zo Computer. Deleting a pu
 
 ## Parameters
 
-<ParamField type="string">
-  Identifier of the service to delete.
-</ParamField>
+**service\_id** `string` *required*
+
+Identifier of the service to delete.

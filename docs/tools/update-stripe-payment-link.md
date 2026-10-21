@@ -3,14 +3,14 @@ Update an existing payment link (activate/deactivate).
 
 ## Parameters
 
-<ParamField type="string">
-  Database record ID (uuid) of the payment link to update
-</ParamField>
+**payment\_link\_id** `string` *required*
 
-<ParamField type="string">
-  Whether the payment link should be active (optional)
-</ParamField>
+Database record ID (uuid) of the payment link to update
 
-<ParamField type="boolean">
-  Use test mode (default: false)
-</ParamField>
+**active** `string`
+
+Whether the payment link should be active (optional)
+
+**testmode** `boolean` (default: false)
+
+Use test mode (default: false)

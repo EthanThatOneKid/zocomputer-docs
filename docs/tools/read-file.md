@@ -5,30 +5,30 @@ Zo Computer supports a wide range of file formats including text, word processin
 
 ## Parameters
 
-<ParamField type="string">
-  The absolute path of the file to read.
-</ParamField>
+**target\_file** `string` *required*
 
-<ParamField type="number">
-  The 1-indexed line number to start reading from (text files).
-</ParamField>
+The absolute path of the file to read.
 
-<ParamField type="number">
-  The 1-indexed line number to end reading at, inclusive (text files).
-</ParamField>
+**start\_line** `number` (default: -1)
 
-<ParamField type="boolean">
-  If true, read the entire text file.
-</ParamField>
+The 1-indexed line number to start reading from (text files).
 
-<ParamField type="number">
-  The 1-indexed start page for the PDF/EPUB read.
-</ParamField>
+**end\_line** `number` (default: -1)
 
-<ParamField type="number">
-  The 1-indexed end page (inclusive) for the PDF/EPUB read.
-</ParamField>
+The 1-indexed line number to end reading at, inclusive (text files).
 
-<ParamField type="boolean">
-  If true, include rendered page images. This is slower and should be used sparingly.
-</ParamField>
+**read\_entire\_file** `boolean` (default: false)
+
+If true, read the entire text file.
+
+**pdf\_epub\_start\_page\_1\_indexed** `number` (default: -1)
+
+The 1-indexed start page for the PDF/EPUB read.
+
+**pdf\_epub\_end\_page\_1\_indexed\_inclusive** `number` (default: -1)
+
+The 1-indexed end page (inclusive) for the PDF/EPUB read.
+
+**pdf\_epub\_include\_images** `boolean` (default: false)
+
+If true, include rendered page images. This is slower and should be used sparingly.

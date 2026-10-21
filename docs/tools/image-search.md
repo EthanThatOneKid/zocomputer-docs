@@ -3,6 +3,6 @@ Search for images on the web using a search engine.
 
 ## Parameters
 
-<ParamField type="string">
-  The search query for finding images.
-</ParamField>
+**query** `string` *required*
+
+The search query for finding images.

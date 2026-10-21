@@ -3,6 +3,6 @@ List all payment links for the user.
 
 ## Parameters
 
-<ParamField type="boolean">
-  Use test mode (default: false)
-</ParamField>
+**testmode** `boolean` (default: false)
+
+Use test mode (default: false)

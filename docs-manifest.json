@@ -7,7 +7,7 @@
       "title": "API",
       "source": "https://docs.zocomputer.com/api",
       "path": "api.md",
-      "sha256": "6223c7a4788aefde39e6cbf616ca0172a8fe2f15bdc6ce1c4a10950f4b9dc853"
+      "sha256": "3fd3499486a338c87d7f5934018c9ed3d9d5bd1a834b9c266467cf2b8344724c"
     },
     {
       "title": "Ask Zo",
@@ -37,67 +37,67 @@
       "title": "Automations",
       "source": "https://docs.zocomputer.com/automations",
       "path": "automations.md",
-      "sha256": "969b6dfc9b8ebd5a419b399121915706c968d3b2b0c7e865bba471a7cd841ebd"
+      "sha256": "8ad79f992c1c334c95b2aae0d636ad3623b7d8c489daf8aacea48c55b101e467"
     },
     {
       "title": "Subscription",
       "source": "https://docs.zocomputer.com/billing",
       "path": "billing.md",
-      "sha256": "abda8f4949ec1905932298df033f95bbe34a0e50fb3e8a9372d12b624e3ca25f"
+      "sha256": "8e983acf31658bf8037f2f40f029b2a32224ba96e942170703e3e92d90806ad7"
     },
     {
       "title": "Browser use",
       "source": "https://docs.zocomputer.com/browser",
       "path": "browser.md",
-      "sha256": "84e78c925cac6bf0b5b3e389dbd1852353f4fc31dbc6abb3bd62b24eaba624bf"
+      "sha256": "114acd5b74066e200f1ec03e040cb1af6c1bed31db442978b775e402e4c3f4bb"
     },
     {
       "title": "Bring your own LLM API",
       "source": "https://docs.zocomputer.com/byok",
       "path": "byok.md",
-      "sha256": "ae36f4a38959a6c63c51723820241e645b6ce19cb10a773d9aedb8ae5d1ebe6f"
+      "sha256": "a0ccc74a05e0974ab5746e0d63e763e56b5e960221ea01693c0efb38963f24b6"
     },
     {
       "title": "Claude Code",
       "source": "https://docs.zocomputer.com/claude-code",
       "path": "claude-code.md",
-      "sha256": "2d74c21c9b98789f820024a7a500081c1e1735fe2dc721d3198a8d72c0de1245"
+      "sha256": "8b4ee5799d02a1f3f70653329a61658729d5ced0c461e89126aefa5e239950d3"
     },
     {
       "title": "Codex",
       "source": "https://docs.zocomputer.com/codex",
       "path": "codex.md",
-      "sha256": "45942bfe1da96ee88b36057e36f52f45b5cab40c060c805547905e7957fbcbf6"
+      "sha256": "758c245259fd693ca8e997ec63038dedae43d53f6b49896d27a77aedb938bc45"
     },
     {
       "title": "Custom domains",
       "source": "https://docs.zocomputer.com/custom-domains",
       "path": "custom-domains.md",
-      "sha256": "9b3ff677d7082800fab4a19654aca37acaed58a6cfb05a10aefa4fa6c4e6ec84"
+      "sha256": "d5777147d0094be47e39c536d64aa9331c127d94023d65fd5ced3827be4a6b04"
     },
     {
       "title": "Desktop app",
       "source": "https://docs.zocomputer.com/desktop",
       "path": "desktop.md",
-      "sha256": "aa0f74123bed9c568a54e9da1f3ed45eb4ecd9b91106f62df28b546da5faab34"
+      "sha256": "fdb283bef6fde8540aff857e02d596b1b4f765b68f543d9286a73c5d7bbb191f"
     },
     {
       "title": "Devices",
       "source": "https://docs.zocomputer.com/devices",
       "path": "devices.md",
-      "sha256": "4ba8c91086ff72ac36cb9ff2bcbb652ee4818dbb78f7a04834b36a7bfb0f7e67"
+      "sha256": "db09befaaf6b851bc1510738f363ff9b484a50ddb70a421e3288a3e18edaaa02"
     },
     {
       "title": "Connect GitHub",
       "source": "https://docs.zocomputer.com/github",
       "path": "github.md",
-      "sha256": "06c017dbe74870d97c146212ed39d57cd963a0d4d217b39e506c48b0bb3d7897"
+      "sha256": "487341801c4d48fa7ce5331a683268ae2c1673e047a83c3830894ec91ad7b764"
     },
     {
       "title": "Hosting on Zo",
       "source": "https://docs.zocomputer.com/hosting",
       "path": "hosting.md",
-      "sha256": "c56596e142a8978ebba395b62cbe045ef7a8971139311b23b21069efb1935ad1"
+      "sha256": "44f32cac54fdc9bf0b93df12e222bf382dff1dcc72cff1a42b3023de9482d3e3"
     },
     {
       "title": "Contact",
@@ -133,37 +133,37 @@
       "title": "MCP Server",
       "source": "https://docs.zocomputer.com/mcp-server",
       "path": "mcp-server.md",
-      "sha256": "f97fcc3033065525897c352c52114393abd1adce6010d3347ab1155a2a665863"
+      "sha256": "81e834eb3236a98b18f26196083aa5aa299d98e1250361fd5efd314660e553ff"
     },
     {
       "title": "Messaging Channels",
       "source": "https://docs.zocomputer.com/messaging-channels",
       "path": "messaging-channels.md",
-      "sha256": "7e5ea78d6319bc8949b2773f620b5b52d2e4a82c6dcc14eb979f774b1d9dcf33"
+      "sha256": "1e911bb985bb071a5493db74e6e035f144fcd0ff2462c4ca3615c6291d9c4f74"
     },
     {
       "title": "Payments",
       "source": "https://docs.zocomputer.com/payments",
       "path": "payments.md",
-      "sha256": "0581987e001a046610dd362fc5446db47e7f0dabe2b61f8cd3dbeb861849dd5e"
+      "sha256": "25431451e0e164e5af550d591865d3146cabf4ad211aa83e5a01aa7ed7bc2813"
     },
     {
       "title": "Personas",
       "source": "https://docs.zocomputer.com/personas",
       "path": "personas.md",
-      "sha256": "8588c419ac4bf1cad36631ece63338817f85d4b7c05b539dbe4cdf5b890f90cf"
+      "sha256": "5355a357c9a3d19bea032288f99dec9ac4ca1c95c7dce36bd93faade85440670"
     },
     {
       "title": "Services",
       "source": "https://docs.zocomputer.com/services",
       "path": "services.md",
-      "sha256": "3a45d24aa0f9c819047357602f8c989c17b0af2cee0becbb2ddac13e2c5513a7"
+      "sha256": "2619fd848bdde4cd039b0768d19a67f35f5fdffbdae5aba84d04b6327f039706"
     },
     {
       "title": "Sites",
       "source": "https://docs.zocomputer.com/sites",
       "path": "sites.md",
-      "sha256": "fe23feae1fadc92973933a99f3836d59e73683837e8e4a60f1a64b65cd1df7ca"
+      "sha256": "3c3bb10c183ccd0491f8646a01a3fada663218a9cc98b1a8ed3d514917e5d211"
     },
     {
       "title": "Skills",
@@ -175,31 +175,31 @@
       "title": "Space",
       "source": "https://docs.zocomputer.com/spaces",
       "path": "spaces.md",
-      "sha256": "911688d40053e097ca95c3e04500f7e3d4a0f5d8e131826acd59b92dca3a8e55"
+      "sha256": "22a5b870d7935c433176ed25569b9899e6b6a5a035ec79f24f76c3b12d82565e"
     },
     {
       "title": "Control a computer via SSH",
       "source": "https://docs.zocomputer.com/ssh-computer",
       "path": "ssh-computer.md",
-      "sha256": "cb20e4d608261221566b198293af836d38670495ea2a80887239ff2cf706ab61"
+      "sha256": "9a6227977e4a75fb51cc194ecd286920a389b775291b9101af83615d63b7f817"
     },
     {
       "title": "Connect to your server",
       "source": "https://docs.zocomputer.com/ssh-zo",
       "path": "ssh-zo.md",
-      "sha256": "d13f52ed8285a8b13a207452c2f85dc97156db07fa83854208de0b36d7fe0c16"
+      "sha256": "a5583103587cc93be636afecf6c785601ac79177981448a3b26f60978333cb62"
     },
     {
       "title": "Sync files",
       "source": "https://docs.zocomputer.com/sync-files",
       "path": "sync-files.md",
-      "sha256": "606b96611e00936510adc5e895844bfb8e4e97794a170cc832c8f8c3d5a37d0d"
+      "sha256": "0b0e5f9899397dc563610379e51515095d7d7678ce5fe9791a1c0695e2b8c68c"
     },
     {
       "title": "Tools",
       "source": "https://docs.zocomputer.com/tools",
       "path": "tools.md",
-      "sha256": "af63def79dc88f5031f2ac4a5674a71593a466ce9f816ddc51a6fabbd8bd7704"
+      "sha256": "06fa7f5b1f9ab1e14538f645d9fbc55b29b39c79229746810437d04105dd5bd0"
     },
     {
       "title": "Tools",
@@ -211,19 +211,19 @@
       "title": "Run command",
       "source": "https://docs.zocomputer.com/tools/bash",
       "path": "tools/bash.md",
-      "sha256": "5dda36955738242e104647140853ce8a969972662d4d17e47ff1f139494ffbc7"
+      "sha256": "2185aecf871935f7f121e59cb822c5e8406472219e77b34bfdb07c6a47259992"
     },
     {
       "title": "Use MCP App",
       "source": "https://docs.zocomputer.com/tools/call-mcp-tool",
       "path": "tools/call-mcp-tool.md",
-      "sha256": "2ec42d92158dfe55d7fa0bc94759f946fa716b08dc9fb9334332fc83c1415cde"
+      "sha256": "8bec2645c159a4835cc6e31da53fd9989daebc9949060d81fccfe107077d6192"
     },
     {
       "title": "Connect integration",
       "source": "https://docs.zocomputer.com/tools/connect-integration",
       "path": "tools/connect-integration.md",
-      "sha256": "b99dc99762b8b771d57182da4d9173a5d58aa97c63b494a712d07cbfe04bb556"
+      "sha256": "9cf166344f7524c2fd31e35af836e7e362106f1e4746e1c19942870fd4264f16"
     },
     {
       "title": "Connect Telegram",
@@ -235,187 +235,187 @@
       "title": "Copy file",
       "source": "https://docs.zocomputer.com/tools/copy-file",
       "path": "tools/copy-file.md",
-      "sha256": "a0dc77cfaefa93c56c3c56e2d6ee8e36274d91ce96bd44c1e5cad08b5c8a4af8"
+      "sha256": "15ad08bfdb3605e8d2bd34b654dd7301bf2771da0d07e33f157b0f43b8e3b463"
     },
     {
       "title": "Create automation",
       "source": "https://docs.zocomputer.com/tools/create-automation",
       "path": "tools/create-automation.md",
-      "sha256": "b5ad4c877f4b26f615cb985ebcf7e04b2703eed638d48ef2f78c475fec185600"
+      "sha256": "aa102ff313caa7389133f0b2b511cd1d1b229b2cf0dbcfeb93ce6eca132b91e9"
     },
     {
       "title": "Create persona",
       "source": "https://docs.zocomputer.com/tools/create-persona",
       "path": "tools/create-persona.md",
-      "sha256": "573aaffedc2c243b2163f365eb0025041d0bc91908e0ca8076cd9a677ba43210"
+      "sha256": "ede2b27ee29bda2aa1861d6a5f2e791b29ce56983c3e66b6fd6b7db6221dfdba"
     },
     {
       "title": "Create rule",
       "source": "https://docs.zocomputer.com/tools/create-rule",
       "path": "tools/create-rule.md",
-      "sha256": "7931d98295b9dcea7fee23c6cc60d91787ae655acc8760415229a81350ed4f1a"
+      "sha256": "1322ec0b022af6e42bddc193f3d7cbc62fe4baf2ddd895cafe457193a73a56ea"
     },
     {
       "title": "Create payment link",
       "source": "https://docs.zocomputer.com/tools/create-stripe-payment-link",
       "path": "tools/create-stripe-payment-link.md",
-      "sha256": "ee6732be6f863be5d1b2bfeb1ab02529ad7a67ae043c9964a7a7d077e92613c6"
+      "sha256": "7fc20636be968bb5b71fc24ea6ee37f0e979c02b721ca5cbbbee02760dbb5b86"
     },
     {
       "title": "Create price",
       "source": "https://docs.zocomputer.com/tools/create-stripe-price",
       "path": "tools/create-stripe-price.md",
-      "sha256": "5db175ad0fc149e562bb2a36b8aa63fd1516c4ab70466084cea8cfbf5c18d6ff"
+      "sha256": "4b90fc7ca91626cc42f85e5f6bb07a9c910a431848fe2bbd4c357a9ca73b19fa"
     },
     {
       "title": "Create product",
       "source": "https://docs.zocomputer.com/tools/create-stripe-product",
       "path": "tools/create-stripe-product.md",
-      "sha256": "df181fdc355c4b67db1a42a71e0139a3b784c770bbdaf3b58a9276f4d770a309"
+      "sha256": "cc17ae3faaaf3a19ac12c4dd6f0202547ca62fe29681cf82ebb93795f9ffc95a"
     },
     {
       "title": "Create site",
       "source": "https://docs.zocomputer.com/tools/create-website",
       "path": "tools/create-website.md",
-      "sha256": "67072090edcb769505018c50c8d7354d72234dd6ca80287b339eea74ccfa6a08"
+      "sha256": "d67e9b37c50b210d0e2dbe239ff1e773e7c3f016f1e7fb92dd3a712262898b5b"
     },
     {
       "title": "Delete automation",
       "source": "https://docs.zocomputer.com/tools/delete-automation",
       "path": "tools/delete-automation.md",
-      "sha256": "11522fdad7c93f8022892af677171f3dd76fa514c6b7174f0ce486085b9880e6"
+      "sha256": "e037c9ad4f0cf57d25b5d0e6d3a0a76ec4de5d3e0c3ea9763019ecc1842bc53b"
     },
     {
       "title": "Delete persona",
       "source": "https://docs.zocomputer.com/tools/delete-persona",
       "path": "tools/delete-persona.md",
-      "sha256": "87944f49fd66b24b3067936bbb0f3754b122b8521bc3757b7ff7029dcdd6e830"
+      "sha256": "876235c53a8c295f7c7bb47103c463496333906ea590b5f6996edebe840a935d"
     },
     {
       "title": "Delete rule",
       "source": "https://docs.zocomputer.com/tools/delete-rule",
       "path": "tools/delete-rule.md",
-      "sha256": "bb5aeae3903ab701e676121b81bf38e50b51b12fa4da8108b3bee197eb570bc7"
+      "sha256": "b9f36d885b2ff0dbde6ceb7289eba1484b0627d42cb546299e752e403e9a3e5e"
     },
     {
       "title": "Remove asset from space",
       "source": "https://docs.zocomputer.com/tools/delete-space-asset",
       "path": "tools/delete-space-asset.md",
-      "sha256": "0294fe0dc283a1fb40d2b79458704cc3ba111527e857961dfb40b19c317ce2ac"
+      "sha256": "1080d018722d603e202e0dab88ee388c44278d8a5e36df47a415d8c129565d7f"
     },
     {
       "title": "Delete from space",
       "source": "https://docs.zocomputer.com/tools/delete-space-route",
       "path": "tools/delete-space-route.md",
-      "sha256": "0ccf6f35970e56d69653cf00bb47f063cf7083506e0c77003f58234a57226903"
+      "sha256": "d8f899050d4a27004c786bb9c7731dec80b82f66aab2ad4bc9e67ca62fb9daef"
     },
     {
       "title": "Delete service",
       "source": "https://docs.zocomputer.com/tools/delete-user-service",
       "path": "tools/delete-user-service.md",
-      "sha256": "1c8bdd1d1ee7a690b16df85922a3629b8630e326cb0f3fee2ee4e9ee21d32091"
+      "sha256": "b0f8c091ba5c2e50a5fe7a984a483e97e569f4a91f66fee183fbecc2893e5229"
     },
     {
       "title": "Edit automation",
       "source": "https://docs.zocomputer.com/tools/edit-automation",
       "path": "tools/edit-automation.md",
-      "sha256": "2343100bf53efaf4949dd657d9f91fd3addf4c5c7846ff6c5a87897be1210417"
+      "sha256": "50bb83b753bdc2fca242a58df01f5c64f9c0c4f812291ddd966566275a641c9f"
     },
     {
       "title": "Edit file",
       "source": "https://docs.zocomputer.com/tools/edit-file",
       "path": "tools/edit-file.md",
-      "sha256": "0bdbdb68a59f16f715ac1cb97a0fc033d4e1df62108b5bc7aeea08b85714fd7a"
+      "sha256": "18e85918859b7cd9c5f7f2267f3aae968f61e7beed67eccb66b526c1104f6511"
     },
     {
       "title": "Edit image",
       "source": "https://docs.zocomputer.com/tools/edit-image",
       "path": "tools/edit-image.md",
-      "sha256": "37401fa3d929757991a0c7e01f19a9fc1425a8f45900336e58d461782f902a72"
+      "sha256": "92c5a9109b911cff62339d6e79f15f73b4b963356019de2d16865607390bdef7"
     },
     {
       "title": "Edit persona",
       "source": "https://docs.zocomputer.com/tools/edit-persona",
       "path": "tools/edit-persona.md",
-      "sha256": "0447e50459348d2a8ce877b76b0922644a8e368836208a740ef5ed6017dee458"
+      "sha256": "0cf846f590009ab42a3fbad7f172c265b7c160faf63fd0f6e5f9da2e817f20d0"
     },
     {
       "title": "Edit rule",
       "source": "https://docs.zocomputer.com/tools/edit-rule",
       "path": "tools/edit-rule.md",
-      "sha256": "7dedfba9a5e81d0b6e4ca7c99e57868f93500c29de3c4a3ffee6d79a102d3208"
+      "sha256": "88f808d19cb74a05bec04715e6a752cb1dd1525adeb9af7b8be526424d816cc6"
     },
     {
       "title": "Edit space route",
       "source": "https://docs.zocomputer.com/tools/edit-space-route",
       "path": "tools/edit-space-route.md",
-      "sha256": "15209e627526e84c037d5474ae210bc1f719a0b235fdfbc732b97d0599332500"
+      "sha256": "ff7c94d565af62ee145096982f144c53c1374c66acd5a1e68a824148fe1eb339"
     },
     {
       "title": "Find file conversations",
       "source": "https://docs.zocomputer.com/tools/find-file-conversations",
       "path": "tools/find-file-conversations.md",
-      "sha256": "a7c72f0909a6649369d3b7e19cc0627ac4540ccfc66f2bf06a62bff25ff1137f"
+      "sha256": "eed11be8fa7c4152fca09bc5ded58164ac8192f12294bfac3332ee67cdef1484"
     },
     {
       "title": "Find similar links",
       "source": "https://docs.zocomputer.com/tools/find-similar-links",
       "path": "tools/find-similar-links.md",
-      "sha256": "16dedf02aa590e16596614fd6c4c6b163be59f74d26fd50e8409673937d76b0a"
+      "sha256": "3fb0cff85e247d424c07a86bbe9483c2793aa93cb2c0a91a81642b5434839ac5"
     },
     {
       "title": "Generate diagram",
       "source": "https://docs.zocomputer.com/tools/generate-d2-diagram",
       "path": "tools/generate-d2-diagram.md",
-      "sha256": "7dc56cd1063aae6afc46ce5bba9c64bb6212ac2d3b60ee1409d90f2e5e36080e"
+      "sha256": "a2200525c24fda70f336967ec4a42e5a5d6fad866e8d4ed7df67a564a04b5d88"
     },
     {
       "title": "Generate image",
       "source": "https://docs.zocomputer.com/tools/generate-image",
       "path": "tools/generate-image.md",
-      "sha256": "e610949630dbae569608a3a9a1564665fdfc05e47cd1d87f0b014d9d765d4d65"
+      "sha256": "fd857280f084cf0f7d0b52eeb63a9a1c97996b3b10c3cd89f4d798fadbbe77ec"
     },
     {
       "title": "Generate speech",
       "source": "https://docs.zocomputer.com/tools/generate-speech",
       "path": "tools/generate-speech.md",
-      "sha256": "665a37f21c37530ae1ec25c937c9c37455cfe6e0819792464bc8683617a3375f"
+      "sha256": "6c938c2fbc7d90fbed999a12620d0362e626b9ec566b1bd7130db97bc30ee52c"
     },
     {
       "title": "Generate video from image",
       "source": "https://docs.zocomputer.com/tools/generate-video",
       "path": "tools/generate-video.md",
-      "sha256": "87a6d547ed0dcab9990e38d492dd67b8b9aef80776ce3d636bc40723e006299b"
+      "sha256": "4bbbb01e509cebde36761d1e1b9e8df781f6cc5f2ad39d6c8a68fa130d34d1fe"
     },
     {
       "title": "Get automation",
       "source": "https://docs.zocomputer.com/tools/get-automation",
       "path": "tools/get-automation.md",
-      "sha256": "2b23ee41e9b9bb5a2e57bc40da650b842c273ddaf4fe3bac2803dbecdda4251c"
+      "sha256": "e213067f8ca425d9c28194c6e082fedc98e60a4a15c34dc99d0159d93e0fe2f9"
     },
     {
       "title": "Get Discord history",
       "source": "https://docs.zocomputer.com/tools/get-discord-history",
       "path": "tools/get-discord-history.md",
-      "sha256": "6cef2508c9f63b358057d217472cea6707d38568c359724db30846534745c971"
+      "sha256": "35a2c1ad096e377ea5016f080ec489090ca196d2d6055cbaddde9ba7707215bc"
     },
     {
       "title": "Get Discord info",
       "source": "https://docs.zocomputer.com/tools/get-discord-info",
       "path": "tools/get-discord-info.md",
-      "sha256": "266bb6cba40d24eed0b18ed7aab770b8f18c7fdb2c08eaca500d7cb68709323d"
+      "sha256": "25316e2a5d9a80b02c444e71ddcc3e4a4f3d49b1af5907b3e84d9954d1fa3a3e"
     },
     {
       "title": "Get Slack history",
       "source": "https://docs.zocomputer.com/tools/get-slack-history",
       "path": "tools/get-slack-history.md",
-      "sha256": "0063988589236b791adcd61d5fd09821bf2a3deda90db52a25dde71370befb11"
+      "sha256": "4f54e6c93e985e1d9f8031ce0f576937192eed32bc6a5b3f388d59df79599bea"
     },
     {
       "title": "Get Slack info",
       "source": "https://docs.zocomputer.com/tools/get-slack-info",
       "path": "tools/get-slack-info.md",
-      "sha256": "f80b57e5c9834a6ddc513a2762a862d85fedfc8703dbeb0a97b5ac21a15818b6"
+      "sha256": "d890a5bb1f6d22340be52002828db04b630d850b2b10633137f66262c1bcaaed"
     },
     {
       "title": "Check space",
@@ -427,13 +427,13 @@
       "title": "Read from space",
       "source": "https://docs.zocomputer.com/tools/get-space-route",
       "path": "tools/get-space-route.md",
-      "sha256": "98e96452979700b59912c5dfb7ab6490667a32dc3f1e58e239b0885340a606f1"
+      "sha256": "656fe32705340d2e5a1351dc61499fdae345aeb80a930c35a011222cb7b28b98"
     },
     {
       "title": "View route history",
       "source": "https://docs.zocomputer.com/tools/get-space-route-history",
       "path": "tools/get-space-route-history.md",
-      "sha256": "1c82985dc439844b8bc8de66458f5b95132f1fed24237a4a12303a452fd0fdd8"
+      "sha256": "3cc37fbab3ea7ef82829e3cc78b5baeeb2763042f9f6dee5f6b56d2246109135"
     },
     {
       "title": "Get space settings",
@@ -445,19 +445,19 @@
       "title": "Search files",
       "source": "https://docs.zocomputer.com/tools/grep-search",
       "path": "tools/grep-search.md",
-      "sha256": "d58a7159f4b59cf25d05d8d6361a8cc2a409419234173c83fe9d26532fddf17a"
+      "sha256": "4ce06cf0dd195a67c0b78773f99c0c6c604e93b9416b8767321cd87f5ff72a8e"
     },
     {
       "title": "Search images",
       "source": "https://docs.zocomputer.com/tools/image-search",
       "path": "tools/image-search.md",
-      "sha256": "4ded65bcd975f756012ca400ed72bf2a2f4cffceeea69b8a5b7d22e6cbe9e3fb"
+      "sha256": "609cbbec1f5fd8a2904054692baa2f5085c30a560efb9849a1afdce57fab8621"
     },
     {
       "title": "List app tools",
       "source": "https://docs.zocomputer.com/tools/list-app-tools",
       "path": "tools/list-app-tools.md",
-      "sha256": "e285bc0b6c1619e3b8c3dd247fd8dbf2935375eee75e9454b81c588e04dbf758"
+      "sha256": "ba4b7da4efc88a43c731fa33b5c60fc14b7cc37760bcc5cc7a08e16837caed84"
     },
     {
       "title": "List automations",
@@ -475,7 +475,7 @@
       "title": "List files",
       "source": "https://docs.zocomputer.com/tools/list-directory",
       "path": "tools/list-directory.md",
-      "sha256": "9d3664b9a30b77b7850965c7d0eba4d1e3113625f06025cc8d0b99b85c82f0bf"
+      "sha256": "8c4f6697a183f27a6644ed90e3f92ba54567880855850d8505a8eef44afcb210"
     },
     {
       "title": "List personas",
@@ -505,13 +505,13 @@
       "title": "List orders",
       "source": "https://docs.zocomputer.com/tools/list-stripe-orders",
       "path": "tools/list-stripe-orders.md",
-      "sha256": "c14a7a1f2ddbbe5bfdc369901b76e5283edba2f1aca335e519ce6badb4f3c9bb"
+      "sha256": "dbd13edc677901e6d1bd319510326138df49e998fa4f688c54b6f99eebd64bab"
     },
     {
       "title": "List payment links",
       "source": "https://docs.zocomputer.com/tools/list-stripe-payment-links",
       "path": "tools/list-stripe-payment-links.md",
-      "sha256": "6a50a0427b16368b6ec7758d8bb5280bf9684133583a21d55b3b99d32238ed60"
+      "sha256": "79c7ce679a00b0ce4c7a6e306dbd4479f7905c45286ae38cf1ea11f4e334e633"
     },
     {
       "title": "List services",
@@ -523,73 +523,73 @@
       "title": "Load skill",
       "source": "https://docs.zocomputer.com/tools/load-skill",
       "path": "tools/load-skill.md",
-      "sha256": "b9fbd222fceead6fdfbc419e3db6651d27e33cddd7b7494224375a2453048853"
+      "sha256": "5434ba504e1db04e3bac85d27d4322d5527aaa71558c7b73377567ca5003f289"
     },
     {
       "title": "Search Google Maps",
       "source": "https://docs.zocomputer.com/tools/maps-search",
       "path": "tools/maps-search.md",
-      "sha256": "4b3952130265328c6a8ebdb0021f95b5763da91ea4bbc3b1ca688468cb8165d9"
+      "sha256": "9d158000153b733cbfdd2496cbacaf05cfdc5ab11a8416b2204286a68198ee01"
     },
     {
       "title": "Open MCP App",
       "source": "https://docs.zocomputer.com/tools/open-mcp-app",
       "path": "tools/open-mcp-app.md",
-      "sha256": "b2a52fe1b8799d36792aeab3b9eff0fcc03b898b1f03187f1986e61d8c47c9bb"
+      "sha256": "cb6f28c8fbfa4d57b5b1dd34da0679ebde6bcf6e61a08b88b4b5ea9b2cbded0b"
     },
     {
       "title": "Open webpage",
       "source": "https://docs.zocomputer.com/tools/open-webpage",
       "path": "tools/open-webpage.md",
-      "sha256": "464fbafe5c06284e7538b425f149f4f34b759264d92ee67adea38d98996a5c8c"
+      "sha256": "07c96be342c44f3a5cd916df656059a21ceb07e3809f12d01405109ef6ecc0a8"
     },
     {
       "title": "Proxy local service",
       "source": "https://docs.zocomputer.com/tools/proxy-local-service",
       "path": "tools/proxy-local-service.md",
-      "sha256": "a3c9ad7c2a0617a1275f0144e93f28b79d6e1baa9bd0f8655af5ba7412c815f0"
+      "sha256": "c0b2a2dae3f4c008cc7cd6a45cb70200172acfa06b312b351d1c8fecfc6fa3e1"
     },
     {
       "title": "Publish site",
       "source": "https://docs.zocomputer.com/tools/publish-site",
       "path": "tools/publish-site.md",
-      "sha256": "205b2ef10e783559778cb4a69beca681f1441d4294072acc12d9b79d856883e9"
+      "sha256": "5dd9153a80d19cf1c10ec19c26ca2ef453b06ece7d54ee771aa46cd1a2c23101"
     },
     {
       "title": "Read file",
       "source": "https://docs.zocomputer.com/tools/read-file",
       "path": "tools/read-file.md",
-      "sha256": "8737625f7aa803d8e3541b2874bb68ecae2bf943b5fc39beb78ea224a991500f"
+      "sha256": "73daf2415e054a54fd260052fdea64da0ea066d837468be3905dfda2eed47c9b"
     },
     {
       "title": "Read file conversation",
       "source": "https://docs.zocomputer.com/tools/read-file-conversation-context",
       "path": "tools/read-file-conversation-context.md",
-      "sha256": "e4ba8e9a0f73a5dadee1712b9423caa73517be9337566c8968dc70a39a820ba8"
+      "sha256": "200c520d24cf88593ca373839c142a7e559630ddff39ca759023e72e34d657b0"
     },
     {
       "title": "Read skill reference",
       "source": "https://docs.zocomputer.com/tools/read-skill-reference",
       "path": "tools/read-skill-reference.md",
-      "sha256": "fa5721a5bb2e6ac78164b07ad6a5fab7431b4963ec1a032a0f641cb069b18bf6"
+      "sha256": "ba3c78230c1efbf260386081930e580551fbae71deffa663c57d3c27efdb842f"
     },
     {
       "title": "Read webpage",
       "source": "https://docs.zocomputer.com/tools/read-webpage",
       "path": "tools/read-webpage.md",
-      "sha256": "461e9ae7751aa91b99a8037bf21577ef6a7d6c819d786b7ef72c012b7b0ecb07"
+      "sha256": "535b9cd2d8dd1ca7c62ee9f3d368bc6b4e0cc3d84d1e3989c7559b2beed0af79"
     },
     {
       "title": "Redo space change",
       "source": "https://docs.zocomputer.com/tools/redo-space-route",
       "path": "tools/redo-space-route.md",
-      "sha256": "f8f3256352531aae7484b534be12158c6e9431f66b742f290677b73764695c61"
+      "sha256": "77ff20a7c29ed23f6c237b8d8cbbec2421c815944207b767fc03078cf61929af"
     },
     {
       "title": "Create service",
       "source": "https://docs.zocomputer.com/tools/register-user-service",
       "path": "tools/register-user-service.md",
-      "sha256": "e84bbfeb76899f445cf6f1fcbae32dc91efbaa6c33dbce195abe3c41e0a8733f"
+      "sha256": "6a81cbebe793843131c7ad5e5912484334807f4bfb1b1833ccc0951f46453a0f"
     },
     {
       "title": "Restart space",
@@ -601,235 +601,235 @@
       "title": "Save webpage",
       "source": "https://docs.zocomputer.com/tools/save-webpage",
       "path": "tools/save-webpage.md",
-      "sha256": "21efa7590ed0f25e7fc9721d102c1d4e9666c1db135a277a569622b530a4f8cc"
+      "sha256": "9ec815b94427913f5414b0eb22764b650c889c76d9335cf410ff25250fc80bf1"
     },
     {
       "title": "Search app catalog",
       "source": "https://docs.zocomputer.com/tools/search-app-catalog",
       "path": "tools/search-app-catalog.md",
-      "sha256": "19ebbe35f4520f11cc54510ea0709bc922bc02f73ba051292814b948e294574b"
+      "sha256": "9f2dc72643628db708344d35ea117d68289e1a5af7b9e1332839e304d86c77fd"
     },
     {
       "title": "Find skills",
       "source": "https://docs.zocomputer.com/tools/search-skills",
       "path": "tools/search-skills.md",
-      "sha256": "a9aa82ab0648c24adabbb38611bd5bb397b6804e0de89a364d236d2e25d5e576"
+      "sha256": "c237ecc71f0b12b887f9cfcc305766025cc389f9ac4ba2cf4909119d7a072caa"
     },
     {
       "title": "Send Discord message",
       "source": "https://docs.zocomputer.com/tools/send-discord-message",
       "path": "tools/send-discord-message.md",
-      "sha256": "f180fab5207af180a550c9729c3158bd45bc6261a432025402b57eaf54974fab"
+      "sha256": "eccab481d2c20fd9ba972665e7337df48ad4d4babbd60f5f4dcf16e76680c87b"
     },
     {
       "title": "Send email",
       "source": "https://docs.zocomputer.com/tools/send-email-to-user",
       "path": "tools/send-email-to-user.md",
-      "sha256": "481af791500a69ce8f068e0d54c882a3ef219f4a3b832aa9b40e51ca98326294"
+      "sha256": "8e8a70764ad387963584d16ed09fe67797071f8417810b6ce928642f61553401"
     },
     {
       "title": "Send Slack message",
       "source": "https://docs.zocomputer.com/tools/send-slack-message",
       "path": "tools/send-slack-message.md",
-      "sha256": "b5a5e859c9cef0faa34b7c521ce0da072439ff588c42433c729e036af2e83533"
+      "sha256": "7a463261274a1b0637096bafa824c22ebedb9ae69f8a9fda337f726db2fc9c33"
     },
     {
       "title": "Send SMS",
       "source": "https://docs.zocomputer.com/tools/send-sms-to-user",
       "path": "tools/send-sms-to-user.md",
-      "sha256": "55b4d65e33d783b22f362318ec07d5e3fe1d5dbba315c5f6be9d21839feb7920"
+      "sha256": "a6f88f76a2066a4815962c9f0a59c4549aafa59fd661fbf0493886bdbf7a5650"
     },
     {
       "title": "Send Telegram message",
       "source": "https://docs.zocomputer.com/tools/send-telegram-message",
       "path": "tools/send-telegram-message.md",
-      "sha256": "65405d919ad676b7cad3d6b412d34456fc0f612b2ec926e4c43d3a03cb8f865d"
+      "sha256": "427d6d17010a18ea03958703b8ae5af7b30c9466cdb01fa6b71ed1b60f9b4362"
     },
     {
       "title": "Diagnose service",
       "source": "https://docs.zocomputer.com/tools/service-doctor",
       "path": "tools/service-doctor.md",
-      "sha256": "185420b84338d7dc01bb50bce79e72ac1c95229b7a54659e9534186699580697"
+      "sha256": "42ee55319b99496f75c1677b396f89dd9bf29f768288fefc3fd1cce622329e5e"
     },
     {
       "title": "Set active persona",
       "source": "https://docs.zocomputer.com/tools/set-active-persona",
       "path": "tools/set-active-persona.md",
-      "sha256": "fc9a8922e6775a05b69aff2d1974b6031269f03730de1883c3ae1b8a4e7d8b9c"
+      "sha256": "613acbb900b189e08078b0254a7d490c8d36580d11093c3798f7131c2ecfba4d"
     },
     {
       "title": "Set persona scopes",
       "source": "https://docs.zocomputer.com/tools/set-persona-scopes",
       "path": "tools/set-persona-scopes.md",
-      "sha256": "ecd7450816587fe5ff9bb5b9574a50dfd666ee1943f129e91a0a54f70c3a10ee"
+      "sha256": "e8fcff02f159e0f6537e38928dc9b58b3466ad4674cb53bc2be2bb28c9657dd6"
     },
     {
       "title": "Transcribe audio",
       "source": "https://docs.zocomputer.com/tools/transcribe-audio",
       "path": "tools/transcribe-audio.md",
-      "sha256": "0d6c9425e7cd0cb9d856e43b01f465cd46e6976b7da83af1402db47f8a5c8b5f"
+      "sha256": "bf1ce42a10971cc3c7005b5181cf6232e590527144e6e3e8c5479cab51e1ca4b"
     },
     {
       "title": "Transcribe video",
       "source": "https://docs.zocomputer.com/tools/transcribe-video",
       "path": "tools/transcribe-video.md",
-      "sha256": "19ddfe5623af94b74705c67bf3c2811ae3b1667fc1fd69ee6d905efd45f8a5a8"
+      "sha256": "57828c1140b8d8083ac404b7b4c4df8d5e24d4879c0859998a39aec10e2df2ae"
     },
     {
       "title": "Undo space change",
       "source": "https://docs.zocomputer.com/tools/undo-space-route",
       "path": "tools/undo-space-route.md",
-      "sha256": "bd3efba265e52aaa8d0c3e42e746ab6071152987c27d527ceb009defba85558d"
+      "sha256": "40cb4341b4384e08121a01f20c72b3411263a45eb00a03f8055821f947dc9223"
     },
     {
       "title": "Unpublish site",
       "source": "https://docs.zocomputer.com/tools/unpublish-site",
       "path": "tools/unpublish-site.md",
-      "sha256": "93b937f74c7fe09ae8b82aca4ccbd0c97c5fd29d750ace7a58bfe4229e4cac98"
+      "sha256": "7414f85fe5dd61df7f7cc6ee4ed5fd50b33b8063deb36ddd146a1ea7d4842cf2"
     },
     {
       "title": "Upload asset to space",
       "source": "https://docs.zocomputer.com/tools/update-space-asset",
       "path": "tools/update-space-asset.md",
-      "sha256": "12c5bfb70584967a1b3b9a9c4775a62c1c9a17a8351b7f52d3090ee3eb655922"
+      "sha256": "363735633cc1d10e6f2a387b4080209e3f10ebe27680bf4a5c8945eca2f5a224"
     },
     {
       "title": "Update space settings",
       "source": "https://docs.zocomputer.com/tools/update-space-settings",
       "path": "tools/update-space-settings.md",
-      "sha256": "3d289154798561f91e91efbd04ae7a46b285389f9574cb3ee77f0a08898e0a0f"
+      "sha256": "f3dac05a488c3475aa42b1bde494ca69ca3ae12a5dfe9e3abc2f1c542e17228a"
     },
     {
       "title": "Update orders",
       "source": "https://docs.zocomputer.com/tools/update-stripe-orders",
       "path": "tools/update-stripe-orders.md",
-      "sha256": "5eccb95942c2523aa8a121247b2b5c157d6405e98c75477e6d27285f433dd2bb"
+      "sha256": "e0a1a81af1d929aacf6bd9c16d7c1b7743bbafec70163ff7d508d8990271f519"
     },
     {
       "title": "Update payment link",
       "source": "https://docs.zocomputer.com/tools/update-stripe-payment-link",
       "path": "tools/update-stripe-payment-link.md",
-      "sha256": "17b924573ae922571e91982df91ea0684d53ea93b48110c1fc3045924116c5b0"
+      "sha256": "fe699df16899b84652bc52784df6febc93c1b57a44ca2e0c69e385e0c12e3120"
     },
     {
       "title": "Update product",
       "source": "https://docs.zocomputer.com/tools/update-stripe-product",
       "path": "tools/update-stripe-product.md",
-      "sha256": "4ed15092c69e3667f7e611c8fb2626486438c2ea04befd31a495ba54be9e2fec"
+      "sha256": "2b2b28217e00a9d18b33273f4bef4eb3da8e6b607e69ed6c951f503bd92f2594"
     },
     {
       "title": "Update service",
       "source": "https://docs.zocomputer.com/tools/update-user-service",
       "path": "tools/update-user-service.md",
-      "sha256": "18b5ae7ae7b791b1e1bb59d0a776b04b12d5ded50f63ed4e287c466b3fa4fbb5"
+      "sha256": "9e76df95d0f3d459236a398a6c29ec418f5dd65e86d010a4d4afff3af37cc948"
     },
     {
       "title": "Update user settings",
       "source": "https://docs.zocomputer.com/tools/update-user-settings",
       "path": "tools/update-user-settings.md",
-      "sha256": "a81a6176297f3ecb8bae052d40087ce526aa543df000972d4a4fb48d93b101d9"
+      "sha256": "ddc4d8a9d628dbbbda04897b9e50afa104ac41ee8dedb5a6d9d5ed25593d416d"
     },
     {
       "title": "Use Airtable",
       "source": "https://docs.zocomputer.com/tools/use-app-airtable",
       "path": "tools/use-app-airtable.md",
-      "sha256": "fa258bd6b8ce53b2e7262bad8402f6cdb9f2e0450103848415c00aa070bed1d0"
+      "sha256": "1451e85fc3a3aff230edaf00417ca607dea12354624d1720af9889fc7b130a3d"
     },
     {
       "title": "Use Dropbox",
       "source": "https://docs.zocomputer.com/tools/use-app-dropbox",
       "path": "tools/use-app-dropbox.md",
-      "sha256": "bb5118870b651db8efc964935aefcb2f88659e3094cce4074d37063150c139c0"
+      "sha256": "6041f4659fae9154f0f1ff9d3c56eb26092f9a2300748c8f57d2681c896f366d"
     },
     {
       "title": "Use Gmail",
       "source": "https://docs.zocomputer.com/tools/use-app-gmail",
       "path": "tools/use-app-gmail.md",
-      "sha256": "ac95b2de03d5bc08c99501f904e68a19817d3b1fbde6466cb46ed946b42ae9d1"
+      "sha256": "562b70812e15bf41beaeb6eb47475d165bca93ebc632617ac583446f5fa39a11"
     },
     {
       "title": "Use Google Calendar",
       "source": "https://docs.zocomputer.com/tools/use-app-google-calendar",
       "path": "tools/use-app-google-calendar.md",
-      "sha256": "86e5d6f0cc58eeffd3e1cd0d106d77dfc196b1538897096e458c585a8436d810"
+      "sha256": "aab6321e42f7b1823242216b0ee47cababa72ba0b5a2658e1df6a297a3da3aa8"
     },
     {
       "title": "Use Google Drive",
       "source": "https://docs.zocomputer.com/tools/use-app-google-drive",
       "path": "tools/use-app-google-drive.md",
-      "sha256": "f0602036af5ee0603cc5c6f56cb554a2fd65350ffebd569728620a97adb61b47"
+      "sha256": "66ddb55c6275d26f28ea3875e8dcd972fcc4d69bafc5bc14e9181368295a6a5d"
     },
     {
       "title": "Use Google Sheets",
       "source": "https://docs.zocomputer.com/tools/use-app-google-sheets",
       "path": "tools/use-app-google-sheets.md",
-      "sha256": "9f46277d076e7790d14f0727d6cfa3b304128d033f463df7af6b983b35d3ae91"
+      "sha256": "dee6d2eb781a1b3b7cca1c2ffb0fc71fb195a78e9c3857c5a80aacbf46146aa4"
     },
     {
       "title": "Use Google Tasks",
       "source": "https://docs.zocomputer.com/tools/use-app-google-tasks",
       "path": "tools/use-app-google-tasks.md",
-      "sha256": "62b914e64c6cff36fb61e9c7e5ad23327b596b0b4c9a7d70b6042cb1e3a658bb"
+      "sha256": "a9b45e28ff1b39078fed84211f937f99440b7145c92e3a684b3eaec4b2cbd393"
     },
     {
       "title": "Use Linear",
       "source": "https://docs.zocomputer.com/tools/use-app-linear",
       "path": "tools/use-app-linear.md",
-      "sha256": "750005ed3d68d9ee9d0e3b90ec09acf56e84a546f08b0f6c331160f7909f3f57"
+      "sha256": "95de42863a366b35735c39d9f8e4b597706bc9352414fa710bc6084c0605697b"
     },
     {
       "title": "Use OneDrive",
       "source": "https://docs.zocomputer.com/tools/use-app-microsoft-onedrive",
       "path": "tools/use-app-microsoft-onedrive.md",
-      "sha256": "0141377f2e78fc58edc5088c84b6c4926d236ecb5727aae21337ee5fb3899083"
+      "sha256": "ea156868d97056e24379a697a3954b03aaff001297b1bc629a18ac1e5bab39c5"
     },
     {
       "title": "Use Outlook",
       "source": "https://docs.zocomputer.com/tools/use-app-microsoft-outlook",
       "path": "tools/use-app-microsoft-outlook.md",
-      "sha256": "5da34f649443b559c4e198f423b23b4fba5b984b5245f3afccb02968d84e715e"
+      "sha256": "1eb792357629a3b86489b45be830cad0d7bcdbe28e5d44a722ebe05045af44ce"
     },
     {
       "title": "Use Outlook Calendar",
       "source": "https://docs.zocomputer.com/tools/use-app-microsoft-outlook-calendar",
       "path": "tools/use-app-microsoft-outlook-calendar.md",
-      "sha256": "0c0d58f66ea1e9c80a3ba199c82c19f3bcadb1f670197f2322fa0e98ff7e7002"
+      "sha256": "b208c285f6d9d03ba30990612552046b50ed9f542199117059020b96c693fb63"
     },
     {
       "title": "Use Notion",
       "source": "https://docs.zocomputer.com/tools/use-app-notion",
       "path": "tools/use-app-notion.md",
-      "sha256": "397c2589fbb08d32a5d2c57407cead8951682e427e577431288d1bb82dc041c7"
+      "sha256": "1fa155b389b04184b3c33594df8b968f7afd17ce888ffca8a9c7ffb2fe495136"
     },
     {
       "title": "Use Spotify",
       "source": "https://docs.zocomputer.com/tools/use-app-spotify",
       "path": "tools/use-app-spotify.md",
-      "sha256": "cdc689458f0a68a272efa14521bb813c39fe751d577b92b0b2a1dfc55bfe8101"
+      "sha256": "54cd63354bf221c2add863efbd8cc21d6a17ab919b130bc2ce2f55f4b1560418"
     },
     {
       "title": "Use X",
       "source": "https://docs.zocomputer.com/tools/use-app-x",
       "path": "tools/use-app-x.md",
-      "sha256": "b17fa0e8c10153f18313fda6319c043b8eccec3a0955db55054f1cce80af01fe"
+      "sha256": "84ee0720990e872f600db027ad2e3cedcbef968b08b3fb9323fb628102d2cd10"
     },
     {
       "title": "Use device",
       "source": "https://docs.zocomputer.com/tools/use-device",
       "path": "tools/use-device.md",
-      "sha256": "fbec5d92e987602d72eb5b67e0845288149aefcb110a79810c09f7526b06de2f"
+      "sha256": "418e0794352fc40cd8911c0f986baab96f9082e4346b778cf357b5cdfd77c7be"
     },
     {
       "title": "Use integration",
       "source": "https://docs.zocomputer.com/tools/use-integration",
       "path": "tools/use-integration.md",
-      "sha256": "8660d02980f4acf3cd1f1d4550a186437ca5984a8931545cc8f25e97484d41c1"
+      "sha256": "6c31daa7fb854db66eab9af891c9aef7e74ab177022190587ad7091ce5b76d77"
     },
     {
       "title": "Use webpage",
       "source": "https://docs.zocomputer.com/tools/use-webpage",
       "path": "tools/use-webpage.md",
-      "sha256": "33648e32b5d10af173cc46d2f5f4e56e49186eea573257ae98af1a16813f53c0"
+      "sha256": "9d4f46d369c3da7cda7db24b98eab068ef2dc48b34a8792cdc53345a838c984d"
     },
     {
       "title": "View webpage",
@@ -841,37 +841,37 @@
       "title": "Research the web",
       "source": "https://docs.zocomputer.com/tools/web-research",
       "path": "tools/web-research.md",
-      "sha256": "5032cf7d0ff931f01c975042c9a2ca8c77b89353e8588facb0bdf2e6ab300df1"
+      "sha256": "23e6056f3ff701d4c1f6d80a1679d84351f283a069927a32b64d603ed25a6f9b"
     },
     {
       "title": "Search the web",
       "source": "https://docs.zocomputer.com/tools/web-search",
       "path": "tools/web-search.md",
-      "sha256": "64e0e5d9dbb463c696cbc20f4078dda67010070548ac558464ab5015eac18235"
+      "sha256": "666e9d46f845138ea607567a3703aeaca178c57765483e1492db81b67539a933"
     },
     {
       "title": "Create file",
       "source": "https://docs.zocomputer.com/tools/write-file",
       "path": "tools/write-file.md",
-      "sha256": "4f25f127934a8968e37623450f1da7481c942e913b3fb32dc90f39b8d5976fde"
+      "sha256": "64a2864a48309b274b9af9a374decfb7cbfe83a98772544d920cf364c13f1502"
     },
     {
       "title": "Write space route",
       "source": "https://docs.zocomputer.com/tools/write-space-route",
       "path": "tools/write-space-route.md",
-      "sha256": "60aed96974d2628ea59aa3ed6ef4dec59093560136b6d3d4505c15c32b3e42d0"
+      "sha256": "a0d895b499b4c88ece9b0b44c18b133cbd01b93fe249c5d27c8042b030722828"
     },
     {
       "title": "Search X",
       "source": "https://docs.zocomputer.com/tools/x-search",
       "path": "tools/x-search.md",
-      "sha256": "73a275ee32bccc842dece0a4e30a3c04d6df75ff131c9a0b2c998c3d236e5f44"
+      "sha256": "6ac4ab65ee1fc7a5d7f8627f3f496a97150f9f0faa30540e280a949324c8da4e"
     },
     {
       "title": "zo.pub",
       "source": "https://docs.zocomputer.com/zo-pub",
       "path": "zo-pub.md",
-      "sha256": "85a654e190f0ecd83afdab9a43760f48904958183bfd9d7a138a6952ef2978b3"
+      "sha256": "deca29c0016d2d174a5412f5dfa3b335841036583ac8deb26cba7e6829bf57b2"
     }
   ]
 }

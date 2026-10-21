@@ -3,10 +3,10 @@ Directory listing tool that shows files and subdirectories in a tree structure, 
 
 ## Parameters
 
-<ParamField type="string">
-  The absolute path to the directory to list.
-</ParamField>
+**path** `string` *required*
 
-<ParamField type="string[]">
-  List of glob patterns to ignore.
-</ParamField>
+The absolute path to the directory to list.
+
+**ignore** `string[]`
+
+List of glob patterns to ignore.

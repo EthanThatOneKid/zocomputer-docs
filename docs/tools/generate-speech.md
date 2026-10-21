@@ -5,42 +5,42 @@ Speech generation uses a conformed Vercel AI Gateway model and is paid-only at l
 
 ## Parameters
 
-<ParamField type="string">
-  Text to speak, after outer whitespace is removed. Maximum 4,000 characters.
-</ParamField>
+**text** `string` *required*
 
-<ParamField type="string">
-  Output base name.
-</ParamField>
+Text to speak, after outer whitespace is removed. Maximum 4,000 characters.
 
-<ParamField type="string">
-  Output directory. Defaults to /home/workspace/Audio.
-</ParamField>
+**file\_stem** `string` *required*
 
-<ParamField type="string">
-  Preset voice: ara, eve, leo, rex, or sal.
-</ParamField>
+Output base name.
 
-<ParamField type="string">
-  Output format: mp3 or wav.
-</ParamField>
+**output\_dir** `string`
 
-<ParamField type="string">
-  BCP-47 language code accepted by the selected model, such as en, es-MX, or auto.
-</ParamField>
+Output directory. Defaults to /home/workspace/Audio.
 
-<ParamField type="number">
-  Speech speed from 0.7 to 1.5.
-</ParamField>
+**voice** `string` (default: eve)
 
-<ParamField type="string">
-  Reserved delivery guidance. Current Grok TTS accepts only the default because its Gateway profile does not expose instructions.
-</ParamField>
+Preset voice: ara, eve, leo, rex, or sal.
 
-<ParamField type="string">
-  Optional public speech model ID.
-</ParamField>
+**format** `string` (default: mp3)
 
-<ParamField type="string">
-  Reserved workspace voice sample path. Current profiles reject it.
-</ParamField>
+Output format: mp3 or wav.
+
+**language** `string` (default: en)
+
+BCP-47 language code accepted by the selected model, such as en, es-MX, or auto.
+
+**speed** `number` (default: 1)
+
+Speech speed from 0.7 to 1.5.
+
+**instructions** `string` (default: Natural, clear delivery.)
+
+Reserved delivery guidance. Current Grok TTS accepts only the default because its Gateway profile does not expose instructions.
+
+**model** `string`
+
+Optional public speech model ID.
+
+**voice\_sample\_path** `string`
+
+Reserved workspace voice sample path. Current profiles reject it.

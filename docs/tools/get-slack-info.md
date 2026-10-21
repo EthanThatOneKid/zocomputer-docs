@@ -5,18 +5,18 @@ When called from a Slack conversation, the tool description includes the current
 
 ## Parameters
 
-<ParamField type="string">
-  What to list: "workspaces", "channels", or "members" (default "channels").
-</ParamField>
+**resource** `string` (default: channels)
 
-<ParamField type="string">
-  Slack workspace team ID. Required for channels/members unless the current conversation is in a workspace (then it defaults to that workspace).
-</ParamField>
+What to list: "workspaces", "channels", or "members" (default "channels").
 
-<ParamField type="number">
-  Max results per page (default 100 for channels/members, max 200).
-</ParamField>
+**team\_id** `string`
 
-<ParamField type="string">
-  Pagination cursor from a previous response's next\_cursor.
-</ParamField>
+Slack workspace team ID. Required for channels/members unless the current conversation is in a workspace (then it defaults to that workspace).
+
+**limit** `number` (default: 0)
+
+Max results per page (default 100 for channels/members, max 200).
+
+**cursor** `string`
+
+Pagination cursor from a previous response's next\_cursor.

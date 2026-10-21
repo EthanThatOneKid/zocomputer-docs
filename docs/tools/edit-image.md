@@ -5,18 +5,18 @@ Image editing requires a compatible workspace image model, such as Google [Nano 
 
 ## Parameters
 
-<ParamField type="string">
-  A description of the desired image. Be specific, precise, and detailed about the desired modifications to the existing image. Use advanced AI image generation prompting techniques to produce visually compelling results.
-</ParamField>
+**prompt** `string` *required*
 
-<ParamField type="string[]">
-  List of 1 to 3 absolute paths to images to be edited or combined. Edited image will be saved in the same directory as the first input image with the specified suffix. For optimal subject consistency, provide multiple reference images showing different angles/views of the subject.
-</ParamField>
+A description of the desired image. Be specific, precise, and detailed about the desired modifications to the existing image. Use advanced AI image generation prompting techniques to produce visually compelling results.
 
-<ParamField type="string">
-  The suffix to append to the output file (e.g., "\_edited" will create "image\_edited.png"). Defaults to "\_edited" if not specified.
-</ParamField>
+**filepaths** `string[]` *required*
 
-<ParamField type="string">
-  Deprecated provider alias. Leave empty to use a compatible workspace default, or pass "google". OpenAI image editing is currently unavailable.
-</ParamField>
+List of 1 to 3 absolute paths to images to be edited or combined. Edited image will be saved in the same directory as the first input image with the specified suffix. For optimal subject consistency, provide multiple reference images showing different angles/views of the subject.
+
+**file\_suffix** `string` (default: \_edited)
+
+The suffix to append to the output file (e.g., "\_edited" will create "image\_edited.png"). Defaults to "\_edited" if not specified.
+
+**provider** `string`
+
+Deprecated provider alias. Leave empty to use a compatible workspace default, or pass "google". OpenAI image editing is currently unavailable.

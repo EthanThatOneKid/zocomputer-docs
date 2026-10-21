@@ -5,34 +5,34 @@ Optionally creates a payment link.
 
 ## Parameters
 
-<ParamField type="string">
-  Existing Stripe product ID (e.g., "prod\_...")
-</ParamField>
+**product\_id** `string` *required*
 
-<ParamField type="number">
-  Price in cents (e.g., 2500 for \$25.00)
-</ParamField>
+Existing Stripe product ID (e.g., "prod\_...")
 
-<ParamField type="string">
-  Currency code (default: "usd")
-</ParamField>
+**amount\_cents** `number` *required*
 
-<ParamField type="object">
-  For subscriptions, provide interval info (e.g., `{"interval": "month", "interval_count": 1}`)
-</ParamField>
+Price in cents (e.g., 2500 for \$25.00)
 
-<ParamField type="boolean">
-  Whether to create a payment link for this price (default: true)
-</ParamField>
+**currency** `string` (default: usd)
 
-<ParamField type="string">
-  URL to redirect customer to after payment (mutually exclusive with hosted\_confirmation\_message)
-</ParamField>
+Currency code (default: "usd")
 
-<ParamField type="string">
-  Custom message for Stripe's hosted confirmation page (mutually exclusive with redirect\_url)
-</ParamField>
+**recurring** `object`
 
-<ParamField type="boolean">
-  Use test mode (default: false)
-</ParamField>
+For subscriptions, provide interval info (e.g., `{"interval": "month", "interval_count": 1}`)
+
+**create\_payment\_link** `boolean` (default: true)
+
+Whether to create a payment link for this price (default: true)
+
+**redirect\_url** `string`
+
+URL to redirect customer to after payment (mutually exclusive with hosted\_confirmation\_message)
+
+**hosted\_confirmation\_message** `string`
+
+Custom message for Stripe's hosted confirmation page (mutually exclusive with redirect\_url)
+
+**testmode** `boolean` (default: false)
+
+Use test mode (default: false)

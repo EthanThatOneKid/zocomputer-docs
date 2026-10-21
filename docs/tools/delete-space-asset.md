@@ -5,6 +5,6 @@ space site.
 
 ## Parameters
 
-<ParamField type="string">
-  URL path of the asset to delete, e.g. '/images/logo.png'.
-</ParamField>
+**asset\_path** `string` *required*
+
+URL path of the asset to delete, e.g. '/images/logo.png'.

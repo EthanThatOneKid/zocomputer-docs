@@ -5,19 +5,17 @@ You can access your Zo Computer using our built-in [ways to interact with Zo](/)
 
 This guide will walk you through connecting to your Zo server over SSH. One powerful use case SSH enables is using your Zo as a **remote development environment**, allowing you to use Zo from your favorite IDE running on your computer.
 
-<AccordionGroup>
-  <Accordion title="What is SSH?">
-    **Secure Shell Protocol (SSH)** is like a secure phone line to another computer.
+> **What is SSH?**
+>
+> **Secure Shell Protocol (SSH)** is like a secure phone line to another computer.
+>
+> The secure connection is established using a pair of keys: a **public key** (which can be shared with others), and a **private key** (which is kept secret). Only computers with a known public key registered on your Zo server will be allowed to connect.
 
-    The secure connection is established using a pair of keys: a **public key** (which can be shared with others), and a **private key** (which is kept secret). Only computers with a known public key registered on your Zo server will be allowed to connect.
-  </Accordion>
-
-  <Accordion title="What's an IDE?">
-    An **Integrated Development Environment (IDE)** is an application that programmers use to develop software and operate servers. Once you've connected an IDE to your Zo server, you can use it to write code (or edit any text file) on your Zo and run commands.
-
-    If you don't have a favorite IDE already, we recommend [Cursor](https://cursor.com), the best choice for AI-assisted coding.
-  </Accordion>
-</AccordionGroup>
+> **What's an IDE?**
+>
+> An **Integrated Development Environment (IDE)** is an application that programmers use to develop software and operate servers. Once you've connected an IDE to your Zo server, you can use it to write code (or edit any text file) on your Zo and run commands.
+>
+> If you don't have a favorite IDE already, we recommend [Cursor](https://cursor.com), the best choice for AI-assisted coding.
 
 # 1. Generate an SSH key on your computer
 
@@ -33,12 +31,12 @@ When you're prompted to "Enter a file in which to save the key", you can press E
 
 When you're prompted to "Enter a passphrase", you can press Enter to leave it empty, or choose a passphrase.
 
-<Accordion title="Working with SSH key passphrases">
-  For an additional layer of security, you can add a passphrase to your SSH key. In order to avoid entering the
-  passphrase every time you connect, you can securely cache the key in the SSH agent. GitHub has a [helpful
-  guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases) that
-  you can follow to set this up.
-</Accordion>
+> **Working with SSH key passphrases**
+>
+> For an additional layer of security, you can add a passphrase to your SSH key. In order to avoid entering the
+> passphrase every time you connect, you can securely cache the key in the SSH agent. GitHub has a [helpful
+> guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases) that
+> you can follow to set this up.
 
 Run the command below to view your public key:
 
@@ -81,9 +79,7 @@ Click **"Add service"** to create a new service and fill in the details below:
 
 When your SSH service is up and running, take note of the **Host** and **Port**.
 
-<Frame>
-  <img alt="How to set up an SSH service to connect to your server" />
-</Frame>
+![How to set up an SSH service to connect to your server](https://mintcdn.com/zocomputer/Xbzddj5-EDg_wb3E/screenshots/ssh-service-running.png?fit=max\&auto=format\&n=Xbzddj5-EDg_wb3E\&q=85\&s=4becaf7fca0969fd90639adfad807b91)
 
 # 4. Connect to your Zo
 
@@ -130,36 +126,26 @@ First, install [Cursor's official Remote SSH extension](https://marketplace.curs
 
 In the extension's settings, enter your SSH config file path:
 
-<Frame>
-  <img alt="How to connect Cursor to a remote development server, step 1" />
-</Frame>
+![How to connect Cursor to a remote development server, step 1](https://mintcdn.com/zocomputer/CQWBX8u7w-0VNWqO/screenshots/ssh-cursor-config.png?fit=max\&auto=format\&n=CQWBX8u7w-0VNWqO\&q=85\&s=cb35ee6ee350225d048b216e5c7b371e)
 
 Also in the extension's settings, enable Remote Command Execution:
 
-<Frame>
-  <img alt="How to connect Cursor to a remote development server, step 2" />
-</Frame>
+![How to connect Cursor to a remote development server, step 2](https://mintcdn.com/zocomputer/CQWBX8u7w-0VNWqO/screenshots/ssh-cursor-command.png?fit=max\&auto=format\&n=CQWBX8u7w-0VNWqO\&q=85\&s=2c32850ca1347d2b6b86b569e694f25e)
 
 In the command palette, find `Remote-SSH: Connect to Host...` and select `zo`.
 
-<Frame>
-  <img alt="How to connect Cursor to a remote development server, step 3" />
-</Frame>
+![How to connect Cursor to a remote development server, step 3](https://mintcdn.com/zocomputer/CQWBX8u7w-0VNWqO/screenshots/ssh-cursor-connect.png?fit=max\&auto=format\&n=CQWBX8u7w-0VNWqO\&q=85\&s=69c6da03ec00ce01a31cda2ac9f4862b)
 
 Another Cursor window will open, connected to your Zo.
 
 In this new window, open the `/home/workspace` folder on your Zo.
 
-<Accordion title="Why /home/workspace?">
-  The files you can see in the Zo application are in `/home/workspace` on your Zo Computer.
-</Accordion>
+> **Why /home/workspace?**
+>
+> The files you can see in the Zo application are in `/home/workspace` on your Zo Computer.
 
-<Frame>
-  <img alt="How to connect Cursor to a remote development server using SSH" />
-</Frame>
+![How to connect Cursor to a remote development server using SSH](https://mintcdn.com/zocomputer/CQWBX8u7w-0VNWqO/screenshots/ssh-cursor-workspace.png?fit=max\&auto=format\&n=CQWBX8u7w-0VNWqO\&q=85\&s=498e3a1985fcb67cd15ff6ce4e8ce05a)
 
 That's it! Now you can use your Zo from Cursor.
 
-<Frame>
-  <img alt="How to connect Cursor to a remote development server – Done!" />
-</Frame>
+![How to connect Cursor to a remote development server – Done!](https://mintcdn.com/zocomputer/CQWBX8u7w-0VNWqO/screenshots/ssh-cursor-done.png?fit=max\&auto=format\&n=CQWBX8u7w-0VNWqO\&q=85\&s=bda08dc90f2a35a7b7cb1fec7a94667b)

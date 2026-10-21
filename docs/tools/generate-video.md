@@ -5,18 +5,18 @@ AI video generation on Zo Computer is powered by [OVI](https://fal.ai/models/fal
 
 ## Parameters
 
-<ParamField type="string">
-  Description of the desired motion, scene evolution, and audio description.
-</ParamField>
+**instruction** `string` *required*
 
-<ParamField type="string">
-  Absolute path to the source image. The output video will be saved alongside it.
-</ParamField>
+Description of the desired motion, scene evolution, and audio description.
 
-<ParamField type="string">
-  Suffix appended to the source file's stem for the output (e.g., "\_video").
-</ParamField>
+**filepath** `string` *required*
 
-<ParamField type="string">
-  Desired output orientation ("landscape" → 16:9, "portrait" → 9:16). Defaults to "landscape".
-</ParamField>
+Absolute path to the source image. The output video will be saved alongside it.
+
+**file\_suffix** `string` (default: \_video)
+
+Suffix appended to the source file's stem for the output (e.g., "\_video").
+
+**orientation** `string` (default: landscape)
+
+Desired output orientation ("landscape" → 16:9, "portrait" → 9:16). Defaults to "landscape".

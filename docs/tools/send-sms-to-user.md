@@ -5,14 +5,14 @@ MMS media file attachments are supported.
 
 ## Parameters
 
-<ParamField type="string">
-  The text content. May be empty when media\_files is provided.
-</ParamField>
+**message** `string` *required*
 
-<ParamField type="string[]">
-  Absolute file paths to send as MMS attachments (e.g., \["/home/workspace/Images/photo.jpg"]).
-</ParamField>
+The text content. May be empty when media\_files is provided.
 
-<ParamField type="string">
-  Name of a registered contact. If omitted, sends to the USER.
-</ParamField>
+**media\_files** `string[]`
+
+Absolute file paths to send as MMS attachments (e.g., \["/home/workspace/Images/photo.jpg"]).
+
+**contact\_name** `string`
+
+Name of a registered contact. If omitted, sends to the USER.

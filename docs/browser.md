@@ -39,9 +39,9 @@ Once you've signed into a site, it shows up in **Settings → Tools** as an auth
 
 You don't have to mention "browser" in your prompts. Zo picks the browser tool on its own when a request points at a site it's signed into. If you want to be explicit, say "in the browser..." or "open Substack and..."
 
-<Warning>
-  The browser keeps live cookies for every site you sign into. Anything Zo can do as you in chat, it can also do as you on those sites: read messages, post, send, buy, change settings. Only sign into accounts you're comfortable having Zo act on. If you want Zo to read a site but not take actions on it, run that work through a [persona](/personas) with a limited tool set.
-</Warning>
+> [!WARNING]
+>
+> The browser keeps live cookies for every site you sign into. Anything Zo can do as you in chat, it can also do as you on those sites: read messages, post, send, buy, change settings. Only sign into accounts you're comfortable having Zo act on. If you want Zo to read a site but not take actions on it, run that work through a [persona](/personas) with a limited tool set.
 
 ## How sessions behave
 

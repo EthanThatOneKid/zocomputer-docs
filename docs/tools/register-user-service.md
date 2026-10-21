@@ -19,30 +19,30 @@ Visibility (HTTP only):
 
 ## Parameters
 
-<ParamField type="string">
-  Unique label (per host) for the service. Lowercase and hyphens allowed. e.g. "my-web-app".
-</ParamField>
+**label** `string` *required*
 
-<ParamField type="string">
-  "http", "tcp", or "process". Use "process" for internal-only localhost services or non-network background processes.
-</ParamField>
+Unique label (per host) for the service. Lowercase and hyphens allowed. e.g. "my-web-app".
 
-<ParamField type="number">
-  Localhost port to expose (1-65535, injected as PORT env var). Required for "http" and "tcp". Omit for "process".
-</ParamField>
+**mode** `string` *required*
 
-<ParamField type="string">
-  Optional command to run the service, e.g. "python3 -m http.server %(ENV\_PORT)s". If omitted, only the tunnel is managed.
-</ParamField>
+"http", "tcp", or "process". Use "process" for internal-only localhost services or non-network background processes.
 
-<ParamField type="string">
-  Working directory for the service entrypoint. Defaults to /home/workspace.
-</ParamField>
+**local\_port** `number` (default: -1)
 
-<ParamField type="object">
-  Optional environment variables. PORT will be overridden for networked services and is not set for process-only services.
-</ParamField>
+Localhost port to expose (1-65535, injected as PORT env var). Required for "http" and "tcp". Omit for "process".
 
-<ParamField type="string">
-  Whether the service is publicly accessible (defaults to true). Only applies to HTTP services — set to false for a private service at \*.zo.computer that requires sign-in. TCP services are always public; process services have no endpoint.
-</ParamField>
+**entrypoint** `string`
+
+Optional command to run the service, e.g. "python3 -m http.server %(ENV\_PORT)s". If omitted, only the tunnel is managed.
+
+**workdir** `string`
+
+Working directory for the service entrypoint. Defaults to /home/workspace.
+
+**env\_vars** `object`
+
+Optional environment variables. PORT will be overridden for networked services and is not set for process-only services.
+
+**public** `string`
+
+Whether the service is publicly accessible (defaults to true). Only applies to HTTP services — set to false for a private service at \*.zo.computer that requires sign-in. TCP services are always public; process services have no endpoint.

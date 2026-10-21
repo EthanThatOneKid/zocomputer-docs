@@ -5,6 +5,6 @@ Transcription on Zo Computer is powered by [AssemblyAI](https://www.assemblyai.c
 
 ## Parameters
 
-<ParamField type="string">
-  Absolute path to the video file to transcribe.
-</ParamField>
+**video\_file\_path** `string` *required*
+
+Absolute path to the video file to transcribe.

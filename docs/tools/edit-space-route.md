@@ -5,14 +5,14 @@ Preferred for edits to existing routes, including the built-in starter homepage 
 
 ## Parameters
 
-<ParamField type="string">
-  Route path of the existing route to edit, e.g. '/about' or '/api/hello'.
-</ParamField>
+**path** `string` *required*
 
-<ParamField type="object[]">
-  Edit operations applied in order: replace\_block, insert\_after, insert\_before, delete\_block, append\_line. Same schema as `edit_file`.
-</ParamField>
+Route path of the existing route to edit, e.g. '/about' or '/api/hello'.
 
-<ParamField type="string">
-  Optional visibility override for page routes. Omit to preserve current visibility. API routes are always public.
-</ParamField>
+**operations** `object[]` *required*
+
+Edit operations applied in order: replace\_block, insert\_after, insert\_before, delete\_block, append\_line. Same schema as `edit_file`.
+
+**public** `string`
+
+Optional visibility override for page routes. Omit to preserve current visibility. API routes are always public.

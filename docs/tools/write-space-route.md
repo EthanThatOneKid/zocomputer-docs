@@ -5,18 +5,18 @@ Use for new routes or full rewrites. For edits to an existing route, prefer `edi
 
 ## Parameters
 
-<ParamField type="string">
-  Route path starting with '/'. Use '/' for custom home page.
-</ParamField>
+**path** `string` *required*
 
-<ParamField type="string">
-  Either 'api' or 'page'.
-</ParamField>
+Route path starting with '/'. Use '/' for custom home page.
 
-<ParamField type="string">
-  Full source code. Required — must be valid TypeScript/TSX with a default export.
-</ParamField>
+**route\_type** `string` *required*
 
-<ParamField type="string">
-  Whether the route is publicly accessible. API routes are always public. For pages, omit to preserve current visibility on updates; defaults to False for new pages (True for homepage).
-</ParamField>
+Either 'api' or 'page'.
+
+**code** `string`
+
+Full source code. Required — must be valid TypeScript/TSX with a default export.
+
+**public** `string`
+
+Whether the route is publicly accessible. API routes are always public. For pages, omit to preserve current visibility on updates; defaults to False for new pages (True for homepage).

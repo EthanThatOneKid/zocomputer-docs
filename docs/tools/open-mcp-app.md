@@ -3,10 +3,10 @@ Open an interactive MCP App inside web chat.
 
 ## Parameters
 
-<ParamField type="string">
-  Connected MCP server name, including its account suffix.
-</ParamField>
+**server\_name** `string` *required*
 
-<ParamField type="string">
-  Tool declaring the UI resource to open.
-</ParamField>
+Connected MCP server name, including its account suffix.
+
+**tool\_name** `string` *required*
+
+Tool declaring the UI resource to open.

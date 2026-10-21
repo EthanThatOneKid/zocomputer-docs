@@ -3,18 +3,18 @@ Update an existing Stripe product's name or description.
 
 ## Parameters
 
-<ParamField type="string">
-  Stripe product ID to update (e.g., "prod\_...")
-</ParamField>
+**product\_id** `string` *required*
 
-<ParamField type="string">
-  New product name (optional)
-</ParamField>
+Stripe product ID to update (e.g., "prod\_...")
 
-<ParamField type="string">
-  New product description (optional)
-</ParamField>
+**name** `string`
 
-<ParamField type="boolean">
-  Use test mode (default: false)
-</ParamField>
+New product name (optional)
+
+**description** `string`
+
+New product description (optional)
+
+**testmode** `boolean` (default: false)
+
+Use test mode (default: false)

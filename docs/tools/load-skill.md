@@ -5,6 +5,6 @@ Available only in the native chat pilot when platform skills are enabled. Load I
 
 ## Parameters
 
-<ParamField type="string[]">
-  One to eight qualified platform IDs, for example platform:research.
-</ParamField>
+**skills** `string[]` *required*
+
+One to eight qualified platform IDs, for example platform:research.

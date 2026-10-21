@@ -3,7 +3,7 @@ Let Zo do the work while you're not at the keyboard
 
 An **automation** is Zo running a prompt on a schedule. Same Zo, same files, same [tools](/tools), same integrations, just running on its own when you're not in the conversation. If you can ask Zo to do something in chat, you can ask it to do that thing every morning, every Friday afternoon, or on any cadence you describe.
 
-To create one, just ask Zo: "every weekday at 8am, summarize my calendar and email it to me." Zo reads that as a schedule, writes the prompt, and confirms before saving. You can also open the <Icon icon="clock" /> **Automations** tab and hit `+` to set one up by hand.
+To create one, just ask Zo: "every weekday at 8am, summarize my calendar and email it to me." Zo reads that as a schedule, writes the prompt, and confirms before saving. You can also open the  **Automations** tab and hit `+` to set one up by hand.
 
 ## Good fits for an automation
 
@@ -44,7 +44,7 @@ Tell Zo when to run in plain English and it'll parse the cadence:
 * "the first Monday of every month at 9am"
 * "every 15 minutes" (for short polls)
 
-You can edit the schedule later from the automation's row in the <Icon icon="clock" /> **Automations** tab, or just ask Zo to change it.
+You can edit the schedule later from the automation's row in the  **Automations** tab, or just ask Zo to change it.
 
 ## Delivery and notifications
 
@@ -61,13 +61,13 @@ Often the most useful pattern is **conditional notifications**. Ask Zo to ping y
 * "Email me the digest only if there are unread VIP messages."
 * "DM me only when the price drops below \$400."
 
-<Tip>
-  If an automation should run the same multi-step routine every time, capture the steps as a [skill](/skills) and have the automation invoke the skill. That way you can also run it on demand from chat, and the prompt stays in one place.
-</Tip>
+> [!TIP]
+>
+> If an automation should run the same multi-step routine every time, capture the steps as a [skill](/skills) and have the automation invoke the skill. That way you can also run it on demand from chat, and the prompt stays in one place.
 
 ## Reviewing what ran
 
-Every automation run is a real Zo conversation, saved to your chat history. Open the <Icon icon="clock" /> **Automations** tab, click any task, and you'll see each past run, the prompt it executed, the tools it used, and the output. If a run misfires, ask Zo to look at it: "open last night's run of my morning brief and tell me why the calendar section was empty." Zo can debug the run and fix the schedule or the prompt.
+Every automation run is a real Zo conversation, saved to your chat history. Open the  **Automations** tab, click any task, and you'll see each past run, the prompt it executed, the tools it used, and the output. If a run misfires, ask Zo to look at it: "open last night's run of my morning brief and tell me why the calendar section was empty." Zo can debug the run and fix the schedule or the prompt.
 
 ## What to keep in mind
 

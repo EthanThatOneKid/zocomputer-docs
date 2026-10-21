@@ -3,10 +3,10 @@ Set which tools a persona is allowed to use.
 
 ## Parameters
 
-<ParamField type="string">
-  Identifier of the persona to update.
-</ParamField>
+**persona\_id** `string` *required*
 
-<ParamField type="string[]">
-  List of scope names or a single preset alias.
-</ParamField>
+Identifier of the persona to update.
+
+**scopes** `string[]` *required*
+
+List of scope names or a single preset alias.

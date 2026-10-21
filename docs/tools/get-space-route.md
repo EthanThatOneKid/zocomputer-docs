@@ -5,6 +5,6 @@ Use this to inspect the code of an existing route before editing it. For a fresh
 
 ## Parameters
 
-<ParamField type="string">
-  Route path, e.g. '/api/hello' or '/about'.
-</ParamField>
+**path** `string` *required*
+
+Route path, e.g. '/api/hello' or '/about'.

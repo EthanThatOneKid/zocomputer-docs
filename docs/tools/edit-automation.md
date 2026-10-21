@@ -5,30 +5,30 @@ Automations run on a schedule with an instruction. The automation runs the instr
 
 ## Parameters
 
-<ParamField type="string">
-  The unique identifier of the automation to modify
-</ParamField>
+**automation\_id** `string` *required*
 
-<ParamField type="string">
-  Optional. New display title for the automation. Omit to keep unchanged.
-</ParamField>
+The unique identifier of the automation to modify
 
-<ParamField type="string">
-  Optional. The new instruction text to replace the existing one. Omit to keep unchanged.
-</ParamField>
+**title** `string`
 
-<ParamField type="string">
-  Optional. New RFC 5545 RRULE string (bare RRULE without DTSTART or TZID — system adds these automatically). Omit to keep unchanged.
-</ParamField>
+Optional. New display title for the automation. Omit to keep unchanged.
 
-<ParamField type="string">
-  Optional preferred communication channel for routine messages. 'email', 'sms', 'telegram', 'slack', 'discord', or 'none' to clear. Failure alerts are emailed even when this is 'none'. Omit to keep unchanged.
-</ParamField>
+**instruction** `string`
 
-<ParamField type="string">
-  Optional model ID. Call tool\_docs('create\_automation') or tool\_docs('edit\_automation') to see available model IDs. User-specific BYOK model IDs in the format 'byok:your\_config\_id' are also accepted.
-</ParamField>
+Optional. The new instruction text to replace the existing one. Omit to keep unchanged.
 
-<ParamField type="string">
-  Optional. True to resume a paused task, False to pause it. Omit to keep unchanged.
-</ParamField>
+**rrule** `string`
+
+Optional. New RFC 5545 RRULE string (bare RRULE without DTSTART or TZID — system adds these automatically). Omit to keep unchanged.
+
+**delivery\_method** `string`
+
+Optional preferred communication channel for routine messages. 'email', 'sms', 'telegram', 'slack', 'discord', or 'none' to clear. Failure alerts are emailed even when this is 'none'. Omit to keep unchanged.
+
+**model** `string`
+
+Optional model ID. Call tool\_docs('create\_automation') or tool\_docs('edit\_automation') to see available model IDs. User-specific BYOK model IDs in the format 'byok:your\_config\_id' are also accepted.
+
+**active** `string`
+
+Optional. True to resume a paused task, False to pause it. Omit to keep unchanged.
