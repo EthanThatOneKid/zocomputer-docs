@@ -81,6 +81,8 @@ When your SSH service is up and running, take note of the **Host** and **Port**.
 
 ![How to set up an SSH service to connect to your server](https://mintcdn.com/zocomputer/Xbzddj5-EDg_wb3E/screenshots/ssh-service-running.png?fit=max\&auto=format\&n=Xbzddj5-EDg_wb3E\&q=85\&s=4becaf7fca0969fd90639adfad807b91)
 
+An SSH service with port 10872 and host ts1.zocomputer.io
+
 # 4. Connect to your Zo
 
 Open the Terminal on your computer. Run the command below, replacing the port and host with your service's port and host.

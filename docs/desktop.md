@@ -26,3 +26,5 @@ Zo's desktop apps include all the same functionality as the web app – plus the
 The Zo desktop app includes built-in [file syncing](/sync-files). Any folder you choose on your computer will stay in sync with your Zo workspace.
 
 ![Sync menu in the Zo desktop app](https://mintcdn.com/zocomputer/jEAjbkoot1PoIigN/screenshots/desktop-add-folder.png?fit=max\&auto=format\&n=jEAjbkoot1PoIigN\&q=85\&s=4c3fae154a47091616d827d11b714989)
+
+Adding a folder to sync

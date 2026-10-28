@@ -26,7 +26,7 @@ Pages on your Space are private by default (only you can see them when logged in
 
 A Site is a full website project that lives as a folder on your Zo. It's built on [Hono](https://hono.dev) and [Bun](https://bun.sh), and if you ask for a database it'll use [SQLite](https://www.sqlite.org) by default. Because the site lives on your personal server, it can read and write files in your workspace, save form responses to a database next to your other files, and pull in any folder you mention while chatting with Zo.
 
-Sites are private by default. Only you can open the URL while signed in to your Zo. When you click **Publish**, the site becomes a public [service](/services) at `sitename-yourhandle.zocomputer.io`.
+Sites are private by default. Only members of your workspace can open the URL, and they must be signed in to Zo. When you click **Publish**, the site becomes a public [service](/services) at `sitename-yourhandle.zocomputer.io`.
 
 > [!TIP]
 >

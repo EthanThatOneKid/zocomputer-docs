@@ -21,4 +21,4 @@ Optional HSL hue angle (0-360 integer) tinting the chrome Pegasus avatar. Anchor
 
 **model** `string`
 
-Optional AI model ID. User-specific BYOK model IDs in the format 'byok:your\_config\_id' are also accepted.
+Optional AI model ID. BYOK ('byok:\<config\_id>') and ACP ('acp:\<config\_id>') model IDs are also accepted.

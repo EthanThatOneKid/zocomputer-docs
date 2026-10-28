@@ -79,7 +79,7 @@
       "title": "Desktop app",
       "source": "https://docs.zocomputer.com/desktop",
       "path": "desktop.md",
-      "sha256": "fdb283bef6fde8540aff857e02d596b1b4f765b68f543d9286a73c5d7bbb191f"
+      "sha256": "7108f9d0c4de99b4767c235899cdf9d093b0c041aa8466ea98716075e56f7152"
     },
     {
       "title": "Devices",
@@ -91,13 +91,13 @@
       "title": "Connect GitHub",
       "source": "https://docs.zocomputer.com/github",
       "path": "github.md",
-      "sha256": "487341801c4d48fa7ce5331a683268ae2c1673e047a83c3830894ec91ad7b764"
+      "sha256": "21095b2b8f3f625afeb050ae59eb778a8d3d6d0a79f9360baec09fe291a986b5"
     },
     {
       "title": "Hosting on Zo",
       "source": "https://docs.zocomputer.com/hosting",
       "path": "hosting.md",
-      "sha256": "44f32cac54fdc9bf0b93df12e222bf382dff1dcc72cff1a42b3023de9482d3e3"
+      "sha256": "7b1a3300f7f6b3eb4181f00a0ca8c94cc1351d4bc2e49711949d966852ead014"
     },
     {
       "title": "Contact",
@@ -187,13 +187,13 @@
       "title": "Connect to your server",
       "source": "https://docs.zocomputer.com/ssh-zo",
       "path": "ssh-zo.md",
-      "sha256": "a5583103587cc93be636afecf6c785601ac79177981448a3b26f60978333cb62"
+      "sha256": "344d2165c0753f4979f24d6e5dc8db734d5ef37a27a94e5ee6a5346ce9bc165e"
     },
     {
       "title": "Sync files",
       "source": "https://docs.zocomputer.com/sync-files",
       "path": "sync-files.md",
-      "sha256": "0b0e5f9899397dc563610379e51515095d7d7678ce5fe9791a1c0695e2b8c68c"
+      "sha256": "6452a08c09d5463229904d4984e4418aa34d5993a01064b3ce8a3909f1c04955"
     },
     {
       "title": "Tools",
@@ -247,7 +247,7 @@
       "title": "Create persona",
       "source": "https://docs.zocomputer.com/tools/create-persona",
       "path": "tools/create-persona.md",
-      "sha256": "ede2b27ee29bda2aa1861d6a5f2e791b29ce56983c3e66b6fd6b7db6221dfdba"
+      "sha256": "90239d3d68e763fa4b1586a647f46d37c7dfccf1a7014280e269953f86cc309c"
     },
     {
       "title": "Create rule",
@@ -337,7 +337,7 @@
       "title": "Edit persona",
       "source": "https://docs.zocomputer.com/tools/edit-persona",
       "path": "tools/edit-persona.md",
-      "sha256": "0cf846f590009ab42a3fbad7f172c265b7c160faf63fd0f6e5f9da2e817f20d0"
+      "sha256": "f287913ef4616cb309d2d463c4ef29c25deb8908df6378d0f595c8e3a1ecfe76"
     },
     {
       "title": "Edit rule",
@@ -553,7 +553,7 @@
       "title": "Publish site",
       "source": "https://docs.zocomputer.com/tools/publish-site",
       "path": "tools/publish-site.md",
-      "sha256": "5dd9153a80d19cf1c10ec19c26ca2ef453b06ece7d54ee771aa46cd1a2c23101"
+      "sha256": "7d33ea263e0f93448c5e2139a89bad1c385cb2bb50be75198132fb0a920c1b36"
     },
     {
       "title": "Read file",
@@ -589,7 +589,7 @@
       "title": "Create service",
       "source": "https://docs.zocomputer.com/tools/register-user-service",
       "path": "tools/register-user-service.md",
-      "sha256": "6a81cbebe793843131c7ad5e5912484334807f4bfb1b1833ccc0951f46453a0f"
+      "sha256": "7aa9bc31cef7ed6351c80f482f7cabd4745e1ad47fa17cea8fdd0500c96d366b"
     },
     {
       "title": "Restart space",
@@ -721,7 +721,7 @@
       "title": "Update service",
       "source": "https://docs.zocomputer.com/tools/update-user-service",
       "path": "tools/update-user-service.md",
-      "sha256": "9e76df95d0f3d459236a398a6c29ec418f5dd65e86d010a4d4afff3af37cc948"
+      "sha256": "1a2a97e01ad01334817ca996fcc81296e5451e580b84e2ac1f03fff84a602e76"
     },
     {
       "title": "Update user settings",
@@ -745,7 +745,7 @@
       "title": "Use Gmail",
       "source": "https://docs.zocomputer.com/tools/use-app-gmail",
       "path": "tools/use-app-gmail.md",
-      "sha256": "562b70812e15bf41beaeb6eb47475d165bca93ebc632617ac583446f5fa39a11"
+      "sha256": "e8b381845c26394aec70cf7372ae420e9ee011230d74dcc99ffc7f220f436da5"
     },
     {
       "title": "Use Google Calendar",
@@ -871,7 +871,7 @@
       "title": "zo.pub",
       "source": "https://docs.zocomputer.com/zo-pub",
       "path": "zo-pub.md",
-      "sha256": "deca29c0016d2d174a5412f5dfa3b335841036583ac8deb26cba7e6829bf57b2"
+      "sha256": "cb5e7d23634d55d0d210a175282c3bafd5adf725a416566bb1385eb783849447"
     }
   ]
 }

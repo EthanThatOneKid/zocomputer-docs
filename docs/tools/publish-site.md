@@ -8,7 +8,7 @@ Publishing a site creates an HTTP user service under the hood. The site runs a p
 * Runs the site as a production service (not the dev server)
 * Assigns a dedicated URL you can share and access from any browser
 * Public sites: URL at \*.zocomputer.io, accessible to anyone without sign-in
-* Private sites: URL at \*.zo.computer, requires the owner to be signed in
+* Private sites: URL at \*.zo.computer, requires a member of the workspace to be signed in
 
 ## Before publishing
 
@@ -26,4 +26,4 @@ Required. Workspace-relative directory that contains the site's zosite.json (e.g
 
 **public** `string`
 
-Optional visibility override. Omit to preserve current visibility when republishing; a newly published site defaults to public. Set explicitly only for visibility requested by the user. 'true': public URL at \*.zocomputer.io. 'false': owner-only URL at \*.zo.computer. Visibility changes preserve attached custom domains and Cloudflare registrations.
+Optional visibility override. Omit to preserve current visibility when republishing; a newly published site defaults to public. Set explicitly only for visibility requested by the user. 'true': public URL at \*.zocomputer.io. 'false': private URL at \*.zo.computer that only members of the workspace can open. Visibility changes preserve attached custom domains and Cloudflare registrations.

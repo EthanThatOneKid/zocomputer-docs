@@ -27,11 +27,15 @@ Visitors don't need a Zo account. They land on a clean listing page with the fil
 
 ![A zo.pub collection listing](https://mintcdn.com/zocomputer/V190wGCiVTddd1hu/screenshots/zo-pub-collection.png?fit=max\&auto=format\&n=V190wGCiVTddd1hu\&q=85\&s=fb4041b69931dbf9823f23b1c5926e6a)
 
+A published zo.pub folder
+
 ## Your public page
 
 `zo.pub/<your-handle>` lists every folder you've published, with a quick summary of each. Anyone with your handle can bookmark this page to see what you're sharing.
 
 ![A zo.pub profile page](https://mintcdn.com/zocomputer/V190wGCiVTddd1hu/screenshots/zo-pub-profile.png?fit=max\&auto=format\&n=V190wGCiVTddd1hu\&q=85\&s=1b02b69d78aa7cca1231e8c6e591edc5)
+
+Your zo.pub profile lists everything you've published
 
 ## URLs
 
