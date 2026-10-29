@@ -33,7 +33,7 @@ Custom robots.txt. Space-global only.
 
 **noindex** `string`
 
-"true" adds noindex/nofollow, "false" removes it, "default" clears any per-page override (inherit from space).
+true adds noindex/nofollow, false removes it, "default" clears any per-page override (inherit from space).
 
 **custom\_404\_route** `string`
 

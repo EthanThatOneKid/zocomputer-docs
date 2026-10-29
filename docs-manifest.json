@@ -697,7 +697,7 @@
       "title": "Update space settings",
       "source": "https://docs.zocomputer.com/tools/update-space-settings",
       "path": "tools/update-space-settings.md",
-      "sha256": "f3dac05a488c3475aa42b1bde494ca69ca3ae12a5dfe9e3abc2f1c542e17228a"
+      "sha256": "be79df3caa3c725730012f6b1c65a883cd9a285a88369776b9648008638c16ec"
     },
     {
       "title": "Update orders",
@@ -721,7 +721,7 @@
       "title": "Update service",
       "source": "https://docs.zocomputer.com/tools/update-user-service",
       "path": "tools/update-user-service.md",
-      "sha256": "1a2a97e01ad01334817ca996fcc81296e5451e580b84e2ac1f03fff84a602e76"
+      "sha256": "2d0b9722a2f27cf8c0954c12e605617777786a0cac36e4ede7394816c10fd54b"
     },
     {
       "title": "Update user settings",

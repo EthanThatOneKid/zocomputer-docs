@@ -53,4 +53,4 @@ Optional. Pass true to make the service public, false to make it private (HTTP o
 
 **enabled** `string`
 
-Optional. Pass "false" to pause the service (stop it running, keep its config/URL/quota) or "true" to resume it. Omit to leave the paused/running state unchanged.
+Optional. Pass false to pause the service (stop it running, keep its config/URL/quota) or true to resume it. Omit to leave the paused/running state unchanged.
